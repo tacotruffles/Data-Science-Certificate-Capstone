@@ -3,8 +3,8 @@ title: "Predict Album Genre by Title and Cover Image Attributes"
 author: "John Dawes"
 date: "November 1, 2019"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -53,7 +53,11 @@ I found the `coloraze` npm module, which converts a Hexidecimal value to the clo
 
 The *3 colors with the highest scores* are saved in `albumData` as: `primary_color`, `secondary_color`, and `tertiary_color`. Their scores are also saved in the similarly named: `primary_score`, `secondary_score`, and `tertiary_score` for the potential of building interactive terms in linear and logistical models if need be.
 
-![Figure 1: 16-Color Palette: <https://www.rapidtables.com/web/color/color-wheel.html>](images/color-codes.png){width=50%}
+
+#### Figure 1: 16-Color Palette:
+The list of colors used to reduce the range of 6-digit Hexidecimal colors from 16 Million continous values to 16 unique factors.
+
+![Source: <https://www.rapidtables.com/web/color/color-wheel.html>](images/color-codes.png){width=50%}
 
 ### Captions
 
