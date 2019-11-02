@@ -1,0 +1,17 @@
+---
+title: "Album by Cover Image"
+author: "John Dawes"
+date: "November 1, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('tidyverse')
+```
+
+
+
+```{r, message = FALSE}
+albumCovers <- read_csv('data/album-cover-data.csv')
+```
