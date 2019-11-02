@@ -16,7 +16,15 @@ In the music industry, it is not unusual for labels to expect that a new artist/
 
 ## Data Considerations
 
-Some useful attributes of albums would be the `title`, how many `faces` are on the cover, and the most prevelant `colors` in the image. 
+Some useful attributes of albums to predict genre would be the `title`, how many `faces` are on the cover, the most prevelant `colors`, identification of various `objects` and how abtract the cover image is - i.e. is it an `illustration` or a `photograph`. 
+
+The data used in this analysis comes from several sources.
+
+The following three sections: *Faces*, *Colors*, *Captions* describe how these image attributes are determined.
+
+```{r, message = FALSE}
+albumCovers <- read_csv('data/album-cover-data.csv')
+```
 
 ### Faces
 
@@ -26,17 +34,12 @@ Some useful attributes of albums would be the `title`, how many `faces` are on t
 
 ### Captions
 
-```{r, message = FALSE}
-albumCovers <- read_csv('data/album-cover-data.csv')
-```
-
-```{r}
-View(albumCovers)
-```
 
 ## EDA
 
 ## Machine Learning
+
+Supervised learning is an excellent canditate for training a machine on album attributes, as we already know the `genre`
 
 ## Analysis
 
