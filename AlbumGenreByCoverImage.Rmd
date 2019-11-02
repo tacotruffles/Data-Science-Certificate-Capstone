@@ -10,8 +10,34 @@ knitr::opts_chunk$set(echo = TRUE)
 library('tidyverse')
 ```
 
+## Business Case
 
+In the music industry, it is not unusual for labels to expect that a new artist/band to have their all their branding ready to go for relase. This includes the music being mixed and mastered, along with cover art work for their first release on that label. It would be useful for the artist to have a tool that would give them an idea of how much "like" their album cover communicates the genre of their music. For labels, to release their artists' sophomore (and later) albums, it would be a handy tool to input the album cover to get an idea of how much it represents the genre by album cover attributes.
+
+## Data Considerations
+
+Some useful attributes of albums would be the `title`, how many `faces` are on the cover, and the most prevelant `colors` in the image. 
+
+### Faces
+
+
+### Colors
+
+
+### Captions
 
 ```{r, message = FALSE}
 albumCovers <- read_csv('data/album-cover-data.csv')
 ```
+
+```{r}
+View(albumCovers)
+```
+
+## EDA
+
+## Machine Learning
+
+## Analysis
+
+
