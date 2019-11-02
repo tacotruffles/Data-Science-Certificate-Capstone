@@ -1,8 +1,10 @@
 ---
-title: "Album by Cover Image"
+title: "Predict Album Genre by Cover Image Attributes"
 author: "John Dawes"
 date: "November 1, 2019"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -12,30 +14,44 @@ library('tidyverse')
 
 ## Business Case
 
-In the music industry, it is not unusual for labels to expect that a new artist/band to have their all their branding ready to go for relase. This includes the music being mixed and mastered, along with cover art work for their first release on that label. It would be useful for the artist to have a tool that would give them an idea of how much "like" their album cover communicates the genre of their music. For labels, to release their artists' sophomore (and later) albums, it would be a handy tool to input the album cover to get an idea of how much it represents the genre by album cover attributes.
+In the music industry, it is not unusual for labels to expect that a newly signed artist/band to have their all their branding ready to go for relase at contract signing. This includes the music being mixed and mastered, along with cover art  for their first release on that label. It would be useful for the artist to have a tool that would give them an idea of how much "like" their album cover communicates the genre of their music before they shop lables. For labels, to release their artists' sophomore (and later) albums, it would be a handy tool to input the album cover to get an idea of how much it represents the genre by album cover attributes.
 
-## Data Considerations
+## Data Case
 
 Some useful attributes of albums to predict genre would be the `title`, how many `faces` are on the cover, the most prevelant `colors`, identification of various `objects` and how abtract the cover image is - i.e. is it an `illustration` or a `photograph`. 
 
-The data used in this analysis comes from several sources.
+The data used in this analysis comes from several sources:
 
-The following three sections: *Faces*, *Colors*, *Captions* describe how these image attributes are determined.
+* *Artist Names* come from my personal music collection and is based on the folder names in a Music folder.
+* From *Artist Names*, a search was performed via the Disccogs.com search API: https://api.discogs.com/database/search?artist=<folder-name>. This yielded the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url.  
+* Once all the album information from my artist collection was scraped, three Google Vision APIs to find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
 
-```{r, message = FALSE}
-albumCovers <- read_csv('data/album-cover-data.csv')
-```
+The following three sections describe how these image attributes were aggregated to create the album data from the Google Vision API image search results:
 
 ### Faces
 
+The `faceDetection` feature of Google Vision returns an object for each face found in an image, where those faces are (via coordinates for the eyebrows, eyes, and nose), and the probability of the emotion detected. Many album covers contain portraits of either a solo artist, the entiere band, or a human model. While being able to differentiate what kind of portraits/human subjects are in the photo, the album data only includes the number of faces detected in the image, for the sake of simplifing the use of `faces` as a predictor in `albumData`. 
 
 ### Colors
 
+Based on the `coloraze` npm module to convert Hexidecimal values to the closest color in it's pallette of 2196 color names. For example, from #FF0000 to "Red." While this library is a massive reduction from the 16 Million colors that can be represented in Hex, I reduced the palete to *16 web-safe colors*. This was effective in distilling the essence of an album image's colors into more basic color schemes and also simplified the color columns into factored predictors in `albumData`.
+
+<https://www.rapidtables.com/web/color/color-wheel.html>
+
+
+![16-Color Palette](images/color-codes.png)
 
 ### Captions
 
+TBD
 
 ## EDA
+```{r, message = FALSE}
+albumCovers <- read_csv('data/album-cover-data.csv')
+
+glimpse(albumCovers)
+```
+
 
 ## Machine Learning
 
