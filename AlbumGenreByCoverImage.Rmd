@@ -80,27 +80,22 @@ glimpse(clean_dat)
 colSums(is.na(clean_dat))
 ```
 
-There are only 31 artists with missing album `years` as well as 1 record that didn't have a 3rd color. I've elected to remove these rows of data as year will not be a factor in determining genre from the album image, which leaves the last observation with a missing 3rd color as insignificant.
+There are only 31 artists with missing album `years` as well as 1 record that didn't have a 3rd color. I've elected to remove these rows of data as I feel year will not be a good predicter in determining genre from the album image, which leaves the last observation with a missing 3rd color as insignificant. 
+
+Let's take a look and see how this collection of artists is distributed across years, and genres.
 
 ```{r}
-clean_dat %>% nrow()
-
 clean_dat %>%
-  group_by(artist) %>%
-  count() %>%
-  nrow()
-
-clean_dat %>%
-  group_by(artist) %>%
-  count() %>%
-  ungroup() %>%
-  summarize(
-    avg_release = mean(n)
-  )
-
-
+  ggplot() +
+  geom_bar(aes(x=genre)) +
+  coord_flip()
 ```
-After **NA's** are removed, there are `833` ablums from `251` artists, with an appromixate average of `3` releases each. Let's take a look and see how this collection of artists is distributed across years, and genres.
+
+I'm definitely a huge fan of Rock and Electronic music. Not a significant amount of artist releases in the other genres! It also appears that some sound track ablums slipped through the scraping filters as `Sound & Stage`. The model would not get enough observations to anything but `Rock` and `Electronic`...so removing all the other genres would be helpful. 
+
+```{r}
+clean_dat <- filter(clean_dat, genre == 'Rock' | genre == 'Electronic')
+```
 
 ```{r}
 clean_dat %>%
@@ -116,8 +111,39 @@ clean_dat %>%
   geom_bar(aes(x=year))
 ```
 
+I'm definitely a child of the 80's and the number of albums don't pick up until then. For a better distribution, I've elected to filter anything older than 1980.
 
-In the raw data, there are 865 albums
+```{r}
+clean_dat <- filter(clean_dat, year >= 1980)
+clean_dat %>%
+  ggplot() +
+  geom_bar(aes(x=year))
+```
+
+
+```{r}
+clean_dat %>% nrow()
+
+clean_dat %>%
+  group_by(artist) %>%
+  count() %>%
+  nrow()
+
+clean_dat %>%
+  group_by(artist) %>%
+  count() %>%
+  ungroup() %>%
+  summarize(
+    avg_release = mean(n)
+)
+
+
+```
+After **NA's** are removed, there are `666` ablums from `231` artists, with an average of `2.9` releases each. In the raw data there were `865` albums with just over `350` artists averaging `3.3` albums. Not much of a shift in the number of releases, which further shows that most of my music from 1980 onward is Rock and Pop.
+
+```{r}
+
+```
 
 ## Machine Learning
 
