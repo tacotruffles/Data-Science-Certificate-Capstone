@@ -10,6 +10,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library('tidyverse')
+library('dplyr')
 ```
 
 ## Business Case
@@ -27,19 +28,19 @@ It would be useful for the artist to have a tool that would give them an idea of
 ## Data Gathering
 Some useful attributes of albums to predict genre would be the `title`, how many `faces` are on the cover, the most prevelant `colors`, identification of various `objects` and how abtract the cover image is - i.e. is it an `illustration` or a `photograph`. Thus the data set `albumData` below:
 
-```{r, message = FALSE}
-albumCovers <- read_csv('data/album-cover-data.csv')
+To gather these variables, I scraped several sources using a custom Node.js API that saved raw data responses into a MongoDB for gathering into well-formatted CSV as follows:
 
-glimpse(albumCovers)
-```
+* *Artist Names* come from my personal music collection and is based on the folder names on my NAS' shared **Music** folder.
+* For each artist name, a text search was performed via the Disccogs.com search API: `https://api.discogs.com/database/search?artist=<folder-name>`. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url.  
+* Once all the album information from my artist collection was scraped, three Google Vision APIs were used to find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
 
-`albumData` was scraped from several sources using a custom Node.js API that saved raw data responses into a MongoDB for gathering into well-formatted CSV:
+Additional criteria for scraping artist albums were that they must be:
 
-* *Artist Names* come from my personal music collection and is based on the folder names in a Music folder.
-* From *Artist Names*, a search was performed via the Disccogs.com search API: https://api.discogs.com/database/search?artist=<folder-name>. This yielded the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url.  
-* Once all the album information from my artist collection was scraped, three Google Vision APIs to find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
+* The initial studio release (no singles, EPs, Live/Tour, Greatest Hits/Best of, Soundtracks, Remixes, Remasters, etc.)
+* A CD or LP (to avoid duplicate entries from Tapes, file donwloads, etc.)
+* Released in the United States (to avoid duplicate entries)
 
-The following three sections describe how these image attributes were aggregated to create the album data from the Google Vision API image search results:
+The following three sections describe how image attributes were aggregated from the Google Vision API image search results gather more variables for the album image covers:
 
 ### Faces
 The `faceDetection` function of Google Vision returns an object for each face found in an image, where those faces are (via coordinates for the eyebrows, eyes, and nose), and the probability of the emotion detected. Many album covers contain portraits of either a solo artist, the entiere band, or a human model. While being able to differentiate what kind of portraits/human subjects are in the photo would be useful, the album data only includes the number of faces detected in the image, for the sake of simplifing the use of `faces` as a predictor in `albumData`. 
@@ -61,10 +62,62 @@ The list of colors used to reduce the range of 6-digit Hexidecimal colors from 1
 
 ### Captions
 
-TBD
+TBD - `labelDetection`
 
 ## EDA
+With the data scraping and aggregation completed, let's look at the raw data collected:
+```{r, message = FALSE}
+albumCovers <- read_csv('data/album-cover-data.csv')
 
+glimpse(albumCovers)
+```
+
+```{r}
+colSums(is.na(albumCovers))
+clean_dat <- albumCovers %>%
+  drop_na()
+glimpse(clean_dat)
+colSums(is.na(clean_dat))
+```
+
+There are only 31 artists with missing album `years` as well as 1 record that didn't have a 3rd color. I've elected to remove these rows of data as year will not be a factor in determining genre from the album image, which leaves the last observation with a missing 3rd color as insignificant.
+
+```{r}
+clean_dat %>% nrow()
+
+clean_dat %>%
+  group_by(artist) %>%
+  count() %>%
+  nrow()
+
+clean_dat %>%
+  group_by(artist) %>%
+  count() %>%
+  ungroup() %>%
+  summarize(
+    avg_release = mean(n)
+  )
+
+
+```
+After **NA's** are removed, there are `833` ablums from `251` artists, with an appromixate average of `3` releases each. Let's take a look and see how this collection of artists is distributed across years, and genres.
+
+```{r}
+clean_dat %>%
+  ggplot() +
+  geom_bar(aes(x=genre)) +
+  coord_flip()
+```
+
+
+```{r}
+clean_dat %>%
+  ggplot() +
+  geom_bar(aes(x=year))
+```
+
+
+In the raw data, there are 865 albums
 
 ## Machine Learning
 
