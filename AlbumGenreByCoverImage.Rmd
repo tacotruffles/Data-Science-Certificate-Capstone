@@ -77,7 +77,6 @@ glimpse(albumCovers)
 colSums(is.na(albumCovers))
 clean_dat <- albumCovers %>%
   drop_na()
-glimpse(clean_dat)
 colSums(is.na(clean_dat))
 ```
 
