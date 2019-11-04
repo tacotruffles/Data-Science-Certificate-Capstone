@@ -115,16 +115,37 @@ I'm definitely a child of the 80's and the number of albums don't pick up until 
 
 ```{r}
 clean_dat <- filter(clean_dat, year >= 1980)
+clean_dat <- filter(clean_dat, !str_detect(title, 'Tour|Live')) # Remove more non-studio releases
+clean_dat <- filter(clean_dat, !str_detect(title, 'New York')) # Remove other live albums
 clean_dat %>%
   ggplot() +
   geom_bar(aes(x=year))
 ```
 
+```{r}
+num_raw_albums <- albumCovers %>% nrow()
+
+num_raw_artists <- albumCovers %>%
+  group_by(artist) %>%
+  count() %>%
+  nrow()
+
+albumCovers %>%
+  group_by(artist) %>%
+  count() %>%
+  ungroup() %>%
+  summarize(
+    avg_releases = mean(n),
+    num_albums = num_raw_albums,
+    num_artists = num_raw_artists
+)
+```
+
 
 ```{r}
-clean_dat %>% nrow()
+num_albums <- clean_dat %>% nrow()
 
-clean_dat %>%
+num_artists <- clean_dat %>%
   group_by(artist) %>%
   count() %>%
   nrow()
@@ -134,12 +155,12 @@ clean_dat %>%
   count() %>%
   ungroup() %>%
   summarize(
-    avg_release = mean(n)
+    avg_releases = mean(n),
+    num_albums = num_albums,
+    num_artists = num_artists
 )
-
-
 ```
-After **NA's** are removed, there are `666` ablums from `231` artists, with an average of `2.9` releases each. In the raw data there were `865` albums with just over `350` artists averaging `3.3` albums. Not much of a shift in the number of releases, which further shows that most of my music from 1980 onward is Rock and Pop.
+After **NA's** are removed, there are `661` ablums from `231` artists, with an average of `2.8` releases each. In the original raw data there were `865` albums with just over `250` artists averaging `3.3` albums. Not much of a shift in the number of releases, which further shows that most of my music from 1980 onward is Rock and Pop.
 
 ```{r}
 
