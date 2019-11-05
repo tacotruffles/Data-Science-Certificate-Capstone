@@ -32,7 +32,7 @@ Some useful attributes of albums to predict genre would be the `title`, how many
 To gather these variables, I scraped several sources using a custom Node.js API that saved raw data responses into a MongoDB for gathering into well-formatted CSV as follows:
 
 * *Artist Names* come from my personal music collection and is based on the folder names on my NAS' shared **Music** folder.
-* For each artist name, a text search was performed via the Disccogs.com search API: `https://api.discogs.com/database/search?artist=<folder-name>`. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url.  
+* For each artist name, a text search was performed via the Disccogs.com search API. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url.
 * Once all the album information from my artist collection was scraped, three Google Vision APIs were used to find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
 
 Additional criteria for scraping artist albums were that they must be:
@@ -49,12 +49,9 @@ The `faceDetection` function of Google Vision returns an object for each face fo
 ### Colors
 The `imageProperties` function of Google Vision returns an object that provides a percentage of each color found in the image. Each color is also scored as a percentage of the amount found in the image, and this is the value that is used to determined the most recurrent colors found in an album cover. 
 
-The data Colors returned by `imageProperties` are RGB values, and coverted to six-digit Hexidecimal via the custom Node.js API. However, 16 Million colors can be represented with the RGB and Hexidecimal values. It made more sense to convert this to a more managable list of factored values by converting the numerical color values into Color Names - i.e. from #FF0000 to "Red."
+The colors values returned by `imageProperties` are RGB, and coverted to six-digit Hexidecimal via the custom Node.js API. However, 16 Million colors can be represented with the RGB and Hexidecimal values. It made more sense to convert this to a more managable list of factored values by converting the numerical color values into Color Names - i.e. from #FF0000 to "Red."
 
-I found the `coloraze` npm module, which converts a Hexidecimal value to the closest color in it's pallette of 2196 color names. While this library is a massive reduction from the 16 Million colors that can be represented in Hex, I reduced the palete further to *16 web-safe colors* (See Figure 1: 16-Color Palette.) This was effective in distilling the essence of an album image's colors into a simplified color scheme and coverted the color values into factored predictors in `albumData` which should be enough to capture variance in album colors for the size of the data set available.
-
-The *3 colors with the highest scores* are saved in `albumData` as: `primary_color`, `secondary_color`, and `tertiary_color`. Their scores are also saved in the similarly named: `primary_score`, `secondary_score`, and `tertiary_score` for the potential of building interactive terms in linear and logistical models if need be.
-
+I found the `coloraze` npm module, which converts a Hexidecimal value to the closest color in it's pallette of 2196 color names. While this library is a massive reduction from the 16 Million colors that can be represented in Hex, I reduced the palete further to *16 web-safe colors* (See Figure 1: 16-Color Palette.) This was effective in distilling the essence of an album image's colors into a simplified color scheme and coverted the color values into factored predictors which should be enough to capture variance in album colors.
 
 #### Figure 1: 16-Color Palette:
 The list of colors used to reduce the range of 6-digit Hexidecimal colors from 16 Million continous values to 16 unique factors.
@@ -72,6 +69,13 @@ albumCovers <- read_csv('data/album-cover-data.csv')
 
 glimpse(albumCovers)
 ```
+The 11 variables in `albumData` are as follows:
+* `artist` is the name of the music artist that released the album
+* `year` is the studio release
+* `title` is the title of the artist's studio release
+* `genre` which is our target classifier.
+* `faces` are the number of faces found by Google Vision in the album cover
+* The *3 colors with the highest scores* are saved in `albumData` as: `primary_color`, `secondary_color`, and `tertiary_color`. Their scores are also saved in the similarly named: `primary_score`, `secondary_score`, and `tertiary_score` for the potential of building interactive terms in linear and logistical models if need be.
 
 ```{r}
 colSums(is.na(albumCovers))
