@@ -97,3 +97,49 @@ close(fileConn)
 
 ```
 
+Now we've run the scraper on a random sample of ~700 albums
+```{r, message = FALSE}
+albums <- read_csv('data/album-cover-data-mtv.csv')
+
+colSums(is.na(albums))
+```
+
+Only missing varibles in this data set are year. I've elected to not use year as a predicter so let's remove those, but before we do let's take a look at how much our albums are spread across the years. My thought is that since MTV started in the 80's that we won't see many albums before the early 80's and we should also get a nice distribution from there onward.
+```{r}
+dat <- albums %>%
+  drop_na()
+
+dat %>%
+  ggplot() +
+  geom_bar(aes(x=year))
+```
+
+That's what we expected....let's cut off albums before 1981, as that's the year MTV started and when serious marketing dollars when the age huge budgets on "artist development" and branding started. We'll also clean out non-studio releases (live, soundtracks, tours, etc.)
+```{r}
+clean_dat <- filter(dat, year >= 1980)
+clean_dat <- filter(clean_dat, !str_detect(title, 'Tour|Live')) # Remove more non-studio releases
+clean_dat <- filter(clean_dat, !str_detect(title, 'New York')) # Remove other live albums
+clean_dat <- filter(clean_dat, genre != 'Non-Music') # Remove non-studio release genres
+clean_dat <- filter(clean_dat, genre != 'Stage & Screen') # Remove non-studio release genres
+clean_dat <- filter(clean_dat, genre != 'Classical') # Remove non-studio release genres
+clean_dat <- mutate(clean_dat, genre = as.factor(genre))
+clean_dat %>%
+  ggplot() +
+  geom_bar(aes(x=year))
+```
+
+```{r}
+clean_dat %>% nrow()
+```
+
+Now we're down to 556 albums
+```{r}
+clean_dat %>%
+  mutate(genre = genre %>% fct_infreq() %>% fct_rev()) %>%
+  ggplot() +
+  geom_bar(aes(x=genre)) +
+  coord_flip()
+```
+
+It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre.
+
