@@ -1,0 +1,137 @@
+---
+title: "Pop Quiz"
+output: pdf_document
+---
+
+```{r setup, echo=FALSE, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+```
+
+
+
+# Please complete the following  
+
+Assume that you have the following packages loaded:
+
+```{r message=FALSE}
+library('kableExtra')
+library('tidyverse')
+library('caret')
+
+# Output function for printing to pdf
+tbl_out = function(df, rows = 10){
+  head(df, rows) %>%
+    kable() %>%
+    kable_styling()
+  }
+```
+
+
+Given the `iris` data set (first 10 rows shown below):  
+```{r}
+dat = iris %>% as_tibble()
+tbl_out(dat)
+```
+
+\newpage
+
+In words, describe what you would expect this to return:
+```{r echo=TRUE, message=FALSE, eval=FALSE}
+dat %>% 
+  sample_n(nrow(dat)) %>%
+  tbl_out()
+```
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  
+
+Assuming your data is "clean" and your EDA has been accomplished. What steps would you take to get your data prepared for a classification algorithm?  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+  -  
+
+\newpage 
+  
+Show the rough code you would use to get your data ready and then train a model using `caret` and show how you would analyze and look at the results.   -  
+```{r}
+# Step 1: Class variable 
+set.seed(123)
+dat_clean <- dat %>% rename(Class = Species) 
+
+dat_clean <- dat_clean %>% mutate(id = row_number())
+
+# Step 2: Train Split
+dat_train <- dat_clean %>%
+ sample_frac(0.75)
+
+dat_test <- dat_clean %>%
+ anti_join(dat_train, by = 'id') %>%
+ select(-id)
+
+dat_train <- dat_train %>%
+ select(-id)
+
+# Step 3: Pre Process - Standarize Training Data
+mod_pp <- preProcess(dat_train, method = c('scale','center'))
+dat_train_pp <- predict(mod_pp, dat_train) 
+
+```
+```{r}
+# Step 4: Resample as needed
+dat_train_up <- upSample(x = dat_train_pp %>% select(-Class), y = dat_train_pp$Class)
+```
+
+```{r}
+# Step 5: Train a Model
+train_control <- trainControl(
+  method = 'cv',
+  number = 5
+)
+
+model_ranger = train(
+  dat_train_up %>% select(-Class),
+  dat_train_up$Class,
+  method = "ranger",
+  importance = "impurity",
+  trControl = train_control,
+)
+
+model_ranger
+
+```
+
+```{r}
+# Step 6: Scaled Test Data
+dat_test_pp <- predict(mod_pp, dat_test)
+```
+
+```{r}
+# Step 7: Predict from scaled test data
+predictions <- predict(model_ranger, dat_test_pp)
+```
+
+```{r}
+# Step 8: Anaylize Confusion matrix (Actuals => $Class)
+confusionMatrix(predictions, dat_test_pp$Class)
+```
+
+```{r}
+# Step 9: Variable importance
+plot(varImp(model_ranger))
+```
+

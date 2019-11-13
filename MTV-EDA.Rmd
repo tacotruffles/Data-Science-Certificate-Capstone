@@ -141,5 +141,9 @@ clean_dat %>%
   coord_flip()
 ```
 
-It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre.
+It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre. After cleaning our initial data to be just US studio releases and the 41 rows that were missing years, we're now left with **549** albums to peform our train/test split. This is a 2.6% random sample of **20861** albums.
+
+```{r}
+clean_dat %>% nrow()
+```
 
