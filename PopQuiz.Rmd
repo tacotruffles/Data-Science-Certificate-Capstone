@@ -91,6 +91,7 @@ mod_pp <- preProcess(dat_train, method = c('scale','center'))
 dat_train_pp <- predict(mod_pp, dat_train) 
 
 ```
+
 ```{r}
 # Step 4: Resample as needed
 dat_train_up <- upSample(x = dat_train_pp %>% select(-Class), y = dat_train_pp$Class)

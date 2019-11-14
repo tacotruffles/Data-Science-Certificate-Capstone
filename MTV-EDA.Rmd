@@ -116,25 +116,31 @@ dat %>%
 
 That's what we expected....let's cut off albums before 1981, as that's the year MTV started and when serious marketing dollars when the age huge budgets on "artist development" and branding started. We'll also clean out non-studio releases (live, soundtracks, tours, etc.)
 ```{r}
-clean_dat <- filter(dat, year >= 1980)
-clean_dat <- filter(clean_dat, !str_detect(title, 'Tour|Live')) # Remove more non-studio releases
-clean_dat <- filter(clean_dat, !str_detect(title, 'New York')) # Remove other live albums
-clean_dat <- filter(clean_dat, genre != 'Non-Music') # Remove non-studio release genres
-clean_dat <- filter(clean_dat, genre != 'Stage & Screen') # Remove non-studio release genres
-clean_dat <- filter(clean_dat, genre != 'Classical') # Remove non-studio release genres
-clean_dat <- mutate(clean_dat, genre = as.factor(genre))
-clean_dat %>%
+dat_clean <- filter(dat, year >= 1980)
+dat_clean <- filter(dat_clean, !str_detect(title, 'Tour|Live')) # Remove more non-studio releases
+dat_clean <- filter(dat_clean, !str_detect(title, 'New York')) # Remove other live albums
+dat_clean <- filter(dat_clean, genre != 'Non-Music') # Remove non-studio release genres
+dat_clean <- filter(dat_clean, genre != 'Stage & Screen') # Remove non-studio release genres
+dat_clean <- filter(dat_clean, genre != 'Classical') # Remove non-studio release genres
+dat_clean <- filter(dat_clean, genre != 'Children\'s') # Remove non-studio release genres
+dat_clean <- mutate(dat_clean, genre = as.factor(genre))
+dat_clean %>%
   ggplot() +
   geom_bar(aes(x=year))
 ```
 
 ```{r}
-clean_dat %>% nrow()
+
+dat_clean %>% nrow()
+
+dat_clean %>%
+  group_by(Class) %>%
+  count()
 ```
 
 Now we're down to 556 albums
 ```{r}
-clean_dat %>%
+dat_clean %>%
   mutate(genre = genre %>% fct_infreq() %>% fct_rev()) %>%
   ggplot() +
   geom_bar(aes(x=genre)) +
@@ -144,6 +150,118 @@ clean_dat %>%
 It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre. After cleaning our initial data to be just US studio releases and the 41 rows that were missing years, we're now left with **549** albums to peform our train/test split. This is a 2.6% random sample of **20861** albums.
 
 ```{r}
-clean_dat %>% nrow()
+dat_clean %>% nrow()
+```
+
+Let's set up our Clean Data to train our model
+```{r}
+# Step 1: Configure Class variable 
+set.seed(123)
+dat_clean <- dat %>% 
+  mutate(
+    genre = as.factor(genre)
+    ) %>% 
+  select(-title) %>%
+  rename(Class = genre)
+
+dat_clean <- dat_clean %>% mutate(id = row_number()) 
+```
+
+Let's split our data into Train/Test segements.
+```{r}
+# Step 2: Train Split
+dat_train <- dat_clean %>%
+ sample_frac(0.75)
+
+dat_test <- dat_clean %>%
+ anti_join(dat_train, by = 'id') %>%
+ select(-id)
+
+dat_train <- dat_train %>%
+ select(-id)
+```
+
+We'll try without preprocessing first.
+```{r}
+# Step 3: Pre Process - Standarize Training Data
+#mod_pp <- preProcess(dat_train, method = c('scale','center'))
+#dat_train_pp <- predict(mod_pp, dat_train) 
+dat_train_pp <- dat_train
+```
+
+Since we have uneven distributionn on our Target....let's upsample
+```{r}
+# Step 4: Resample as needed
+dat_train_up <- upSample(x = dat_train_pp %>% select(-Class), y = dat_train_pp$Class)
+
+dat_train_up %>%
+  group_by(Class) %>%
+  count()
+```
+
+Time to train now, ask questions later!
+```{r}
+train_control <- trainControl(
+  method = 'cv',
+  number = 3
+)
+
+model_ranger = train(
+  dat_train_up %>% select(-Class),
+  dat_train_up$Class,
+  method = "ranger",
+  importance = "impurity",
+  trControl = train_control,
+)
+
+model_ranger
+```
+
+
+ model fit failed for Fold1: mtry= 2, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold1: mtry=26, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold1: mtry=51, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold2: mtry= 2, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold2: mtry=26, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold2: mtry=51, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold3: mtry= 2, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold3: mtry=26, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+model fit failed for Fold3: mtry=51, min.node.size=1, splitrule=extratrees Error in ranger::ranger(dependent.variable.name = ".outcome", data = x,  : 
+  Too many levels in unordered categorical variable artist. Only 53 levels allowed on this system. Consider using the 'order' option.
+There were missing values in resampled performance measures.missing values found in aggregated results
+
+Random Forest 
+
+2184 samples
+  51 predictor
+  14 classes: 'Blues', 'Children's', 'Classical', 'Electronic', 'Folk, World, & Country', 'Funk / Soul', 'Hip Hop', 'Jazz', 'Latin', 'Non-Music', 'Pop', 'Reggae', 'Rock', 'Stage & Screen' 
+
+No pre-processing
+Resampling: Cross-Validated (3 fold) 
+Summary of sample sizes: 1456, 1456, 1456 
+Resampling results across tuning parameters:
+
+  mtry  splitrule   Accuracy   Kappa    
+   2    gini        0.7380952  0.7179487
+   2    extratrees        NaN        NaN
+  26    gini        0.8997253  0.8920118
+  26    extratrees        NaN        NaN
+  51    gini        0.8878205  0.8791913
+  51    extratrees        NaN        NaN
+
+Tuning parameter 'min.node.size' was held constant at a value of 1
+Accuracy was used to select the optimal model using the largest value.
+The final values used for the model were mtry = 26, splitrule = gini and min.node.size = 1.
+
+```{r}
+
 ```
 
