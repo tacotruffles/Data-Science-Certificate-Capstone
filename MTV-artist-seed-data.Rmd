@@ -1,0 +1,99 @@
+---
+title: "MTV Seed Data"
+output: html_document
+---
+
+This script is used to get the artist names from the MTV data files for scrapping from Discogs, etc. See MTV-EDA for post data scraping/model training
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('tidyverse')
+library('dplyr')
+```
+
+```{r, message = FALSE}
+mtv1 <- read_csv('data/10000-MTV-Music-Artists-page-1.csv')
+mtv2 <- read_csv('data/10000-MTV-Music-Artists-page-2.csv')
+mtv3 <- read_csv('data/10000-MTV-Music-Artists-page-3.csv')
+mtv4 <- read_csv('data/10000-MTV-Music-Artists-page-4.csv')
+
+mtv_dat <- rbind(mtv1, mtv2, mtv3, mtv4)
+
+mtv_dat %>% nrow()
+
+glimpse(mtv1)
+glimpse(mtv2)
+glimpse(mtv2)
+
+```
+
+```{r, heig}
+mtv1 <- mtv1 %>% 
+  select(name, genre) %>%
+  drop_na()
+
+mtv1 %>%
+  group_by(genre) %>%
+  count()
+
+mtv1 %>%
+  ggplot() +
+  geom_bar(aes(x=genre)) +
+  coord_flip()
+```
+
+```{r}
+mtv_dat <- mtv_dat %>% 
+  select(name, genre) %>%
+  drop_na()
+
+mtv_dat %>%
+  ggplot() +
+  geom_bar(aes(x=genre)) +
+  coord_flip()
+
+# 5115 Artists
+mtv_dat %>% nrow()
+
+# Genre EDA
+mtv_genre <- mtv_dat %>%
+  group_by(genre) %>%
+  count() %>%
+  arrange(-n)
+
+
+#171 genres
+nrow(mtv_genre)
+
+# Top 10 Genres
+mtv_top_genres <- mtv_dat %>%
+  group_by(genre) %>%
+  count() %>%
+  arrange(-n) %>%
+  head(10) %>%
+  select(genre) %>%
+  as_vector()
+
+mtv_top_genres
+
+mtv_dat_clean <- mtv_dat[mtv_dat$genre %in% mtv_top_genres,]
+
+# 3435 Artists
+nrow(mtv_dat_clean)
+
+mtv_dat_clean %>%
+  group_by(genre) %>%
+  count() %>%
+  arrange(-n)
+
+mtv_dat_clean %>%
+  ggplot(aes(x=genre)) +
+  geom_bar()
+
+mtv_artist_names <- mtv_dat_clean %>% select(name) %>% as_vector()
+
+# Output artist names
+fileConn<-file("data/artist-names-mtv-top-10-genres.txt")
+writeLines(mtv_artist_names, fileConn)
+close(fileConn)
+
+```

@@ -9,94 +9,6 @@ library('tidyverse')
 library('dplyr')
 ```
 
-```{r, message = FALSE}
-mtv1 <- read_csv('data/10000-MTV-Music-Artists-page-1.csv')
-mtv2 <- read_csv('data/10000-MTV-Music-Artists-page-2.csv')
-mtv3 <- read_csv('data/10000-MTV-Music-Artists-page-3.csv')
-mtv4 <- read_csv('data/10000-MTV-Music-Artists-page-4.csv')
-
-mtv_dat <- rbind(mtv1, mtv2, mtv3, mtv4)
-
-mtv_dat %>% nrow()
-
-glimpse(mtv1)
-glimpse(mtv2)
-glimpse(mtv2)
-
-```
-
-```{r, heig}
-mtv1 <- mtv1 %>% 
-  select(name, genre) %>%
-  drop_na()
-
-mtv1 %>%
-  group_by(genre) %>%
-  count()
-
-mtv1 %>%
-  ggplot() +
-  geom_bar(aes(x=genre)) +
-  coord_flip()
-```
-
-```{r}
-mtv_dat <- mtv_dat %>% 
-  select(name, genre) %>%
-  drop_na()
-
-mtv_dat %>%
-  ggplot() +
-  geom_bar(aes(x=genre)) +
-  coord_flip()
-
-# 5115 Artists
-mtv_dat %>% nrow()
-
-# Genre EDA
-mtv_genre <- mtv_dat %>%
-  group_by(genre) %>%
-  count() %>%
-  arrange(-n)
-
-
-#171 genres
-nrow(mtv_genre)
-
-# Top 10 Genres
-mtv_top_genres <- mtv_dat %>%
-  group_by(genre) %>%
-  count() %>%
-  arrange(-n) %>%
-  head(10) %>%
-  select(genre) %>%
-  as_vector()
-
-mtv_top_genres
-
-mtv_dat_clean <- mtv_dat[mtv_dat$genre %in% mtv_top_genres,]
-
-# 3435 Artists
-nrow(mtv_dat_clean)
-
-mtv_dat_clean %>%
-  group_by(genre) %>%
-  count() %>%
-  arrange(-n)
-
-mtv_dat_clean %>%
-  ggplot(aes(x=genre)) +
-  geom_bar()
-
-mtv_artist_names <- mtv_dat_clean %>% select(name) %>% as_vector()
-
-# Output artist names
-fileConn<-file("data/artist-names-mtv-top-10-genres.txt")
-writeLines(mtv_artist_names, fileConn)
-close(fileConn)
-
-```
-
 Now we've run the scraper on a random sample of ~700 albums
 ```{r, message = FALSE}
 albums <- read_csv('data/album-cover-data-mtv.csv')
@@ -168,7 +80,7 @@ dat_clean <- dat_clean %>%
   mutate(
     genre = as.factor(genre)
     ) %>% 
-  select(-title, -artist) %>%
+  select(-title, -artist, -year) %>% # Remove unimportant variables
   rename(Class = genre)
 
 dat_clean <- dat_clean %>% mutate(id = row_number()) 
@@ -191,8 +103,8 @@ dat_train <- dat_train %>%
 We'll try without preprocessing first.
 ```{r}
 # Step 3: Pre Process - Standarize Training Data
-#mod_pp <- preProcess(dat_train, method = c('scale','center'))
-#dat_train_pp <- predict(mod_pp, dat_train) 
+# mod_pp <- preProcess(dat_train, method = c('scale','center'))
+# dat_train_pp <- predict(mod_pp, dat_train) 
 dat_train_pp <- dat_train
 ```
 
@@ -208,6 +120,7 @@ dat_train_up %>%
 
 Time to train now, ask questions later!
 ```{r}
+# Step 5: Train Model
 train_control <- trainControl(
   method = 'cv',
   number = 3
@@ -226,6 +139,28 @@ model_ranger
 
 
 ```{r}
-
+#Step 6: Get predictions from centered test data
+# dat_test_pp <- predict(mod_pp, dat_test)
 ```
 
+```{r}
+# Step 7: Predict from centered test data (as standardized - w/ 'scale' option gives 'zero variance error' )
+# predictions <- predict(model_ranger, dat_test_pp)
+
+# Step 7: Predict from non-preProcessed test data => still get the same .292 accuracy!
+predictions <- predict(model_ranger, dat_test)
+```
+
+```{r}
+# Step 8: Anaylize Confusion matrix (Actuals => $Class)
+confusionMatrix(predictions, dat_test_pp$Class)
+```
+
+```{r}
+# Step 9: Variable importance
+plot(varImp(model_ranger))
+```
+
+Turns out that 3x16 color samples, and number of faces are not great predicters for album genre. It would appear that album cover colors are too similar to make much of a difference. 
+
+Perhaps some other ways to improve the data set would be to be to increase the complexity of colors? Or to add more caption colums to capture more variance.
