@@ -41,17 +41,17 @@ The scraping process was performed as follows:
 
 * Step 1: *Artist Names* initially come from my personal music collection, based on the folder names on my NAS' shared **Music** folder. However the was a strong bias towards Rock and Electronic genres. So the scraper was modified to randomly pick artist names via the Discogs API. However, this second attempt was yielding about 10% hits on actual music artits, as the data in Discogs is structured to include mixers, engineers, producers, execs, etc. as "artists". After some more searching I eventually found the "10,000 MTV Artists" list. The list ended up only containing approximately 7400 artists with their genres. I picked the top 10 genres, since the 11th fell to from several hundred artists to 53. 
 * Step 2: To obtain album information, each artist name was searched on via the Disccogs.com search API. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url. This initial scrape of albums via artist name and release criteria yielded over 20,000 albums. However, I elected to sample 500 random albums from the entire album collection as resources and time where limited.
-* Step 3: With this randomized sample of album data eadch `cover_image` was sent through three Google Vision APIs to: find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
+* Step 3: With this randomized sample of album data each `cover_image` was sent through three separate Google Vision APIs to: find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
 
-The following three sections describe how image attributes were aggregated from the Google Vision API image search results gather more variables for the album image covers:
+The following three sections describe how image attributes were aggregated from the Google Vision API results to create more predictors and to tease more variance across the album image covers:
 
 ### Faces
-The `faceDetection` function of Google Vision returns an object for each face found in an image, where those faces are (via coordinates for the eyebrows, eyes, and nose), and the probability of the emotion detected. Many album covers contain portraits of either a solo artist, the entiere band, or a human model. While being able to differentiate what kind of portraits/human subjects are in the photo would be useful, the album data only includes the number of faces detected in the image, for the sake of simplifing the use of `faces` as a predictor in `albumData`. 
+The `faceDetection` API function from Google Vision returns an object for each face found in an image, where those faces are (via coordinates for the eyebrows, eyes, and nose), and the probability of the emotion detected. Many album covers contain portraits of either a solo artist, the entiere band, or a human model. While being able to differentiate what kind of portraits/human subjects are in the photo would be useful, the album data only includes the number of faces detected in the image. This was done to simplify the use of `faces` as a predictor in `albumData`. 
 
 ### Colors
-The `imageProperties` function of Google Vision returns an object that provides a percentage of each color found in the image. Each color is also scored as a percentage of the amount found in the image, and this is the value that is used to determined the most recurrent colors found in an album cover. 
+The `imageProperties` API function from Google Vision returns an object that provides a percentage of each color found in the image. Each color is also scored as a percentage of the amount found in the image, and this is the value that is used to determined the most recurrent colors found in an album cover. 
 
-The colors values returned by `imageProperties` are RGB, and coverted to six-digit Hexidecimal via the custom Node.js API. However, 16 Million colors can be represented with the RGB and Hexidecimal values. It made more sense to convert this to a more managable list of factored values by converting the numerical color values into Color Names - i.e. from #FF0000 to "Red."
+The colors values returned by `imageProperties` are RGB, and coverted to six-digit Hexidecimal via the CSV generation process. However, 16 Million colors can be represented with the RGB and Hexidecimal values. It made more sense to convert this to a more managable list of factored values by converting the numerical color values into Color Names - i.e. from #FF0000 to "Red."
 
 I found the `coloraze` npm module, which converts a Hexidecimal value to the closest color in it's pallette of 2196 color names. While this library is a massive reduction from the 16 Million colors that can be represented in Hex, I reduced the palete further to *16 web-safe colors* (See Figure 1: 16-Color Palette.) This was effective in distilling the essence of an album image's colors into a simplified color scheme and coverted the color values into factored predictors which should be enough to capture variance in album colors.
 
@@ -65,9 +65,63 @@ The list of colors used to reduce the range of 6-digit Hexidecimal colors from 1
 TBD - `labelDetection`
 
 ## EDA
-With the data scraping and aggregation completed, let's look at the raw data collected:
+With the data scraping and aggregation completed, let's look at the generated CSV data:
+```{r, message=FALSE}
+albums <- read_csv('data/album-cover-data-mtv.csv')
+
+colSums(is.na(albums))
+```
+
+Only missing varibles in this data set are year. I've elected to not use year as a predicter so let's remove those, but before we do let's take a look at how much our albums are spread across the years. My thought is that since MTV started in the 80's that we won't see many albums before the early 80's and we should also get a nice distribution from there onward.
+```{r}
+dat <- albums %>%
+  drop_na()
+
+dat %>%
+  ggplot() +
+  geom_bar(aes(x=year))
+```
 
 
+That's what we expected....let's cut off albums before 1981, as that's the year MTV started and when serious marketing dollars when the age huge budgets on "artist development" and branding started. We'll also clean out non-studio releases (live, soundtracks, tours, etc.)
+```{r}
+dat_clean <- dat %>%
+  filter(
+    year >= 1980,
+    genre != 'Non-Music' & genre != 'Classical' & genre !='Stage & Screen', # clean up non-studio releases 
+    !str_detect(title, 'Tour|Live'),
+    !str_detect(title, 'New York')
+    )
+
+dat_clean %>%
+  ggplot() +
+  geom_bar(aes(x=year))
+```
+
+We're left with 549 US Studio Relases
+```{r}
+dat_clean %>% nrow()
+
+dat_clean %>%
+  group_by(genre) %>%
+  count()
+```
+
+
+Let's look at the number of albums per genre:
+```{r}
+dat_clean %>%
+  mutate(genre = genre %>% fct_infreq() %>% fct_rev()) %>%
+  ggplot() +
+  geom_bar(aes(x=genre)) +
+  coord_flip()
+```
+
+It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre to begin with. However, this is still a better spread that my first 2 initial attempts at gathering album data. After cleaning our initial data to be just US studio releases and the 41 rows that were missing years, we're now left with **549** albums to peform our train/test split. This is a 2.6% random sample of **20861** albums.
+
+```{r}
+dat_clean %>% nrow()
+```
 
 
 ## Machine Learning
