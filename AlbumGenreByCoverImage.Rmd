@@ -20,26 +20,28 @@ There are two scenarios that predicting an album genre by it's cover image attri
 
 **Scenario A: The Music Label**
 
-In the music industry, it is not unusual for labels to expect that a newly signed artist/band to have their all their branding ready to go for relase at contract signing. This includes the music being mixed and mastered, along with cover art for their first release on that label. 
+In the music industry, it is not unusual for labels to expect that a newly signed artist/band to have all their branding ready to go for relase at contract signing. This includes the music being mixed and mastered, along with cover art for their first release on that label. 
 
 **Scenario B: The Music Artist Looking to Get Signed on a Label**
 
-It would be useful for the artist to have a tool that would give them an idea of how much their album cover communicates the genre of their music before they shop lables. For labels, to release their artists' sophomore (and later) albums, it would be a handy tool to input the album cover to get an idea of how much it represents the genre by album cover attributes.
+It would be useful for the artist to have a tool that would give them an idea of how much their album cover communicates the genre of their music before they shop lables. For labels, to release their artists' sophomore (and later) albums. 
+
+A tool for both scenarios to input the album cover to get an idea of how much it represents the genre by album cover attributes would be useful and help both parties create more effective branding.
 
 ## Data Gathering
 Some useful attributes of albums to predict genre would be how many `faces` are on the cover, the most prevelant `colors`, identification of various `objects` and how abtract the cover image is - i.e. is it an `illustration` or a `photograph`. Since there isn't a data set like this available, it was necessary to create a data scraper to aggregate these ablum features using 3rd-party API's and data sets.
 
-To gather these dissparate data sources, a custom Node.js API platform was built that saved raw data responses from APIs into a MongoDB, and a simple script for converting and gathering them into a well-formatted CSV file. Additional criteria for scraping artist albums were that they must be:
+To gather these dissparate data sources, a custom Node.js API platform was built to save raw data responses from APIs into a MongoDB, and a simple script for converting and gathering them into a well-formatted CSV file. Additional criteria for scraping artist albums were that they must be:
 
-* The initial studio release (no singles, EPs, Live/Tour, Greatest Hits/Best of, Soundtracks, Remixes, Remasters, etc.)
+* A studio release (no singles, EPs, Live/Tour, Greatest Hits/Best of, Soundtracks, Remixes, Remasters, etc.)
 * A CD or LP (to avoid duplicate entries from Tapes, file donwloads, etc.)
 * Released in the United States (to avoid duplicate entries)
 
 The scraping process was performed as follows:
 
-* *Artist Names* initially come from my personal music collection, based on the folder names on my NAS' shared **Music** folder. However the was a strong bias towards Rock and Electronic genres. So the scraper was modified to randomly pick artist names via the Discogs API. However, this second attempt was yielding about 10% hits on actual music artits, as the data in Discogs is structured to include mixers, engineers, producers, execs, etc. as "artists". After some more searching I eventually found the "10,000 MTV Artists" list. The list ended up only containing approximately 7400 artists with their genres. I picked the top 10 genres, since the 11th fell to from several hundred artists to 53. 
-* Next, to obtain album information, each artist name was searched on via the Disccogs.com search API. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url. This initial scrape of albums via artist name and release criteria yielded over 20,000 albums. However, I elected to sample 500 random albums from the entire album collection as resources and time where limited.
-* With this randomized sample of album data eadch `cover_image` was sent through three Google Vision APIs to: find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
+* Step 1: *Artist Names* initially come from my personal music collection, based on the folder names on my NAS' shared **Music** folder. However the was a strong bias towards Rock and Electronic genres. So the scraper was modified to randomly pick artist names via the Discogs API. However, this second attempt was yielding about 10% hits on actual music artits, as the data in Discogs is structured to include mixers, engineers, producers, execs, etc. as "artists". After some more searching I eventually found the "10,000 MTV Artists" list. The list ended up only containing approximately 7400 artists with their genres. I picked the top 10 genres, since the 11th fell to from several hundred artists to 53. 
+* Step 2: To obtain album information, each artist name was searched on via the Disccogs.com search API. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url. This initial scrape of albums via artist name and release criteria yielded over 20,000 albums. However, I elected to sample 500 random albums from the entire album collection as resources and time where limited.
+* Step 3: With this randomized sample of album data eadch `cover_image` was sent through three Google Vision APIs to: find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
 
 The following three sections describe how image attributes were aggregated from the Google Vision API image search results gather more variables for the album image covers:
 
