@@ -16,30 +16,30 @@ library('caret')
 
 ## Business Case
 
-There are two scenarios that predicting an album genre by it's cover image attributes and title would be usefule
+There are two scenarios that predicting an album genre by it's cover image attributes would be useful:
 
 **Scenario A: The Music Label**
 
-In the music industry, it is not unusual for labels to expect that a newly signed artist/band to have their all their branding ready to go for relase at contract signing. This includes the music being mixed and mastered, along with cover art  for their first release on that label. 
+In the music industry, it is not unusual for labels to expect that a newly signed artist/band to have their all their branding ready to go for relase at contract signing. This includes the music being mixed and mastered, along with cover art for their first release on that label. 
 
 **Scenario B: The Music Artist Looking to Get Signed on a Label**
 
-It would be useful for the artist to have a tool that would give them an idea of how much "like" their album cover communicates the genre of their music before they shop lables. For labels, to release their artists' sophomore (and later) albums, it would be a handy tool to input the album cover to get an idea of how much it represents the genre by album cover attributes.
+It would be useful for the artist to have a tool that would give them an idea of how much their album cover communicates the genre of their music before they shop lables. For labels, to release their artists' sophomore (and later) albums, it would be a handy tool to input the album cover to get an idea of how much it represents the genre by album cover attributes.
 
 ## Data Gathering
-Some useful attributes of albums to predict genre would be the `title`, how many `faces` are on the cover, the most prevelant `colors`, identification of various `objects` and how abtract the cover image is - i.e. is it an `illustration` or a `photograph`. Thus the data set `albumData` below:
+Some useful attributes of albums to predict genre would be how many `faces` are on the cover, the most prevelant `colors`, identification of various `objects` and how abtract the cover image is - i.e. is it an `illustration` or a `photograph`. Since there isn't a data set like this available, it was necessary to create a data scraper to aggregate these ablum features using 3rd-party API's and data sets.
 
-To gather these variables, I scraped several sources using a custom Node.js API that saved raw data responses into a MongoDB for gathering into well-formatted CSV as follows:
-
-* *Artist Names* come from my personal music collection and is based on the folder names on my NAS' shared **Music** folder.
-* For each artist name, a text search was performed via the Disccogs.com search API. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url.
-* Once all the album information from my artist collection was scraped, three Google Vision APIs were used to find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
-
-Additional criteria for scraping artist albums were that they must be:
+To gather these dissparate data sources, a custom Node.js API platform was built that saved raw data responses from APIs into a MongoDB, and a simple script for converting and gathering them into a well-formatted CSV file. Additional criteria for scraping artist albums were that they must be:
 
 * The initial studio release (no singles, EPs, Live/Tour, Greatest Hits/Best of, Soundtracks, Remixes, Remasters, etc.)
 * A CD or LP (to avoid duplicate entries from Tapes, file donwloads, etc.)
 * Released in the United States (to avoid duplicate entries)
+
+The scraping process was performed as follows:
+
+* *Artist Names* initially come from my personal music collection, based on the folder names on my NAS' shared **Music** folder. However the was a strong bias towards Rock and Electronic genres. So the scraper was modified to randomly pick artist names via the Discogs API. However, this second attempt was yielding about 10% hits on actual music artits, as the data in Discogs is structured to include mixers, engineers, producers, execs, etc. as "artists". After some more searching I eventually found the "10,000 MTV Artists" list. The list ended up only containing approximately 7400 artists with their genres. I picked the top 10 genres, since the 11th fell to from several hundred artists to 53. 
+* Next, to obtain album information, each artist name was searched on via the Disccogs.com search API. This yielded up to the first 50 albums in an artist discography, that each contained: `year`, `title`, `genre`, `format`, and the all important `cover_image` url. This initial scrape of albums via artist name and release criteria yielded over 20,000 albums. However, I elected to sample 500 random albums from the entire album collection as resources and time where limited.
+* With this randomized sample of album data eadch `cover_image` was sent through three Google Vision APIs to: find how many faces, what color content, if there were any musical objects, and whether or not the cover is an abstract illustration or photograph.
 
 The following three sections describe how image attributes were aggregated from the Google Vision API image search results gather more variables for the album image covers:
 
@@ -64,111 +64,9 @@ TBD - `labelDetection`
 
 ## EDA
 With the data scraping and aggregation completed, let's look at the raw data collected:
-```{r, message = FALSE}
-albumCovers <- read_csv('data/album-cover-data.csv')
-
-glimpse(albumCovers)
-```
-The 11 variables in `albumData` are as follows:
-* `artist` is the name of the music artist that released the album
-* `year` is the studio release
-* `title` is the title of the artist's studio release
-* `genre` which is our target classifier.
-* `faces` are the number of faces found by Google Vision in the album cover
-* The *3 colors with the highest scores* are saved in `albumData` as: `primary_color`, `secondary_color`, and `tertiary_color`. Their scores are also saved in the similarly named: `primary_score`, `secondary_score`, and `tertiary_score` for the potential of building interactive terms in linear and logistical models if need be.
-
-```{r}
-colSums(is.na(albumCovers))
-clean_dat <- albumCovers %>%
-  drop_na()
-colSums(is.na(clean_dat))
-```
-
-There are only 31 artists with missing album `years` as well as 1 record that didn't have a 3rd color. I've elected to remove these rows of data as I feel year will not be a good predicter in determining genre from the album image, which leaves the last observation with a missing 3rd color as insignificant. 
-
-Let's take a look and see how this collection of artists is distributed across years, and genres.
-
-```{r}
-clean_dat %>%
-  ggplot() +
-  geom_bar(aes(x=genre)) +
-  coord_flip()
-```
-
-I'm definitely a huge fan of Rock and Electronic music. Not a significant amount of artist releases in the other genres! It also appears that some sound track ablums slipped through the scraping filters as `Sound & Stage`. The model would not get enough observations to anything but `Rock` and `Electronic`...so removing all the other genres would be helpful. 
-
-```{r}
-clean_dat <- filter(clean_dat, genre == 'Rock' | genre == 'Electronic')
-```
-
-```{r}
-clean_dat %>%
-  ggplot() +
-  geom_bar(aes(x=genre)) +
-  coord_flip()
-```
 
 
-```{r}
-clean_dat %>%
-  ggplot() +
-  geom_bar(aes(x=year))
-```
 
-I'm definitely a child of the 80's and the number of albums don't pick up until then. For a better distribution, I've elected to filter anything older than 1980.
-
-```{r}
-clean_dat <- filter(clean_dat, year >= 1980)
-clean_dat <- filter(clean_dat, !str_detect(title, 'Tour|Live')) # Remove more non-studio releases
-clean_dat <- filter(clean_dat, !str_detect(title, 'New York')) # Remove other live albums
-clean_dat %>%
-  ggplot() +
-  geom_bar(aes(x=year))
-```
-
-```{r}
-num_raw_albums <- albumCovers %>% nrow()
-
-num_raw_artists <- albumCovers %>%
-  group_by(artist) %>%
-  count() %>%
-  nrow()
-
-albumCovers %>%
-  group_by(artist) %>%
-  count() %>%
-  ungroup() %>%
-  summarize(
-    avg_releases = mean(n),
-    num_albums = num_raw_albums,
-    num_artists = num_raw_artists
-)
-```
-
-
-```{r}
-num_albums <- clean_dat %>% nrow()
-
-num_artists <- clean_dat %>%
-  group_by(artist) %>%
-  count() %>%
-  nrow()
-
-clean_dat %>%
-  group_by(artist) %>%
-  count() %>%
-  ungroup() %>%
-  summarize(
-    avg_releases = mean(n),
-    num_albums = num_albums,
-    num_artists = num_artists
-)
-```
-After **NA's** are removed, there are `661` ablums from `231` artists, with an average of `2.8` releases each. In the original raw data there were `865` albums with just over `250` artists averaging `3.3` albums. Not much of a shift in the number of releases, which further shows that most of my music from 1980 onward is Rock and Pop.
-
-```{r}
-
-```
 
 ## Machine Learning
 
