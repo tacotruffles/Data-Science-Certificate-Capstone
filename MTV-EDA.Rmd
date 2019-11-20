@@ -72,6 +72,7 @@ It's not suprising that there are a lot of Rock albums as the vast majority of D
 dat_clean %>% nrow()
 ```
 
+
 Let's set up our Clean Data to train our model
 ```{r}
 # Step 1: Configure Class variable 

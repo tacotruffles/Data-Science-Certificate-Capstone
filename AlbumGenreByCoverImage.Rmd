@@ -101,10 +101,6 @@ dat_clean %>%
 We're left with 549 US Studio Relases
 ```{r}
 dat_clean %>% nrow()
-
-dat_clean %>%
-  group_by(genre) %>%
-  count()
 ```
 
 
@@ -120,13 +116,18 @@ dat_clean %>%
 It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre to begin with. However, this is still a better spread that my first 2 initial attempts at gathering album data. After cleaning our initial data to be just US studio releases and the 41 rows that were missing years, we're now left with **549** albums to peform our train/test split. This is a 2.6% random sample of **20861** albums.
 
 ```{r}
-dat_clean %>% nrow()
-```
+dat_plot <- dat_clean %>% 
+  mutate(genre = as.factor(genre)) %>% 
+  select(year, genre, black_1,black_2,black_3)
 
+plot(dat_plot)
+```
 
 ## Machine Learning
 
-Supervised learning is an excellent canditate for training a machine on album attributes, as we already know the `genre`, we'll train a machine with linear and logistical regressions to see which is most effective in predicting the genre of an album. Interactive terms will also be used to emphasize the color related data variables to tease out more variance.
+Supervised learning is an excellent canditate for training a machine on album attributes, as we already know the `genre`.
+
+
 
 ## Analysis
 
