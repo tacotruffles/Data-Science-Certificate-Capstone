@@ -1,0 +1,866 @@
+"artist","year","title","genre","faces","primary_color","primary_score","secondary_color","secondary_score","tertiary_color","tertiary_score"
+"Bauhaus","2005","New York City, NY 11.12.05","Electronic",0,"White",0.7922130823135376,"Silver",0.08269588649272919,"Black",0.05008275806903839
+"Bonobo","2013","The North Borders","Electronic",0,"Gray",0.5255856513977051,"Teal",0.24687445163726807,"Gray",0.13973045349121094
+"Delorean","2010","Subiza","Rock",0,"White",0.5363563299179077,"Silver",0.2787325382232666,"Silver",0.13341449201107025
+"Haxan Cloak, The","2013","Excavation","Electronic",0,"Black",0.40122878551483154,"Gray",0.2984323501586914,"Black",0.29201143980026245
+"Blues Brothers, The","1978","Briefcase Full Of Blues","Blues",0,"Black",0.6274816989898682,"White",0.09562185406684875,"Silver",0.07556864619255066
+"Cyndi Lauper","1997","She's So Unusual / True Colors / Hat Full Of Stars","Rock",0,"Olive",0.33285197615623474,"Gray",0.2219388484954834,"Gray",0.1424912065267563
+"Flaming Lips, The","2017","Oczy Mlody","Rock",0,"Red",0.3644638955593109,"Teal",0.2166385054588318,"Gray",0.08441316336393356
+"Foreigner","2009","Can't Slow Down","Rock",0,"Maroon",0.27437731623649597,"Maroon",0.27040717005729675,"Maroon",0.10404275357723236
+"Mogwai","1997","Young Team","Rock",0,"Silver",0.6085279583930969,"Silver",0.2021196484565735,"Gray",0.08520738780498505
+"Talking Heads","1986","True Stories","Electronic",0,"Red",0.2392059713602066,"Red",0.23182313144207,"White",0.04836340621113777
+"A Flock Of Seagulls","1995","The Light At The End Of The World","Electronic",0,"Yellow",0.34453484416007996,"Silver",0.22531262040138245,"Yellow",0.052891217172145844
+"Air","1978","Air Time","Jazz",0,"Maroon",0.21667440235614777,"Maroon",0.15374135971069336,"Silver",0.1263340264558792
+"Air","1979","Air Lore","Jazz",2,"Black",0.3055906295776367,"Gray",0.1529187560081482,"Gray",0.14099305868148804
+"Air","1978","Open Air Suit","Jazz",0,"Gray",0.16587555408477783,"Gray",0.15717318654060364,"Gray",0.08148904144763947
+"Album Leaf, The","2006","Into The Blue Again","Electronic",0,"Gray",0.29051849246025085,"Gray",0.18847700953483582,"Gray",0.1056237518787384
+"Album Leaf, The","2016","Between Waves","Electronic",0,"Black",0.9489446878433228,"Gray",0.028212230652570724,"Silver",0.012189595028758049
+"Album Leaf, The","2017","One Day I'll Be On Time","Electronic",0,"Gray",0.1809820681810379,"Silver",0.14185407757759094,"Gray",0.13082623481750488
+"Album Leaf, The","2010","A Chorus Of Storytellers","Electronic",0,"Silver",0.3483603298664093,"Black",0.26006338000297546,"Gray",0.08960938453674316
+"Album Leaf, The","2004","In A Safe Place","Electronic",0,"Navy",0.3129974603652954,"Gray",0.2937306761741638,"Black",0.15759095549583435
+"Album Leaf, The","1999","An Orchestrated Rise To Fall","Electronic",0,"Gray",0.26769784092903137,"Gray",0.1897871196269989,"Gray",0.11878442019224167
+"Album Leaf, The","2018","Torey's Distraction (Original Motion Picture Soundtrack)","Electronic",0,"Olive",0.5247499942779541,"Maroon",0.2896823585033417,"Maroon",0.08341048657894135
+"Andreas Vollenweider","1997","Kryptos","Electronic",0,"Gray",0.0987541526556015,"Gray",0.08233314752578735,"Gray",0.06252285093069077
+"Andreas Vollenweider","1989","Dancing With The Lion","Electronic",0,"Maroon",0.3669998049736023,"Red",0.10301955044269562,"Maroon",0.05653678625822067
+"Andreas Vollenweider",,"...Behind The Gardens","Electronic",1,"Black",0.19045908749103546,"Black",0.15038450062274933,"Silver",0.10431928187608719
+"Andreas Vollenweider","1984","White Winds","Electronic",0,"Silver",0.24979618191719055,"Silver",0.14007098972797394,"Silver",0.12238027155399323
+"Arcade Fire","2007","Neon Bible","Rock",0,"Black",0.25966116786003113,"Maroon",0.21334759891033173,"Maroon",0.07723396271467209
+"Arcade Fire","2013","Reflektor","Rock",0,"White",0.23461507260799408,"Silver",0.20382991433143616,"Silver",0.16066601872444153
+"Atlas Genius","2015","Inanimate Objects","Rock",0,"Gray",0.3989202380180359,"Gray",0.14393390715122223,"Gray",0.07272564619779587
+"Atlas Genius","2013","So Electric: When It Was Now (The Remixes)","Electronic",0,"Silver",0.8369021415710449,"Black",0.03325974941253662,"Gray",0.029909949749708176
+"Atlas Genius","2013","When It Was Now","Rock",0,"Maroon",0.11042363196611404,"Maroon",0.09782584011554718,"Maroon",0.09665867686271667
+"Atticus Ross","2010","The Book Of Eli (Original Motion Picture Soundtrack)","Stage & Screen",1,"Silver",0.15483666956424713,"Gray",0.09802979975938797,"Black",0.09683482348918915
+"Atticus Ross","2015","Music From Love & Mercy","Pop",0,"Silver",0.2850141227245331,"Navy",0.14193721115589142,"Teal",0.07793211936950684
+"Atticus Ross","2014","Gone Girl (Soundtrack From The Motion Picture)","Electronic",0,"White",0.6303050518035889,"Silver",0.20979031920433044,"Gray",0.08651403337717056
+"Atticus Ross","2016","Almost Holy (Original Motion Picture Soundtrack)","Electronic",0,"Red",0.24654676020145416,"Gray",0.16393813490867615,"Black",0.15162768959999084
+"Atticus Ross","2010","The Social Network","Electronic",1,"Black",0.4635745584964752,"Black",0.19333067536354065,"Maroon",0.053821563720703125
+"Atticus Ross","2017","The Vietnam War","Stage & Screen",0,"Black",0.6225358843803406,"Gray",0.2042112797498703,"Black",0.0763275995850563
+"Atticus Ross","2012","The Girl With The Dragon Tattoo","Electronic",0,"Silver",0.9593998789787292,"Silver",0.028242209926247597,"Gray",0.008313147351145744
+"Bauhaus","1999","Gotham","Rock",0,"Gray",0.3395931124687195,"Gray",0.23322781920433044,"Gray",0.17975246906280518
+"Beck","1996","Odelay","Electronic",0,"Black",0.11655841022729874,"Black",0.09200931340456009,"Olive",0.08511150628328323
+"Beck","1998","Mutations","Rock",1,"Silver",0.48781222105026245,"Gray",0.12549586594104767,"Silver",0.06450998038053513
+"Beck","2014","Morning Phase","Rock",0,"Olive",0.06910853087902069,"Gray",0.06538695096969604,"Gray",0.062011536210775375
+"Beck","2005","Guerolito","Electronic",1,"Silver",0.27327677607536316,"Silver",0.2569787800312042,"Olive",0.09013310819864273
+"Beck","2008","Modern Guilt","Rock",0,"Silver",0.27468934655189514,"Black",0.2685541808605194,"Gray",0.24923373758792877
+"Beck","1994","One Foot In The Grave","Rock",2,"Black",0.4947569966316223,"Black",0.22460652887821198,"Gray",0.08456364274024963
+"Ben Folds","2001","Rockin' The Suburbs","Rock",0,"White",0.8171951770782471,"Silver",0.10054070502519608,"Silver",0.06414347141981125
+"Ben Folds","2008","Way To Normal (Deluxe Edition)","Rock",0,"Gray",0.15102487802505493,"Gray",0.12401237338781357,"Gray",0.1192469522356987
+"Ben Folds","2015","So There","Rock",0,"Silver",0.26713576912879944,"White",0.2172069251537323,"Gray",0.11659972369670868
+"Ben Folds","2005","Songs For Silverman","Rock",0,"Black",0.2201080620288849,"Gray",0.17240546643733978,"Gray",0.1549430787563324
+"Ben Folds","2006","Supersunnyspeedgraphic, The LP","Rock",0,"Black",0.15994861721992493,"Black",0.10268303006887436,"Navy",0.069514200091362
+"Berlin","2013","Animal","Electronic",0,"Black",0.3083029091358185,"White",0.27177050709724426,"Black",0.15774480998516083
+"Berlin","2010","Extended Versions","Electronic",3,"White",0.15809115767478943,"Gray",0.1580793261528015,"Black",0.11987200379371643
+"Berlin","1982","Pleasure Victim","Electronic",1,"Black",0.13348354399204254,"Silver",0.09885532408952713,"Black",0.08220243453979492
+"Berlin","1986","Count Three & Pray","Electronic",0,"Purple",0.181236132979393,"Gray",0.1151479184627533,"Gray",0.08891821652650833
+"Berlin","1984","Love Life","Electronic",1,"Black",0.5786930322647095,"Black",0.06583181023597717,"Silver",0.046197984367609024
+"Big Audio Dynamite","1988","Tighten Up Vol. 88","Electronic",0,"Gray",0.06926364451646805,"Silver",0.06821995228528976,"Olive",0.04051393270492554
+"Big Audio Dynamite","1989","Megatop Phoenix","Electronic",0,"Red",0.13426204025745392,"Gray",0.09351000189781189,"Yellow",0.06399953365325928
+"Big Audio Dynamite","1995","F-Punk","Electronic",0,"Silver",0.20178218185901642,"Black",0.15178070962429047,"Gray",0.14789921045303345
+"Big Country","1997","King Biscuit Flower Hour Presents","Rock",0,"Red",0.362569659948349,"Red",0.08007608354091644,"Gray",0.0460592657327652
+"Billy Corgan","2005","TheFutureEmbrace","Electronic",1,"Gray",0.22735600173473358,"Silver",0.22138921916484833,"White",0.1165655180811882
+"Blacksmith Union","1996","Vent","Rock",0,"Black",0.19078105688095093,"Navy",0.1653929054737091,"Navy",0.14185772836208344
+"Black Tape for a Blue Girl","1992","Mesmerized By The Sirens","Electronic",0,"Olive",0.2560361623764038,"Olive",0.15564924478530884,"Olive",0.09229951351881027
+"Black Tape for a Blue Girl","2013","Tenderotics","Electronic",0,"Black",0.1250917911529541,"Gray",0.07411225885152817,"Silver",0.0642726942896843
+"Black Tape for a Blue Girl","1999","As One Aflame Laid Bare By Desire","Electronic",0,"Gray",0.3392697274684906,"Gray",0.24160140752792358,"Gray",0.23881715536117554
+"Black Tape for a Blue Girl","2002","The Scavenger Bride","Electronic",0,"Silver",0.47721967101097107,"Silver",0.3206993341445923,"Silver",0.10596973448991776
+"Black Tape for a Blue Girl","2004","Halo Star","Electronic",1,"Black",0.5292123556137085,"Gray",0.2536223232746124,"Gray",0.06350922584533691
+"Black Tape for a Blue Girl","1996","Remnants Of A Deeper Purity","Electronic",0,"Olive",0.505134642124176,"Gray",0.1016712635755539,"Olive",0.06258176267147064
+"Black Tape for a Blue Girl","1989","Ashes In The Brittle Air","Electronic",0,"Black",0.2289663702249527,"Navy",0.13073091208934784,"Black",0.12931574881076813
+"Black Tape for a Blue Girl","1991","A Chaos Of Desire","Electronic",0,"White",0.24934017658233643,"White",0.22372521460056305,"Silver",0.09268568456172943
+"Black Tape for a Blue Girl","2016","These Fleeting Moments","Electronic",0,"Silver",0.5203972458839417,"Silver",0.2125312089920044,"Gray",0.0488494336605072
+"Black Tape for a Blue Girl","1993","This Lush Garden Within","Electronic",0,"White",0.18635857105255127,"Gray",0.17222942411899567,"Gray",0.1272234320640564
+"Black Tape for a Blue Girl","2009","10 Neurotics","Electronic",0,"Silver",0.5688591003417969,"Silver",0.3157588839530945,"White",0.03437855467200279
+"Black Tape for a Blue Girl","2018","To Touch The Milky Way","Electronic",0,"Black",0.12791211903095245,"White",0.11420870572328568,"Black",0.10702972114086151
+"Black Tape for a Blue Girl","2011","The Rope 25","Electronic",0,"Silver",0.2634947896003723,"Silver",0.16355668008327484,"Silver",0.10883508622646332
+"Blonde Redhead","2000","Melody Of Certain Damaged Lemons","Rock",3,"Black",0.6145913004875183,"Black",0.06157301366329193,"Maroon",0.037180811166763306
+"Blonde Redhead","1998","In An Expression Of The Inexpressible","Rock",0,"Silver",0.49614375829696655,"Maroon",0.10887189954519272,"Gray",0.04761727154254913
+"Blonde Redhead","1995","La Mia Vita Violenta","Rock",0,"Red",0.21369245648384094,"Silver",0.1805371791124344,"Black",0.12578895688056946
+"Blonde Redhead","2004","Misery Is A Butterfly","Rock",0,"White",0.5856418609619141,"Silver",0.3436335623264313,"Silver",0.03254558518528938
+"Blonde Redhead","2014","Barragán","Rock",0,"Black",0.3736937642097473,"Black",0.19924843311309814,"Silver",0.17909331619739532
+"Blonde Redhead","2010","Penny Sparkle","Rock",0,"Gray",0.2741529941558838,"Red",0.24822068214416504,"Silver",0.1174982488155365
+"Blonde Redhead","2011","Fake Can Be Just As Good","Rock",0,"White",0.40039879083633423,"Silver",0.1436307430267334,"Gray",0.13100430369377136
+"Blondie","2017","Pollinator","Rock",0,"Black",0.3104061484336853,"White",0.2800387740135193,"Silver",0.09111862629652023
+"Blondie","2003","The Curse Of Blondie","Electronic",4,"Yellow",0.10659853368997574,"Maroon",0.08949572592973709,"Silver",0.06884803622961044
+"Blondie","1977","Blondie","Rock",4,"Black",0.44254329800605774,"Black",0.07204180210828781,"Gray",0.06518574804067612
+"Blues Brothers, The","1980","Made In America","Rock",0,"Maroon",0.4864291250705719,"Maroon",0.35031434893608093,"Maroon",0.031832944601774216
+"Blues Brothers, The","1980","The Blues Brothers (Original Soundtrack Recording)","Rock",2,"Gray",0.19313989579677582,"Gray",0.09516247361898422,"Gray",0.09078675508499146
+"Bob Marley & The Wailers","2013","Legend Remixed","Reggae",1,"Black",0.2542497515678406,"Silver",0.18151062726974487,"Silver",0.13616861402988434
+"Bow Wow Wow","1993","I Want Candy","Rock",1,"Gray",0.30247652530670166,"Black",0.14564161002635956,"Gray",0.09601118415594101
+"Brian Eno","1982","Ambient 4 (On Land)","Electronic",0,"Silver",0.18866361677646637,"Gray",0.10685104131698608,"Silver",0.08620495349168777
+"Brian Eno","1992","The Shutov Assembly","Electronic",0,"Silver",0.17360039055347443,"Olive",0.11039342731237411,"Olive",0.07286997884511948
+"Brian Eno","1994","Headcandy (Expanded Album)","Electronic",0,"Gray",0.1774107664823532,"Gray",0.12504130601882935,"Gray",0.11790359020233154
+"Brian Eno","1979","Floating In Sequence","Rock",1,"White",0.5398215651512146,"Black",0.17134715616703033,"Silver",0.1174767017364502
+"Brian Eno","1983","Music For Films Volume 2","Electronic",0,"Maroon",0.17805546522140503,"Gray",0.11162606626749039,"Maroon",0.1001872643828392
+"Broken Records","2010","Let Me Come Home","Rock",0,"Gray",0.4225923717021942,"Gray",0.16027405858039856,"Gray",0.1475210189819336
+"Broken Records","2009","Until The Earth Begins To Part","Rock",0,"White",0.6451099514961243,"Silver",0.135637104511261,"Black",0.08666838705539703
+"BT","2015","Electronic Opus","Electronic",0,"Gray",0.16181643307209015,"Gray",0.1364368498325348,"Silver",0.12098041921854019
+"Buggles, The",,"The Age Of Plastic","Electronic",0,"White",0.08568309247493744,"Gray",0.06700807064771652,"Gray",0.06124956160783768
+"Buzzcocks","1996","All Set","Rock",0,"White",0.3531622290611267,"Yellow",0.3065955340862274,"Black",0.12872952222824097
+"Cars, The","1980","Panorama","Electronic",0,"Cyan",0.12808309495449066,"White",0.11309462785720825,"Silver",0.08141814917325974
+"Cars, The","1981","Shake It Up","Rock",1,"Black",0.26949480175971985,"Red",0.07738497108221054,"Maroon",0.07097071409225464
+"Cars, The","2011","Move Like This","Rock",0,"Maroon",0.0932607501745224,"Black",0.07815522700548172,"Maroon",0.07292280346155167
+"Cars, The","1984","Heartbeat City","Rock",0,"Silver",0.1710572987794876,"Maroon",0.09434454888105392,"Gray",0.06255112588405609
+"Cars, The","1987","Door To Door","Rock",2,"Black",0.11282585561275482,"Silver",0.05722939223051071,"Gray",0.05410638451576233
+"Cars, The","1978","The Cars","Rock",1,"Black",0.33071550726890564,"Black",0.1416788399219513,"Maroon",0.06458986550569534
+"Cars, The","1979","Super Groups In Concert Presents The Cars","Electronic",0,"Gray",0.47521287202835083,"Gray",0.2000974416732788,"Teal",0.12313489615917206
+"Cars, The","1979","Candy-O","Rock",0,"White",0.7145102024078369,"White",0.08401542156934738,"Maroon",0.024825943633913994
+"Chatelaine","1999","Lost Love","Funk / Soul",1,"Black",0.18700094521045685,"Black",0.17959605157375336,"Black",0.07091042399406433
+"Chromatics, The",,"Shoulders Of Giants And Other Astronomy Songs","Electronic",0,"Silver",0.566503643989563,"Gray",0.13615795969963074,"Silver",0.13227641582489014
+"Church, The","1990","Gold Afternoon Fix","Rock",3,"Black",0.30055302381515503,"Black",0.1474955826997757,"White",0.13688616454601288
+"Church, The","1999","A Box Of Birds","Rock",0,"Maroon",0.35115981101989746,"Gray",0.06929613649845123,"Maroon",0.067783422768116
+"Church, The","1984","Remote Luxury","Rock",1,"Black",0.3355497419834137,"Black",0.1298096626996994,"Gray",0.11201239377260208
+"Church, The","1992","Priest = Aura","Rock",0,"Gray",0.6230758428573608,"Gray",0.21442438662052155,"Navy",0.14326593279838562
+"Church, The","2009","Untitled #23","Rock",0,"Maroon",0.643843412399292,"Silver",0.10382619500160217,"Silver",0.035465724766254425
+"Chvrches","2015","Every Open Eye","Electronic",0,"Silver",0.12443900853395462,"Silver",0.09805265814065933,"Silver",0.09647886455059052
+"Chvrches","2013","The Bones Of What You Believe","Electronic",0,"Gray",0.4214302599430084,"Gray",0.17045271396636963,"Gray",0.121564581990242
+"Cibo Matto","1996","Viva! La Woman","Electronic",0,"White",0.3629646897315979,"Silver",0.09873812645673752,"Silver",0.0646793395280838
+"Cibo Matto",,"Stereotype A","Electronic",0,"White",0.5789885520935059,"Silver",0.2674882113933563,"Silver",0.13643033802509308
+"Clash, The","1999","The Clash (US Version) / London Calling / Combat Rock","Rock",0,"Maroon",0.07503791153430939,"Black",0.07112917304039001,"Gray",0.053312305361032486
+"Clash, The",,"Fury","Rock",2,"Black",0.21067918837070465,"Maroon",0.1278158277273178,"Maroon",0.10688513517379761
+"Cold Cave","2011","Cherish The Light Years","Electronic",0,"White",0.29990682005882263,"Silver",0.2025364488363266,"Gray",0.10671216249465942
+"Cold Cave","2009","Love Comes Close","Electronic",1,"White",0.3604021668434143,"Black",0.09353841841220856,"Red",0.04306342825293541
+"Coldplay","2005","X&Y","Rock",0,"Yellow",0.1292390674352646,"Gray",0.12466441094875336,"Gray",0.11881951987743378
+"Com Truise","2014","In Decay","Electronic",0,"Gray",0.39123597741127014,"Gray",0.14219249784946442,"Gray",0.11762042343616486
+"Com Truise","2017","Galactic Melt","Electronic",0,"Gray",0.17981623113155365,"Yellow",0.1721760779619217,"Silver",0.1221487894654274
+"Com Truise","2019","Persuasion System","Electronic",0,"Gray",0.3245246112346649,"Gray",0.19279280304908752,"Gray",0.18971577286720276
+"Com Truise","2017","Iteration","Electronic",0,"Silver",0.18743224442005157,"Silver",0.18148252367973328,"Gray",0.11861063539981842
+"Cranberries, The","1996","To The Faithful Departed","Rock",4,"Silver",0.32759925723075867,"Maroon",0.09603998064994812,"Gray",0.0750708132982254
+"Crowded House","1993","Together Alone","Rock",0,"Maroon",0.16082394123077393,"Red",0.09664271026849747,"Gray",0.08569394797086716
+"Cult, The","2013","Electric Peace","Rock",0,"White",0.8272284269332886,"Black",0.08208201825618744,"Silver",0.03302917256951332
+"Curve","2001","Gift","Electronic",0,"White",0.9941482543945312,"Silver",0.005851730238646269,,
+"Curve",,"Doppelgänger","Electronic",0,"Red",0.4176940619945526,"Red",0.17429383099079132,"Red",0.15408620238304138
+"Cyndi Lauper","1983","She's So Unusual","Electronic",1,"Purple",0.12114206701517105,"Gray",0.0870976448059082,"Gray",0.07808015495538712
+"Cyndi Lauper","1993","Hat Full Of Stars","Electronic",0,"White",0.27118179202079773,"Black",0.223443403840065,"Silver",0.20495611429214478
+"Cyndi Lauper","2016","Detour","Pop",0,"Black",0.2400560826063156,"Black",0.20478662848472595,"Gray",0.06411314755678177
+"Cyndi Lauper","2003","At Last","Jazz",1,"Navy",0.35289421677589417,"Black",0.33695533871650696,"Black",0.10414975136518478
+"Cyndi Lauper","1989","A Night To Remember","Electronic",0,"Gray",0.09316509962081909,"Yellow",0.048365943133831024,"Olive",0.03629064932465553
+"Daniel Ash","2002","Daniel Ash","Electronic",0,"Black",0.40256136655807495,"Maroon",0.15214376151561737,"Black",0.14720363914966583
+"Daniel Ash","2015","Stripped","Electronic",0,"Yellow",0.4155636429786682,"Yellow",0.15847016870975494,"Yellow",0.08065739274024963
+"Daniel Ash","1992","Foolish Thing Desire","Rock",0,"Black",0.4339875280857086,"Black",0.33395063877105713,"Gray",0.09748466312885284
+"She & Him","2013","Volume 3","Pop",0,"Silver",0.5276376605033875,"Silver",0.1501649171113968,"Silver",0.05377117544412613
+"Sia","2010","We Are Born","Pop",0,"Silver",0.1434849500656128,"Silver",0.14312730729579926,"White",0.032708559185266495
+"Talking Heads","1983","Speaking In Tongues","Rock",0,"Gray",0.45360255241394043,"Gray",0.33069536089897156,"Yellow",0.06909006088972092
+"Tycho","2017","Epoch","Electronic",0,"White",0.5312363505363464,"Black",0.1427939236164093,"Olive",0.0968363955616951
+"Daniel Ash","1991","Coming Down","Rock",1,"Black",0.2811475396156311,"Black",0.22392210364341736,"Navy",0.08636162430047989
+"Daniel Lanois","1989","Acadie","Electronic",1,"Black",0.49847882986068726,"White",0.34562647342681885,"Silver",0.027064964175224304
+"Daniel Lanois","2003","Shine","Rock",0,"Black",0.9246894717216492,"Black",0.02868431992828846,"Gray",0.01175764575600624
+"Daniel Lanois","2005","Belladonna","Electronic",0,"Silver",0.1683572381734848,"Purple",0.14835309982299805,"Olive",0.13824458420276642
+"Daniel Lanois","2014","Flesh And Machine","Electronic",0,"Silver",0.28503894805908203,"Silver",0.2528635859489441,"Silver",0.08528808504343033
+"Darkel","2006","Darkel","Electronic",0,"Gray",0.6083310842514038,"Black",0.1610441356897354,"Black",0.11532265692949295
+"Dead Can Dance","2006","DCD 2005","Electronic",0,"Silver",0.4719889760017395,"White",0.2776836156845093,"Gray",0.13274936378002167
+"Dead Can Dance","2006","DCD 2005","Electronic",0,"Silver",0.4719889760017395,"White",0.2776836156845093,"Gray",0.13274936378002167
+"Dead Can Dance","2005","DCD 2005","Electronic",0,"Gray",0.403529554605484,"Gray",0.16085608303546906,"Gray",0.14357884228229523
+"Deep Forest","1997","Comparsa","Electronic",0,"Silver",0.26903313398361206,"Silver",0.08593086898326874,"Black",0.0366993211209774
+"Delorean","2007","Transatlantic K.K.","Electronic",0,"Black",0.35905346274375916,"Silver",0.13349370658397675,"Silver",0.1269192397594452
+"Devo","1978","Q: Are We Not Men? A: We Are Devo!","Rock",1,"Yellow",0.2717592418193817,"White",0.10739553719758987,"Yellow",0.07713845372200012
+"Devo","1979","Duty Now For The Future","Rock",0,"Gray",0.30480095744132996,"Gray",0.06503229588270187,"Gray",0.06016405299305916
+"Devo","1984","Shout","Electronic",1,"Yellow",0.11987463384866714,"Navy",0.08267512172460556,"Cyan",0.05622673034667969
+"Devo","1991","Hardcore Devo Volume 2","Electronic",0,"Gray",0.24768920242786407,"Gray",0.1469613015651703,"Gray",0.12500911951065063
+"Devo","1982","Oh, No! It's Devo","Electronic",6,"Gray",0.11112507432699203,"Gray",0.10876914858818054,"Black",0.09305251389741898
+"Devo","1989","Now It Can Be Told, Devo At The Palace 12/9/88","Electronic",0,"Black",0.3190356492996216,"Red",0.14795663952827454,"White",0.14698483049869537
+"Devo","1990","Smooth Noodle Maps","Electronic",0,"Red",0.1947985589504242,"Yellow",0.09852821379899979,"Gray",0.09303532540798187
+"Dexy's Midnight Runners","1985","Don't Stand Me Down","Rock",4,"Black",0.20695769786834717,"Maroon",0.16741065680980682,"Black",0.1668563336133957
+"Don Henley","1982","I Can't Stand Still","Rock",1,"Maroon",0.1828531175851822,"Olive",0.16413162648677826,"Silver",0.08526256680488586
+"Doobie Brothers, The","1980","One Step Closer","Rock",5,"Black",0.18460366129875183,"Gray",0.12599608302116394,"Black",0.12591053545475006
+"Doobie Brothers, The","1989","Cycles","Rock",0,"Silver",0.18610207736492157,"Silver",0.14962784945964813,"Gray",0.07982055842876434
+"Doobie Brothers, The","1978","Minute By Minute","Rock",2,"White",0.3949415385723114,"Black",0.23251120746135712,"Silver",0.06867985427379608
+"Doobie Brothers, The","1975","Stampede","Rock",0,"Silver",0.24299602210521698,"White",0.1363804191350937,"Olive",0.10087841004133224
+"Doobie Brothers, The","1983","Farewell Tour","Rock",0,"Silver",0.25077196955680847,"Gray",0.12164991348981857,"Black",0.08058885484933853
+"Doobie Brothers, The","1977","Livin' On The Fault Line","Rock",0,"Teal",0.2627093493938446,"Gray",0.16473066806793213,"Black",0.10283131897449493
+"Doobie Brothers, The","1974","What Were Once Vices Are Now Habits","Rock",0,"Gray",0.14193184673786163,"Maroon",0.08885035663843155,"Silver",0.08759438991546631
+"Doors, The",,"Two Originals Of The Doors: 13 And L.A. Woman","Rock",0,"Gray",0.26992717385292053,"Gray",0.1822759509086609,"Gray",0.17288967967033386
+"Doors, The","1972","Full Circle","Rock",0,"Gray",0.1569453328847885,"Gray",0.07492820918560028,"Olive",0.07347945123910904
+"Doors, The","1971","L.A. Woman","Rock",4,"Yellow",0.3131067454814911,"Black",0.17993436753749847,"Yellow",0.05371639505028725
+"Doors, The",,"Moonlight Drive","Rock",5,"Teal",0.1606222540140152,"Silver",0.0916016474366188,"Gray",0.07752607017755508
+"Doors, The","2002","Backstage And Dangerous: The Private Rehearsal","Rock",0,"White",0.17461906373500824,"Gray",0.09206558018922806,"Gray",0.08100134879350662
+"Doors, The","1988","Fast Times At Danbury High","Rock",0,"Black",0.3797367513179779,"Black",0.07047288864850998,"Black",0.056502584367990494
+"Echo & The Bunnymen","2006","House Of Blues West Hollywood, CA 12/6/05","Rock",0,"Gray",0.3005133271217346,"Gray",0.266666442155838,"Gray",0.1926853507757187
+"Echo & The Bunnymen","1999","What Are You Going To Do With Your Life?","Rock",0,"Silver",0.4433145225048065,"Gray",0.17531226575374603,"Silver",0.13477377593517303
+"Echo & The Bunnymen","2006","House Of Blues San Diego, CA 12/9/05","Rock",0,"Gray",0.30202627182006836,"Gray",0.2282981276512146,"Gray",0.18682242929935455
+"Echo & The Bunnymen","2006","House Of Blues Anaheim, CA 12/7/05","Rock",0,"Gray",0.46523913741111755,"Gray",0.2437390387058258,"Silver",0.08101069927215576
+"Eddy Grant","1990","Barefoot Soldier","Reggae",0,"Silver",0.13462719321250916,"Silver",0.12854605913162231,"Silver",0.08495812863111496
+"Edgar Froese","1979","Stuntman","Electronic",0,"Silver",0.3979153633117676,"Silver",0.26521700620651245,"Black",0.08674129098653793
+"Electronic","1996","Raise The Pressure","Electronic",0,"Gray",0.14668552577495575,"Red",0.12416941672563553,"Yellow",0.08839321881532669
+"Elvis Costello","1995","Elvis Costello's Kojak Variety","Rock",0,"Navy",0.14440056681632996,"Silver",0.12962716817855835,"Navy",0.1245548278093338
+"Elvis Costello","2010","National Ransom","Rock",0,"Gray",0.13848170638084412,"Silver",0.10143498331308365,"Gray",0.09784289449453354
+"Engineers","2005","Engineers","Rock",0,"Black",0.3075683116912842,"Black",0.20499011874198914,"Black",0.08779333531856537
+"English Beat, The","1982","Special Beat Service","Rock",0,"Gray",0.25512248277664185,"Gray",0.14538614451885223,"Silver",0.08622125536203384
+"Everything But The Girl","1992","Acoustic","Rock",0,"Olive",0.19185605645179749,"Maroon",0.10346682369709015,"Maroon",0.10284560173749924
+"Faint, The","2002","Danse Macabre","Electronic",0,"Red",0.1675914078950882,"Gray",0.11021921038627625,"Maroon",0.07817866653203964
+"Faint, The","2019","Egowerk","Electronic",0,"Gray",0.15046051144599915,"Maroon",0.13302604854106903,"Olive",0.1224525198340416
+"Faint, The","2014","Doom Abuse","Electronic",0,"Maroon",0.16842618584632874,"Maroon",0.1173396185040474,"Olive",0.09856300055980682
+"Faint, The","2008","Fasciinatiion","Electronic",0,"Cyan",0.20938286185264587,"Black",0.12141235917806625,"Silver",0.1105472594499588
+"Faint, The","2004","Wet From Birth","Electronic",0,"Gray",0.269281268119812,"Gray",0.19634246826171875,"Gray",0.10986965894699097
+"Faint, The",,"Blank-Wave Arcade","Electronic",0,"Silver",0.3798549473285675,"White",0.2887198328971863,"Silver",0.2880799174308777
+"Falco","1996","Falco 3","Electronic",0,"Red",0.3693543076515198,"Red",0.29300978779792786,"Red",0.1139659509062767
+"Feist","2007","The Reminder","Rock",0,"Black",0.6853353381156921,"White",0.07451476156711578,"Silver",0.0379977785050869
+"Feist","2011","Metals","Rock",0,"Silver",0.5670615434646606,"Silver",0.09237062931060791,"Silver",0.049573853611946106
+"Filter","2013","The Sun Comes Out Tonight","Electronic",0,"Olive",0.09985961019992828,"Olive",0.09820586442947388,"Olive",0.09761597216129303
+"Filter","1995","Short Bus","Electronic",0,"Gray",0.18653808534145355,"Gray",0.12645502388477325,"Gray",0.09719181805849075
+"Filter","2002","The Amalgamut","Rock",0,"White",0.9388906955718994,"Silver",0.023113062605261803,"Gray",0.012326771393418312
+"Filter","2016","Crazy Eyes","Electronic",0,"Black",0.19915325939655304,"Gray",0.14184334874153137,"Gray",0.1094624400138855
+"Filter","2010","The Trouble With Angels","Electronic",0,"Navy",0.6104008555412292,"Silver",0.04980557784438133,"Navy",0.049683596938848495
+"Filter","2008","Anthems For The Damned","Rock",0,"Gray",0.16431397199630737,"Gray",0.13020026683807373,"Silver",0.07279409468173981
+"Fine Young Cannibals",,"Fine Young Cannibals","Electronic",0,"Black",0.288083016872406,"Black",0.1734197437763214,"Navy",0.1252133548259735
+"Fixx, The","1999","1011 Woodland","Rock",0,"Olive",0.37855541706085205,"Olive",0.27341800928115845,"Olive",0.10272767394781113
+"Fixx, The","1995","In Concert","Electronic",1,"Black",0.2606855034828186,"Black",0.21990439295768738,"Red",0.04992172494530678
+"Fixx, The","1991","Ink.","Rock",0,"Black",0.3568040430545807,"Black",0.18848265707492828,"White",0.08776146918535233
+"Fixx, The","2004","Stage One","Rock",0,"Black",0.5621330142021179,"White",0.09427158534526825,"Gray",0.09365640580654144
+"Fixx, The","2012","Beautiful Friction","Rock",0,"Olive",0.41619765758514404,"Gray",0.22671088576316833,"Black",0.13469156622886658
+"Fixx, The","1998","Elemental","Rock",0,"Maroon",0.23138543963432312,"Red",0.11504636704921722,"Maroon",0.07311917096376419
+"Flaming Lips, The","2009","Embryonic","Rock",0,"Silver",0.2546602189540863,"Silver",0.17408165335655212,"Yellow",0.08824240416288376
+"Flaming Lips, The","2006","The Fearless Freaks","Electronic",0,"Silver",0.14162473380565643,"Black",0.0762418657541275,"Gray",0.07467594742774963
+"Flaming Lips, The","1993","Transmissions From The Satellite Heart","Rock",0,"White",0.486990362405777,"Silver",0.2344508171081543,"Black",0.18215547502040863
+"Flaming Lips, The","1997","Zaireeka","Electronic",0,"Red",0.1355699896812439,"Gray",0.11906290054321289,"Gray",0.10351785272359848
+"Flaming Lips, The","1987","Oh My Gawd!!!...The Flaming Lips","Rock",0,"Silver",0.1107741966843605,"Silver",0.10564547032117844,"Silver",0.10356291383504868
+"Flaming Lips, The","1989","Telepathic Surgery","Rock",0,"Silver",0.18330450356006622,"Silver",0.17150448262691498,"Silver",0.12153295427560806
+"Flaming Lips, The","2016","Lightning Strikes The Postman (An Alternate Mix Of Clouds Taste Metallic)","Rock",0,"Red",0.18217290937900543,"Yellow",0.12208634614944458,"Red",0.06336285918951035
+"Flaming Lips, The","1999","The Soft Bulletin","Rock",0,"Olive",0.7439640164375305,"Olive",0.06165618076920509,"Olive",0.02261374145746231
+"Fleetwood Mac","2003","Say You Will","Rock",1,"Black",0.30863890051841736,"Gray",0.12064824253320694,"Silver",0.11192954331636429
+"Fleetwood Mac","1975","Fleetwood Mac","Rock",0,"Black",0.3674004077911377,"Silver",0.3009187877178192,"Black",0.17849114537239075
+"Fleetwood Mac","1999","Shrine '69","Rock",3,"Silver",0.14650824666023254,"White",0.071634441614151,"Black",0.05290474742650986
+"Flight Of The Conchords","2008","Flight Of The Conchords","Rock",0,"Gray",0.07590235024690628,"Gray",0.07216650247573853,"Gray",0.06335621327161789
+"Flight Of The Conchords","2009","I Told You I Was Freaky","Electronic",0,"Black",0.10643360763788223,"Silver",0.09706787765026093,"Gray",0.07238707691431046
+"Flying Lizards, The","1979","The Flying Lizards","Electronic",0,"Green",0.16024261713027954,"Gray",0.1476188451051712,"Gray",0.06819147616624832
+"Foo Fighters","1999","There Is Nothing Left To Lose","Rock",0,"Black",0.41621553897857666,"Silver",0.4104864001274109,"Gray",0.08815713226795197
+"Foo Fighters","2014","Sonic Highways","Rock",0,"Gray",0.14640717208385468,"Gray",0.13248153030872345,"Gray",0.11725816130638123
+"Foo Fighters","2005","In Your Honor","Rock",0,"Silver",0.08490967005491257,"White",0.07341787219047546,"Black",0.07199697941541672
+"Foreigner","1977","Foreigner","Rock",0,"Olive",0.13650120794773102,"Silver",0.12243158370256424,"Gray",0.0921044573187828
+"Foreigner","1981","4","Rock",0,"Gray",0.3620881736278534,"Silver",0.3175296485424042,"Gray",0.10730082541704178
+"Foreigner","1979","Head Games","Rock",0,"Gray",0.18091566860675812,"Gray",0.10997968167066574,"Gray",0.08052560687065125
+"Foreigner","2006","Extended Versions","Rock",6,"White",0.21496157348155975,"Black",0.20667268335819244,"Gray",0.10448531061410904
+"Foreigner","2011","Feels Like The First Time","Rock",0,"Black",0.4034266173839569,"Gray",0.1805100440979004,"Silver",0.104672871530056
+"Frank Zappa","1996","Frank Zappa Plays The Music Of Frank Zappa: A Memorial Tribute","Rock",0,"Black",0.5921028256416321,"Black",0.3700385093688965,"Gray",0.037095118314027786
+"Frank Zappa","1978","Studio Tan","Rock",0,"Yellow",0.11651181429624557,"Yellow",0.10197599232196808,"Silver",0.08092854917049408
+"Frank Zappa","1988","Broadway The Hard Way","Rock",1,"White",0.1963767260313034,"Silver",0.14970387518405914,"Gray",0.12399018555879593
+"Frank Zappa","2004","Joe's Domage","Jazz",0,"Gray",0.22904564440250397,"Gray",0.21072150766849518,"Gray",0.14229513704776764
+"Frank Zappa","2005","Joe's XMASage","Rock",1,"Silver",0.32948553562164307,"Gray",0.14598515629768372,"Silver",0.06948624551296234
+"Gary Numan","1991","Outland","Electronic",0,"Teal",0.41762083768844604,"Gray",0.23363125324249268,"White",0.09757359325885773
+"Giorgio Moroder","1980","American Gigolo (Original Soundtrack Recording)","Electronic",0,"Gray",0.3376138210296631,"Silver",0.12223315984010696,"Black",0.12205451726913452
+"Giorgio Moroder","1978","Midnight Express (Music From The Original Motion Picture Soundtrack)","Electronic",0,"White",0.37281501293182373,"Silver",0.07021217793226242,"Gray",0.0349479578435421
+"Glasser","2013","Interiors","Electronic",0,"Gray",0.19700877368450165,"Gray",0.13318829238414764,"Gray",0.12395419180393219
+"Glasser","2010","Ring","Electronic",0,"White",0.7844428420066833,"Silver",0.08566310256719589,"Gray",0.043352238833904266
+"Glasser","2012","Mzansi","Jazz",0,"Yellow",0.07458430528640747,"Teal",0.049172889441251755,"Black",0.028037622570991516
+"Go-Go's, The","1964","Swim With The Go-Go's","Rock",0,"Silver",0.3627179265022278,"Silver",0.1810532510280609,"Black",0.17037931084632874
+"Go-Go's, The","1982","Brimstone & Treacle (Original Soundtrack Album)","Electronic",0,"Gray",0.21520783007144928,"Gray",0.10895994305610657,"Black",0.09094629436731339
+"Grinderman","2010","Grinderman 2","Rock",0,"Maroon",0.12420303374528885,"Gray",0.11844395101070404,"Olive",0.11822091788053513
+"Grinderman","2007","Grinderman","Rock",0,"Black",0.17219237983226776,"Gray",0.13031373918056488,"Gray",0.05603974685072899
+"Hammock","2016","Everything And Nothing","Electronic",0,"Olive",0.11812669783830643,"Silver",0.07010696083307266,"Gray",0.06337796896696091
+"Hammock","2011","Raising Your Voice...Trying To Stop An Echo","Electronic",0,"Teal",0.3341955542564392,"Black",0.2618415951728821,"Navy",0.05797590687870979
+"Hammock","2013","Chasing After Shadows...Living With The Ghosts","Electronic",0,"Gray",0.5740061402320862,"Olive",0.15046387910842896,"Gray",0.10148882120847702
+"Hammock","2013","Maybe They Will Sing For Us Tomorrow","Electronic",0,"Gray",0.39674416184425354,"Gray",0.17158085107803345,"Gray",0.16020023822784424
+"Hammock","2013","Oblivion Hymns","Electronic",0,"White",0.7060753703117371,"Silver",0.13483506441116333,"Gray",0.10693477094173431
+"Hammock","2017","Mysterium","Rock",0,"Gray",0.5055546164512634,"Gray",0.45734626054763794,"Gray",0.022931857034564018
+"Harold Budd","2000","The Room","Electronic",0,"Gray",0.6182432770729065,"Maroon",0.2841826379299164,"Gray",0.05698905512690544
+"Harold Budd","2005","By The Dawn's Early Light","Electronic",0,"Black",0.7199799418449402,"Black",0.1105305626988411,"White",0.060698751360177994
+"Harold Budd","2003","La Bella Vista","Electronic",0,"Maroon",0.2512732744216919,"Red",0.16896606981754303,"Purple",0.1535748839378357
+"Harold Budd","1988","The White Arcades","Electronic",0,"White",0.8664172291755676,"Silver",0.12070361524820328,"White",0.01129201240837574
+"Harold Budd","2005","Luxa","Electronic",0,"Yellow",0.750840425491333,"Yellow",0.09263142943382263,"Yellow",0.03996388241648674
+"Harold Budd","2011","In The Mist","Electronic",0,"Gray",0.35723668336868286,"Olive",0.1104707419872284,"Gray",0.10492546111345291
+"Harold Budd","1994","Lovely Thunder","Electronic",0,"Navy",0.08363230526447296,"Olive",0.06379056721925735,"Gray",0.04871492087841034
+"Helium","1995","The Dirt Of Luck","Rock",0,"Gray",0.34834548830986023,"Gray",0.25728046894073486,"Gray",0.11841240525245667
+"Helium","1997","The Magic City","Rock",0,"Gray",0.061918679624795914,"Teal",0.05299410969018936,"Teal",0.04174763709306717
+"Herbie Hancock","1978","Sunlight","Electronic",1,"Maroon",0.1799597293138504,"Gray",0.17623001337051392,"Maroon",0.09042119234800339
+"Herbie Hancock","1971","Mwandishi","Jazz",0,"Silver",0.21618123352527618,"Green",0.17724236845970154,"Green",0.15596771240234375
+"Herbie Hancock","2010","The Imagine Project","Jazz",0,"White",0.30943310260772705,"Silver",0.07998093217611313,"White",0.07512420415878296
+"Herbie Hancock","1974","Thrust","Jazz",1,"Gray",0.15936149656772614,"Silver",0.14029979705810547,"Gray",0.11527018249034882
+"Herbie Hancock","1982","Quartet","Jazz",0,"Silver",0.2871210277080536,"Silver",0.09399355202913284,"Silver",0.06140309199690819
+"Herbie Hancock","1974","Death Wish (Original Soundtrack Recording)","Jazz",0,"Maroon",0.14620234072208405,"Red",0.09876652806997299,"Black",0.09309297055006027
+"Herbie Hancock","1962","Takin' Off","Jazz",0,"Black",0.506286084651947,"White",0.07604918628931046,"Gray",0.053608812391757965
+"Herbie Hancock","1986","Round Midnight","Jazz",1,"Navy",0.27977389097213745,"Navy",0.2589675784111023,"Gray",0.17737141251564026
+"Herbie Hancock","1976","Secrets","Jazz",1,"Black",0.30360016226768494,"Black",0.19661885499954224,"Gray",0.06917919218540192
+"Herbie Hancock","1980","Monster","Jazz",0,"Silver",0.17603884637355804,"Silver",0.1567775309085846,"Silver",0.1296161562204361
+"Herbie Hancock","1970","Jammin' With Herbie Hancock","Jazz",0,"Olive",0.4465211033821106,"Olive",0.1118602529168129,"Olive",0.07460348308086395
+"Hope Blister, The","1998","...Smile's OK","Electronic",0,"White",0.6181185245513916,"White",0.15453200042247772,"Gray",0.1275390088558197
+"How to Destroy Angels","2013","Welcome Oblivion","Electronic",0,"Gray",0.1046827957034111,"Gray",0.09481688588857651,"Gray",0.08118704706430435
+"IAMX","2004","Kiss + Swallow","Electronic",0,"Black",0.2652580440044403,"Gray",0.09514559060335159,"Silver",0.06824502348899841
+"IAMX","2008","The Alternative","Electronic",0,"Yellow",0.2482845038175583,"Silver",0.1258678138256073,"Yellow",0.12310127168893814
+"Ian McCulloch","1989","Candleland","Rock",0,"White",0.8900315761566162,"Silver",0.07161418348550797,"Gray",0.01835539937019348
+"Iggy Pop","1984","Choice Cuts","Rock",0,"Olive",0.2766782343387604,"Red",0.08922134339809418,"Gray",0.0253695510327816
+"Iggy Pop","1980","Soldier","Rock",0,"Gray",0.2965621054172516,"Gray",0.11961816996335983,"Silver",0.10631386190652847
+"Iggy Pop","1999","Avenue B","Rock",1,"Maroon",0.28679269552230835,"Black",0.2343473732471466,"Black",0.17236275970935822
+"Information Society","1985","Creatures Of Influence","Electronic",0,"Olive",0.6548819541931152,"Gray",0.06464757025241852,"Gray",0.06174401566386223
+"Information Society","1997","Don't Be Afraid","Electronic",0,"Gray",0.08999604731798172,"Teal",0.08605708181858063,"Gray",0.084088534116745
+"Information Society","1999","InSoc Recombinant","Electronic",0,"Gray",0.632306694984436,"Silver",0.09108342975378036,"Gray",0.08418650925159454
+"Information Society","1992","Peace And Love, Inc.","Electronic",0,"Maroon",0.30344948172569275,"Olive",0.22274072468280792,"Black",0.056342169642448425
+"Information Society","2007","Synthesizer","Electronic",0,"Olive",0.3223342299461365,"Olive",0.3102707862854004,"Olive",0.1025112196803093
+"Information Society","1990","Hack","Electronic",0,"Red",0.12962809205055237,"Black",0.055854130536317825,"Yellow",0.046624429523944855
+"Iron & Wine","2017","Beast Epic","Rock",0,"Navy",0.09393401443958282,"Maroon",0.08605654537677765,"Navy",0.07239814102649689
+"Iron & Wine","2004","Our Endless Numbered Days","Rock",0,"Silver",0.1989687830209732,"Silver",0.1439056247472763,"Gray",0.08432938158512115
+"Iron & Wine","2007","The Shepherd's Dog","Rock",0,"Black",0.1694440245628357,"Gray",0.1523420363664627,"Gray",0.07637172937393188
+"Iron & Wine",,"The Creek Drank The Cradle","Rock",0,"Silver",0.3103351294994354,"Gray",0.22793066501617432,"White",0.21478667855262756
+"Iron & Wine","2010","Kiss Each Other Clean","Rock",0,"White",0.4266038239002228,"Black",0.3481315076351166,"Silver",0.06391400098800659
+"Iron & Wine","2013","Ghost On Ghost","Folk, World, & Country",0,"Olive",0.26013731956481934,"Olive",0.16673687100410461,"Black",0.09931518882513046
+"Jane's Addiction","2003","Strays","Rock",4,"Olive",0.1445070505142212,"Silver",0.12599779665470123,"Gray",0.09619448333978653
+"Jane's Addiction","1996","Nothing's Shocking","Rock",0,"Gray",0.39168494939804077,"Gray",0.3365146219730377,"Gray",0.12423286586999893
+"Jane's Addiction",,"Jane's Addiction","Rock",0,"Teal",0.1632223129272461,"Yellow",0.03594353049993515,"Lime",0.02047119289636612
+"Jean-Michel Jarre","1973","Deserted Palace","Electronic",0,"Gray",0.7657172679901123,"Silver",0.07347755134105682,"Gray",0.055101290345191956
+"Jesus Jones","2001","London","Electronic",0,"Silver",0.05988293141126633,"Black",0.059304364025592804,"Gray",0.05340531840920448
+"Jimmy Page & Robert Plant","1994","No Quarter: Jimmy Page & Robert Plant Unledded","Rock",2,"Black",0.1653011590242386,"Maroon",0.12719497084617615,"Black",0.09936892241239548
+"Joan Jett","2014","Bad Reputation","Rock",1,"White",0.3645644783973694,"Silver",0.13103939592838287,"Black",0.12387599796056747
+"Joan Jett","1981","Bad Reputation","Rock",1,"Silver",0.23305299878120422,"Maroon",0.1409776657819748,"White",0.1285628080368042
+"Joan Jett",,"The Hit List","Rock",1,"Teal",0.3263489902019501,"White",0.14315013587474823,"Teal",0.11630786210298538
+"John Coltrane","1978","The Mastery Of John Coltrane / Vol. III ""Jupiter Variation""","Jazz",0,"Gray",0.2421058565378189,"White",0.23038256168365479,"White",0.20408202707767487
+"John Coltrane","1978","The Mastery Of John Coltrane / Vol. I Feelin' Good","Jazz",0,"Gray",0.20116175711154938,"Black",0.09663055837154388,"Olive",0.07644353806972504
+"John Coltrane","1957","Coltrane","Jazz",1,"Black",0.18555773794651031,"Black",0.09497835487127304,"Yellow",0.087946817278862
+"John Coltrane","1964","Black Pearls","Jazz",0,"Black",0.37011969089508057,"Maroon",0.2805663049221039,"Maroon",0.07340351492166519
+"John Coltrane","1963","Dakar","Jazz",0,"Gray",0.39655932784080505,"Black",0.20636746287345886,"Gray",0.14155326783657074
+"John Coltrane","1980","The European Tour","Jazz",1,"Black",0.2472933679819107,"Silver",0.22022956609725952,"Gray",0.11393380910158157
+"John Coltrane","1973","Concert In Japan","Jazz",0,"Maroon",0.16866040229797363,"Maroon",0.168442040681839,"Maroon",0.06710226833820343
+"John Coltrane","1977","The Other Village Vanguard Tapes","Jazz",0,"Olive",0.10718806087970734,"Maroon",0.09452960640192032,"Maroon",0.07631541043519974
+"John Coltrane","1964","The Believer","Jazz",0,"Gray",0.18622039258480072,"Silver",0.1523878127336502,"Silver",0.10809158533811569
+"John Coltrane","1963","Stardust","Jazz",0,"Red",0.3404737114906311,"Red",0.12024939805269241,"Red",0.0870998352766037
+"John Coltrane","1981","Bye Bye Blackbird","Jazz",0,"White",0.35488513112068176,"Black",0.1769767552614212,"Silver",0.12446477264165878
+"John Coltrane","1974","Alternate Takes","Jazz",0,"Gray",0.39334404468536377,"Gray",0.12308783829212189,"Silver",0.12125495076179504
+"John Coltrane","1998","Living Space","Jazz",1,"Maroon",0.1895061880350113,"Black",0.18032792210578918,"Maroon",0.1694144606590271
+"John Lennon",,"Willowbrook Rehearsals","Rock",3,"Black",0.3832634687423706,"Black",0.2085808962583542,"Gray",0.07086653262376785
+"Johnny Cash","1962","Blood, Sweat And Tears","Folk, World, & Country",1,"Red",0.41488367319107056,"Black",0.026247160509228706,"Gray",0.018692245706915855
+"Johnny Cash","1971","Man In Black","Folk, World, & Country",0,"Black",0.3288745582103729,"Gray",0.2160702496767044,"Gray",0.20459845662117004
+"Johnny Cash","1969","The Holy Land","Non-Music",0,"White",0.11235573142766953,"Gray",0.09694241732358932,"Silver",0.09444323927164078
+"Johnny Cash","1975","Look At Them Beans","Folk, World, & Country",0,"Gray",0.17920613288879395,"Maroon",0.12397560477256775,"Maroon",0.06938092410564423
+"Johnny Cash","1968","From Sea To Shining Sea","Folk, World, & Country",1,"Silver",0.27882829308509827,"Silver",0.18980450928211212,"Silver",0.13537493348121643
+"Johnny Cash","1983","Johnny 99","Folk, World, & Country",1,"Black",0.6327229738235474,"Black",0.06898588687181473,"Black",0.05414821580052376
+"Journey","1981","Escape","Rock",0,"Maroon",0.07696326076984406,"Silver",0.0649651363492012,"Red",0.04698807746171951
+"Journey","1975","Journey","Rock",1,"Gray",0.3466812074184418,"Gray",0.2819347381591797,"Gray",0.05608276277780533
+"Journey","1980","Dream, After Dream","Rock",0,"Red",0.2251424938440323,"White",0.08356180042028427,"Olive",0.08144745230674744
+"Journey","1983","Frontiers","Rock",0,"Teal",0.1985751986503601,"Navy",0.15047666430473328,"Teal",0.11153529584407806
+"Journey","1980","Departure","Rock",0,"Maroon",0.17604796588420868,"Maroon",0.09771955013275146,"Maroon",0.06128814071416855
+"Journey","1979","In The Beginning ","Rock",0,"Maroon",0.08692235499620438,"Maroon",0.06839798390865326,"Teal",0.05031440779566765
+"Junkie XL","2014","300: Rise Of An Empire (Original Motion Picture Soundtrack)","Stage & Screen",0,"Silver",0.09861961007118225,"Maroon",0.07876861840486526,"Silver",0.07223259657621384
+"Katrina & the Waves","1989","Break Of Hearts","Rock",0,"White",0.4193849265575409,"Black",0.348180890083313,"Black",0.0930945947766304
+"Katrina & the Waves","2010","Shock Horror!","Rock",0,"White",0.7632594108581543,"Black",0.04879685118794441,"Black",0.04714566841721535
+"Kavinsky","2013","OutRun","Electronic",0,"Cyan",0.15521281957626343,"Teal",0.11313259601593018,"Cyan",0.08962202072143555
+"Ken Andrews","2007","Secrets Of The Lost Satellite","Rock",0,"Gray",0.32122308015823364,"Gray",0.1638287454843521,"Gray",0.14301836490631104
+"King Crimson","1997","Epitaph","Rock",0,"Gray",0.1340542733669281,"Gray",0.12134084105491638,"Gray",0.11515761911869049
+"King Crimson","1999","The ProjeKcts","Electronic",0,"Gray",0.41815969347953796,"Black",0.18175047636032104,"Gray",0.11369134485721588
+"Kinks","1976","The Kinks Vol. 2","Rock",0,"Maroon",0.20167559385299683,"Gray",0.20158053934574127,"Gray",0.13426409661769867
+"Kitaro","2009","Toyo's Camera","Electronic",0,"Silver",0.26198023557662964,"Gray",0.20677974820137024,"Gray",0.11472760885953903
+"Kitaro","1990","Kojiki","Electronic",0,"Black",0.6473341584205627,"Black",0.12664756178855896,"Black",0.07314291596412659
+"Kitaro","2003","Ninja Scroll","Electronic",0,"Silver",0.06919268518686295,"Gray",0.06357154250144958,"Olive",0.06347952038049698
+"Kitaro","2009","Impressions Of The West Lake","Classical",0,"Purple",0.14033877849578857,"Gray",0.11459579318761826,"Purple",0.08986687660217285
+"Kitaro","2005","Sacred Journey Of Ku-Kai (Volume 2)","Folk, World, & Country",0,"White",0.1688283383846283,"Gray",0.0947684720158577,"Black",0.08386357873678207
+"Kitaro","2003","Sacred Journey Of Ku-Kai, Volume 1","Electronic",0,"Gray",0.19654792547225952,"Olive",0.15031586587429047,"Silver",0.09162893891334534
+"Kitaro","1985","Silk Road I","Electronic",0,"Black",0.17575444281101227,"Black",0.14204417169094086,"Gray",0.10205117613077164
+"Kitaro","1995","An Enchanted Evening","Electronic",1,"Navy",0.195805624127388,"Maroon",0.1452450305223465,"Gray",0.07846292853355408
+"Kitchens of Distinction","1990","Strange Free World","Rock",0,"Silver",0.1530979573726654,"Purple",0.07942225784063339,"Silver",0.07133782655000687
+"Kitchens of Distinction","1992","The Death Of Cool","Rock",0,"Maroon",0.17384843528270721,"Black",0.13899071514606476,"Olive",0.11550777405500412
+"Kitchens of Distinction","1994","Cowboys And Aliens","Rock",3,"Navy",0.3374370336532593,"Black",0.10726149380207062,"Silver",0.029791809618473053
+"Kitchens of Distinction","1990","Love Is Hell","Rock",1,"Gray",0.2513958513736725,"Silver",0.07337019592523575,"Red",0.06984536349773407
+"Klaus Schulze","1996","Trancefer","Electronic",0,"Gray",0.22113549709320068,"Silver",0.17389412224292755,"Silver",0.1296546906232834
+"Klaus Schulze","1996","Audentity","Electronic",0,"Gray",0.3771885335445404,"Silver",0.19045841693878174,"Gray",0.08007179945707321
+"Knack","1979","Get The Knack","Rock",4,"Black",0.38141193985939026,"White",0.18765416741371155,"Black",0.17302264273166656
+"Knack","2012","Rock & Roll Is Good For You: The Fieger/Averre Demos","Rock",1,"Black",0.4577449858188629,"Black",0.3832806646823883,"Black",0.0758473351597786
+"Knack","2002","Round Trip","Rock",4,"Red",0.1786356419324875,"Navy",0.08392401784658432,"Teal",0.08362972736358643
+"Knack","1991","Serious Fun","Rock",1,"Gray",0.09700508415699005,"Silver",0.053269825875759125,"Maroon",0.04809680953621864
+"Knack","1998","Zoom","Rock",0,"Black",0.15579594671726227,"Olive",0.06781582534313202,"Gray",0.05317606031894684
+"Knack","2001","Normal As The Next Guy","Rock",1,"Olive",0.3058415651321411,"Silver",0.21519799530506134,"Silver",0.11559295654296875
+"Latin Playboys","1999","Dose","Jazz",0,"Gray",0.30794450640678406,"Gray",0.12800449132919312,"White",0.08456284552812576
+"Latin Playboys","1994","Latin Playboys","Rock",0,"Yellow",0.1733480840921402,"Olive",0.10184769332408905,"White",0.075829416513443
+"Led Zeppelin","1975","Detroit Just About Back","Rock",0,"Maroon",0.29920393228530884,"Olive",0.13488957285881042,"Olive",0.11969878524541855
+"Led Zeppelin","1969","Led Zeppelin II","Rock",0,"White",0.23968787491321564,"Gray",0.2182583212852478,"Gray",0.13877342641353607
+"Led Zeppelin","1969","Led Zeppelin II","Rock",0,"Olive",0.32614538073539734,"Olive",0.11220567673444748,"White",0.11175777018070221
+"Lisa Gerrard","2003","Whale Rider (Original Soundtrack)","Electronic",0,"Silver",0.26822152733802795,"Silver",0.2599833905696869,"Gray",0.09506434947252274
+"Lou Reed","1978","Street Hassle","Rock",1,"Black",0.587329089641571,"Black",0.10750667005777359,"Gray",0.03579069301486015
+"Lou Reed","1975","Metal Machine Music","Electronic",0,"Black",0.5388354659080505,"Black",0.05675750598311424,"Gray",0.033573687076568604
+"Lou Reed","1989","Sweet Lou (Walking On L.A.'s Wild Side 12/1/76)","Rock",1,"Black",0.4919358193874359,"Gray",0.08530539274215698,"Black",0.08464639633893967
+"Love and Rockets","1986","Express","Rock",0,"White",0.5912089347839355,"Black",0.06094493344426155,"Red",0.05755806341767311
+"Love and Rockets","1987","Earth • Sun • Moon","Rock",0,"Silver",0.5775048136711121,"Silver",0.19192880392074585,"Silver",0.061046864837408066
+"Love and Rockets",,"Love And Rockets","Rock",0,"White",0.3476174771785736,"Black",0.18879687786102295,"Silver",0.07418586313724518
+"Love Spirals Downwards","1994","Ardor","Electronic",0,"White",0.47043299674987793,"White",0.17696131765842438,"Olive",0.07351838797330856
+"Love Spirals Downwards","1992","Idylls","Electronic",0,"Gray",0.4516845941543579,"Gray",0.1848716139793396,"Gray",0.18272045254707336
+"Love Spirals Downwards","1998","Flux","Electronic",0,"Silver",0.25593745708465576,"White",0.2543519139289856,"Gray",0.2227489948272705
+"Love Spirals Downwards","1996","Ever","Electronic",0,"Gray",0.3943759799003601,"White",0.28283166885375977,"Gray",0.10929684340953827
+"Lulabox","1993","Lulabox","Rock",0,"Maroon",0.4531375467777252,"Maroon",0.19860859215259552,"Maroon",0.11215333640575409
+"Lush","1994","Split","Rock",0,"Maroon",0.23673862218856812,"Gray",0.15883496403694153,"Maroon",0.07502441853284836
+"Lycia","2013","Quiet Moments","Electronic",0,"Silver",0.44667741656303406,"Gray",0.29587322473526,"White",0.13267694413661957
+"Lycia","2003","Empty Space","Electronic",0,"Olive",0.2035633623600006,"Maroon",0.17728304862976074,"Gray",0.11941790580749512
+"Lycia","1993","A Day In The Stark Corner","Electronic",0,"Black",0.26155468821525574,"Gray",0.2592061161994934,"Gray",0.08767347782850266
+"Lycia","2002","Tripping Back Into The Broken Days","Electronic",0,"Gray",0.2307283878326416,"Silver",0.17575465142726898,"Gray",0.1668262928724289
+"Lycia","1993","Ionia","Electronic",0,"Black",0.32480064034461975,"White",0.17705084383487701,"Black",0.13789306581020355
+"Lycia","1998","Estrella","Electronic",0,"Black",0.15388375520706177,"Yellow",0.1486838310956955,"Gray",0.12926837801933289
+"Lycia","2018","In Flickers","Electronic",0,"Black",0.2052314579486847,"Black",0.1956976056098938,"Gray",0.1785212755203247
+"Lycia","1993","Wake","Electronic",0,"Silver",0.5059078335762024,"Gray",0.15364834666252136,"Gray",0.09878333657979965
+"Lycia","2015","A Line That Connects","Electronic",0,"Black",0.7948852777481079,"Silver",0.03181394562125206,"Gray",0.030896835029125214
+"M83","2015","Saturdays = Youth","Electronic",0,"Olive",0.17554745078086853,"Gray",0.10114019364118576,"Olive",0.07333868741989136
+"M83","2008","M83","Electronic",0,"White",0.16810233891010284,"Gray",0.09767497330904007,"Teal",0.09461048990488052
+"M83","2013","Oblivion (Original Motion Picture Soundtrack)","Electronic",0,"Navy",0.16708777844905853,"Silver",0.16193734109401703,"Teal",0.1355375200510025
+"Marilyn Manson","1999","The Last Tour On Earth","Electronic",0,"Maroon",0.33284813165664673,"Maroon",0.16303597390651703,"Olive",0.08732543140649796
+"Marilyn Manson","2003","The Golden Age Of Grotesque","Electronic",1,"Black",0.43584147095680237,"Gray",0.06132660061120987,"Silver",0.0572575144469738
+"Marilyn Manson","2017","Heaven Upside Down","Rock",1,"Navy",0.3149520754814148,"Gray",0.29845374822616577,"Gray",0.2272878736257553
+"Marilyn Manson","2007","Eat Me, Drink Me","Rock",1,"Black",0.3875228762626648,"Black",0.11715176701545715,"Black",0.0736130103468895
+"Marilyn Manson","1994","Portrait Of An American Family","Rock",0,"Olive",0.13487164676189423,"Olive",0.08865781873464584,"Gray",0.08698636293411255
+"Mars Volta, The","2009","Octahedron","Rock",0,"Olive",0.06780931353569031,"Maroon",0.06296908855438232,"Maroon",0.027568086981773376
+"Mars Volta, The","2003","De-Loused In The Comatorium","Rock",0,"Olive",0.11790347099304199,"Olive",0.10542804002761841,"Olive",0.1046256422996521
+"Mars Volta, The","2008","The Bedlam In Goliath","Rock",0,"Olive",0.16885514557361603,"Teal",0.09416832029819489,"Maroon",0.07565297186374664
+"Mars Volta, The","2012","Noctourniquet","Rock",0,"Gray",0.20375646650791168,"Navy",0.12369143962860107,"Gray",0.09982194751501083
+"Mass","1998","The Music Of Alan Parsons Project","Electronic",0,"Black",0.16414114832878113,"Gray",0.11555220931768417,"Black",0.11248081177473068
+"Mass","2010","Fighter","Rock",0,"Silver",0.21845421195030212,"Black",0.1811261922121048,"Black",0.12383372336626053
+"Mazzy Star","1990","She Hangs Brightly","Rock",0,"Black",0.6686750650405884,"Black",0.08002177625894547,"Gray",0.06233165040612221
+"Mazzy Star","2013","Seasons Of Your Day","Rock",0,"Silver",0.12747935950756073,"Silver",0.11341731995344162,"Black",0.08224515616893768
+"Mazzy Star","1993","So Tonight That I Might See","Rock",0,"Gray",0.3392329812049866,"Gray",0.23171710968017578,"Gray",0.1958446055650711
+"Mazzy Star","1996","Among My Swan","Rock",0,"White",0.49191802740097046,"Gray",0.24397413432598114,"Gray",0.044625088572502136
+"Men At Work",,"Cargo","Rock",0,"Silver",0.22341936826705933,"Silver",0.17406146228313446,"Silver",0.0732405036687851
+"Men At Work","1983","Cargo: World Premiere Weekend, April 15, 16 & 17 1983","Rock",0,"Olive",0.3449772894382477,"Maroon",0.26201480627059937,"Maroon",0.06405476480722427
+"Metallica","2016","Back To The Studio","Rock",4,"Black",0.25232189893722534,"Black",0.1749584823846817,"Black",0.09938254207372665
+"MGMT","2010","Congratulations","Rock",0,"Navy",0.08999240398406982,"Teal",0.08865612000226974,"Maroon",0.05346366763114929
+"MGMT","2013","MGMT","Rock",0,"Black",0.12933054566383362,"Silver",0.09892385452985764,"Gray",0.0799565240740776
+"MGMT","2007","Oracular Spectacular","Rock",0,"Silver",0.17547304928302765,"Yellow",0.14270515739917755,"Yellow",0.05575051158666611
+"Michael Penn","2005","Mr. Hollywood Jr., 1947","Rock",1,"White",0.36504802107810974,"Silver",0.17950865626335144,"Gray",0.08307491987943649
+"Michael Penn","1997","Resigned","Rock",0,"White",0.13910841941833496,"Silver",0.061862338334321976,"Maroon",0.06018555164337158
+"Michael Penn","1989","March","Rock",0,"Silver",0.5169665813446045,"Silver",0.3638335168361664,"Silver",0.04020258039236069
+"Michael Penn","1992","Free-For-All","Rock",0,"Olive",0.1633578985929489,"Black",0.14635111391544342,"Silver",0.12537707388401031
+"Michael Penn","2000","MP4 [Days Since A Lost Time Accident]","Rock",1,"White",0.8045226335525513,"White",0.05793241038918495,"Maroon",0.018081186339259148
+"Michael Penn","1974","Introducing Michael Penn","Rock",0,"Purple",0.652079701423645,"Olive",0.08955173194408417,"Purple",0.05608199164271355
+"Midnight Oil","1998","Redneck Wonderland","Rock",0,"Red",0.19743947684764862,"Maroon",0.09151910245418549,"Maroon",0.08129717409610748
+"Mike + the Mechanics",,"M1ke + The Mechan1c5","Rock",0,"Gray",0.37827548384666443,"Gray",0.3779979646205902,"Silver",0.10456065833568573
+"Mike + the Mechanics","1988","Living Years","Electronic",0,"Black",0.8289679288864136,"Black",0.05331829562783241,"Silver",0.03488191217184067
+"Miles Davis","1974","Big Fun","Jazz",0,"Gray",0.11925658583641052,"Olive",0.09523775428533554,"Gray",0.08491088449954987
+"Miles Davis","1987","Cookin' At The Plugged Nickel","Jazz",1,"Gray",0.12387222796678543,"Teal",0.09074748307466507,"Navy",0.08993452042341232
+"Miles Davis","1961","In Person, Friday Night At The Blackhawk, San Francisco, Volume I","Jazz",1,"Black",0.37355414032936096,"Gray",0.13220900297164917,"Gray",0.08315473049879074
+"Miles Davis","1959","Porgy And Bess","Jazz",0,"Red",0.1838139444589615,"Silver",0.112215556204319,"Silver",0.1005941852927208
+"Miles Davis","1968","Miles In The Sky","Jazz",0,"Olive",0.1084919348359108,"Olive",0.10244540870189667,"Yellow",0.08727621287107468
+"Missing Persons","1984","Rhyme & Reason","Electronic",1,"Black",0.5455379486083984,"Black",0.16746722161769867,"Gray",0.11355564743280411
+"Moby","2009","Wait For Me","Electronic",0,"White",0.25230973958969116,"Yellow",0.1371946930885315,"Silver",0.09368667006492615
+"Moby","1992","Moby","Electronic",0,"Teal",0.07001762092113495,"Black",0.040914393961429596,"Olive",0.039357151836156845
+"Modern English","1990","Pillow Lips","Electronic",0,"Gray",0.42636072635650635,"Gray",0.33337104320526123,"Gray",0.061658915132284164
+"Modern English","2010","Soundtrack","Rock",0,"White",0.37158653140068054,"Silver",0.11249902099370956,"Black",0.09046118706464767
+"Modern English","2012","After The Snow","Electronic",0,"Silver",0.21663255989551544,"Silver",0.17160193622112274,"Gray",0.14654619991779327
+"Modern English","1996","Everything's Mad","Electronic",1,"Gray",0.34699979424476624,"Gray",0.12178317457437515,"Gray",0.05256006121635437
+"Modern English","2016","Mesh & Lace","Electronic",0,"Olive",0.2467898428440094,"Olive",0.09137477725744247,"Gray",0.07834751904010773
+"Mogwai","2014","Rave Tapes","Electronic",0,"Purple",0.13682955503463745,"Gray",0.12846893072128296,"Purple",0.07558990269899368
+"Mogwai","2018","Kin Original Motion Picture Soundtrack","Rock",0,"Silver",0.2007264792919159,"Black",0.17351216077804565,"Silver",0.13637083768844604
+"Mogwai","2016","Atomic ","Electronic",0,"Red",0.27046629786491394,"Red",0.13942936062812805,"Red",0.08296515792608261
+"Mogwai",,"Come On Die Young","Rock",1,"Black",0.8316271305084229,"White",0.019814319908618927,"Black",0.018976997584104538
+"Monkees, The","1968","The Birds, The Bees & The Monkees","Rock",0,"Maroon",0.15050169825553894,"Olive",0.0810403972864151,"Gray",0.0783681869506836
+"Monkees, The","1987","Pool It!","Rock",3,"Gray",0.4065104126930237,"Gray",0.12108339369297028,"Gray",0.08291807025671005
+"Monkees, The","1966","The Monkees","Rock",4,"Black",0.14181405305862427,"Maroon",0.06153884530067444,"Black",0.05807079002261162
+"Monkees, The","2016","Classic Album Collection","Rock",4,"White",0.12985841929912567,"Black",0.07915876805782318,"Black",0.07729172706604004
+"Moodswings","1992","Moodfood","Electronic",0,"Purple",0.14236783981323242,"Maroon",0.11857235431671143,"Maroon",0.09840421378612518
+"Moodswings","2002","Horizontal","Electronic",0,"Teal",0.4082675874233246,"Navy",0.15526241064071655,"Gray",0.08583121001720428
+"Moodswings","1997","Psychedelicatessen (In-Store Play)","Electronic",0,"Gray",0.24369919300079346,"Gray",0.16374124586582184,"Gray",0.10938168317079544
+"Motorhead","1992","March Ör Die","Rock",0,"White",0.3969018757343292,"Black",0.1383817493915558,"Silver",0.11402676999568939
+"Muse","1997","Arcana","Rock",0,"Gray",0.0387745276093483,"Silver",0.03507304936647415,"Silver",0.03458331525325775
+"My Bloody Valentine","2003","Loveless","Rock",0,"Silver",0.5672841668128967,"Silver",0.1571473628282547,"Gray",0.03096594288945198
+"My Bloody Valentine","1993","Isn't Anything","Rock",0,"White",0.18403182923793793,"Maroon",0.0799756720662117,"Silver",0.06952901184558868
+"Naked Eyes","1984","Fuel For The Fire","Electronic",0,"Gray",0.2821418344974518,"Black",0.2231816202402115,"Gray",0.19228263199329376
+"Naked Eyes","1983","Naked Eyes","Electronic",0,"Teal",0.5491152405738831,"Teal",0.3024504780769348,"Teal",0.03595590591430664
+"Naked Eyes","2007","Fumbling With The Covers","Electronic",1,"White",0.3903942108154297,"Silver",0.09934394061565399,"Black",0.07795750349760056
+"Neighbourhood, The","2016","Wiped Out!","Rock",0,"White",0.7948593497276306,"White",0.08231419324874878,"Black",0.028287891298532486
+"Neighbourhood, The","2018","The Neighbourhood","Rock",2,"White",0.2974267899990082,"Black",0.27812016010284424,"Gray",0.13003945350646973
+"Neighbourhood, The","2014","I Love You.","Hip Hop",0,"Gray",0.33426493406295776,"Gray",0.25985243916511536,"Silver",0.2566482126712799
+"Neil Halstead","2001","Sleeping On Roads","Rock",0,"Gray",0.2286158800125122,"Silver",0.20949092507362366,"Gray",0.09046515822410583
+"Neil Halstead","2008","Oh! Mighty Engine","Rock",0,"Black",0.19185729324817657,"Black",0.10541051626205444,"Black",0.09244386106729507
+"Neil Halstead","2012","Palindrome Hunches","Folk, World, & Country",0,"Gray",0.36616092920303345,"Black",0.21674323081970215,"Gray",0.19016394019126892
+"Neu","2018","O'Ye Sleepers of Beulah Land of Shades","Rock",0,"Red",0.25716108083724976,"Red",0.2036295384168625,"White",0.13949105143547058
+"New Order","1988","Hand Of God","Electronic",0,"Yellow",0.2693202495574951,"Silver",0.10830146074295044,"Yellow",0.07224051654338837
+"Nine Inch Nails","2007","Year Zero","Electronic",0,"White",0.4070517122745514,"Silver",0.2459717094898224,"Silver",0.1397636979818344
+"Nine Inch Nails","1995","Further Down The Spiral","Electronic",0,"Olive",0.20275621116161346,"Olive",0.1335553675889969,"Maroon",0.1283678263425827
+"Nine Inch Nails","2005","With Teeth","Electronic",0,"Silver",0.24662277102470398,"Gray",0.1954910159111023,"Gray",0.1288062334060669
+"Nirvana","1993","In Utero","Rock",0,"Olive",0.20901036262512207,"Gray",0.10364219546318054,"Olive",0.0802130401134491
+"Normal, The","2013","Make Moves","Rock",0,"Black",0.12738631665706635,"Black",0.11354654282331467,"Red",0.07465578615665436
+"Octopus Project, The","2010","Hexadecagon","Electronic",0,"White",0.2852858006954193,"Silver",0.07413727045059204,"White",0.054073989391326904
+"Octopus Project, The","2002","Identification Parade","Electronic",0,"White",0.33283108472824097,"Silver",0.2745777666568756,"Black",0.08177253603935242
+"Octopus Project, The","2018","Damsel","Stage & Screen",1,"Silver",0.19642920792102814,"Black",0.18831582367420197,"Silver",0.1763819456100464
+"Octopus Project, The","2017","Memory Mirror","Rock",0,"Black",0.19881612062454224,"Gray",0.18873482942581177,"Red",0.09761766344308853
+"Octopus Project, The","2013","Fever Forms","Electronic",0,"Gray",0.19882778823375702,"Teal",0.09680717438459396,"Maroon",0.07388711720705032
+"Octopus Project, The","2005","One Ten Hundred Thousand Million","Electronic",0,"Green",0.18243004381656647,"Green",0.1380273699760437,"Olive",0.12384869158267975
+"Octopus Project, The","2015","Kumiko, The Treasure Hunter OST","Electronic",0,"Maroon",0.5419009923934937,"Maroon",0.1255207359790802,"Silver",0.055286139249801636
+"Octopus Project, The","2007","Hello, Avalanche","Electronic",0,"White",0.26531973481178284,"Black",0.1777941733598709,"Silver",0.09024758636951447
+"Octopus Project, The","2014","The House Of Apples & Eyeballs","Electronic",0,"Navy",0.18477165699005127,"Silver",0.15265828371047974,"Navy",0.1468185931444168
+"Oingo Boingo",,"Only A Lad","Rock",1,"Olive",0.11886182427406311,"Olive",0.10923170298337936,"Silver",0.08458727598190308
+"Oingo Boingo","1983","Good For Your Soul","Rock",0,"White",0.2667482793331146,"Gray",0.04417083039879799,"Black",0.042295292019844055
+"Oingo Boingo","1985","Dead Man's Party","Electronic",0,"Maroon",0.11168491095304489,"Maroon",0.05469539016485214,"Red",0.0526050366461277
+"Oingo Boingo",,"Boi-Ngo","Rock",6,"Maroon",0.3127996325492859,"Maroon",0.11580495536327362,"Olive",0.11157222837209702
+"Oingo Boingo","1987","Nothing To Fear","Rock",0,"Gray",0.5635664463043213,"Gray",0.08225590735673904,"Gray",0.05097552016377449
+"Oingo Boingo","1983","Forbidden Zone (Original Motion Picture Soundtrack)","Rock",3,"Cyan",0.05086617171764374,"Teal",0.043837953358888626,"Silver",0.03472051024436951
+"Oingo Boingo","1990","Dark At The End Of The Tunnel","Rock",0,"Gray",0.1638869047164917,"Gray",0.10369884222745895,"Gray",0.09848088771104813
+"Oingo Boingo","1994","Boingo","Rock",0,"Gray",0.3456285297870636,"Gray",0.28215616941452026,"Gray",0.1705121099948883
+"On","2000","Shifting Skin","Electronic",0,"Black",0.7563088536262512,"Black",0.1103975847363472,"Gray",0.019719013944268227
+"On","2010","Something That Has Form And Something That Does Not","Electronic",0,"Gray",0.5703687071800232,"Olive",0.10944769531488419,"Gray",0.08909951895475388
+"On","2002","Make Believe","Rock",0,"Gray",0.40025195479393005,"Teal",0.08434533327817917,"Gray",0.06328646838665009
+"Ozric Tentacles","1994","Arborescence","Rock",0,"Olive",0.14943061769008636,"Gray",0.09740899503231049,"Olive",0.07029318064451218
+"Ozric Tentacles","1991","Strangeitude","Electronic",0,"Maroon",0.3253544867038727,"Maroon",0.17801538109779358,"Olive",0.09970950335264206
+"Ozric Tentacles","2006","The Floor's Too Far Away","Electronic",0,"White",0.04611819237470627,"Silver",0.040742043405771255,"Green",0.0287681445479393
+"Pale Saints","1992","In Ribbons","Rock",0,"Silver",0.4244757890701294,"Gray",0.32968637347221375,"Gray",0.11140905320644379
+"Pale Saints","1994","Slow Buildings","Rock",1,"Black",0.1695137321949005,"Silver",0.14751656353473663,"Gray",0.1436193287372589
+"Patrick Doyle","2015","Cinderella","Stage & Screen",1,"Gray",0.23515616357326508,"Gray",0.19243118166923523,"Gray",0.13151170313358307
+"Patrick Doyle","1994","Exit To Eden (Original Motion Picture Soundtrack)","Stage & Screen",2,"Silver",0.14003536105155945,"Black",0.09694942831993103,"Gray",0.09304527193307877
+"Patrick Doyle","1999","East","Classical",5,"Maroon",0.3820888102054596,"Maroon",0.2887091636657715,"Maroon",0.050690457224845886
+"Patrick Doyle","1991","Dead Again (Original Motion Picture Soundtrack)","Stage & Screen",0,"Gray",0.23738926649093628,"Black",0.1664968878030777,"Gray",0.15958566963672638
+"Patrick Doyle","2006","Eragon (Music From The Motion Picture)","Rock",4,"Black",0.22105957567691803,"Navy",0.08430135995149612,"Black",0.08314523845911026
+"Patrick Doyle","1996","Hamlet (Original Motion Picture Soundtrack)","Stage & Screen",0,"Gray",0.08590178191661835,"Gray",0.07712522894144058,"Silver",0.06601391732692719
+"Patrick Doyle","2017","A United Kingdom (Original Motion Picture Soundtrack)","Stage & Screen",1,"White",0.2683948874473572,"Maroon",0.15112118422985077,"Maroon",0.1359993815422058
+"Patrick Doyle","1996","Mrs. Winterbourne","Jazz",3,"Silver",0.3045637309551239,"Silver",0.15034137666225433,"Gray",0.10990971326828003
+"Patrick Doyle","1997","Donnie Brasco (Original Motion Picture Soundtrack)","Stage & Screen",2,"Black",0.39260542392730713,"Black",0.19927158951759338,"Black",0.11080562323331833
+"Patrick Doyle","2003","Calendar Girls. Original Motion Picture Soundtrack. Original Score By Patrick Doyle","Stage & Screen",0,"Silver",0.44693997502326965,"Gray",0.12617790699005127,"Red",0.06964419782161713
+"Patrick Doyle","1992","Indochine","Latin",0,"Gray",0.14909259974956512,"Olive",0.12002675980329514,"Olive",0.11487776041030884
+"Patrick Doyle","2011","Thor Original Soundtrack","Stage & Screen",0,"Black",0.5244048237800598,"Black",0.0780428871512413,"Gray",0.06640668958425522
+"Patrick O'Hearn","1995","Trust","Electronic",0,"Maroon",0.14933349192142487,"White",0.11412790417671204,"Gray",0.10557927191257477
+"Patrick O'Hearn","1989","Eldorado","Electronic",0,"Maroon",0.07418777793645859,"Olive",0.05468279868364334,"Olive",0.05357770249247551
+"Patrick O'Hearn","1985","Ancient Dreams","Electronic",0,"Navy",0.12019818276166916,"Gray",0.10226113349199295,"Navy",0.0888664573431015
+"Patrick O'Hearn",,"Indigo","Electronic",0,"White",0.12127569317817688,"Gray",0.11392814666032791,"Silver",0.08952610194683075
+"Patrick O'Hearn","2001","So Flows The Current","Electronic",0,"Black",0.46588748693466187,"Black",0.13844576478004456,"Black",0.05410327762365341
+"Patrick O'Hearn","1996","Metaphor","Electronic",0,"Silver",0.23127472400665283,"Gray",0.1515219807624817,"Gray",0.13708284497261047
+"Patrick O'Hearn","1987","Between Two Worlds","Electronic",0,"Navy",0.5469667911529541,"Teal",0.09301624447107315,"Navy",0.05096806213259697
+"Patrick O'Hearn","2007","Glaciation","Electronic",0,"Silver",0.20106855034828186,"Gray",0.19008959829807281,"Gray",0.13938306272029877
+"Patrick O'Hearn","1988","Rivers Gonna Rise","Electronic",0,"Black",0.22832413017749786,"Navy",0.2074575275182724,"Gray",0.15076309442520142
+"Patrick O'Hearn","1990","Mix-Up","Electronic",0,"Red",0.315003901720047,"Olive",0.19384066760540009,"Red",0.08238809555768967
+"Patti Smith","2004","Trampin'","Rock",0,"White",0.5555949211120605,"Silver",0.3258902132511139,"Gray",0.07731012254953384
+"Patti Smith","1997","Peace And Noise","Rock",0,"Gray",0.275065153837204,"Gray",0.185914546251297,"White",0.1790049523115158
+"Patti Smith","1996","Gone Again","Rock",0,"Black",0.9137977957725525,"Black",0.08468177914619446,"Gray",0.0012894646497443318
+"Paul McCartney","2007","Memory Almost Full","Rock",0,"Black",0.8798696994781494,"Black",0.07634197920560837,"Gray",0.013198657892644405
+"Paul McCartney","1990","Back In The U.S.A.","Rock",5,"Black",0.3376545011997223,"Black",0.16596592962741852,"Black",0.14780884981155396
+"Pearl Jam","2001","12 6 00","Rock",0,"Gray",0.26785218715667725,"Olive",0.17721053957939148,"Maroon",0.16619426012039185
+"Pearl Jam","2001","04 6 00","Rock",0,"Olive",0.33127471804618835,"Olive",0.20948632061481476,"Gray",0.12302669882774353
+"Pearl Jam","2011","Vs. / Vitalogy","Rock",0,"White",0.4544469714164734,"Silver",0.14694711565971375,"Silver",0.11491653323173523
+"Pearl Jam","2001","08 6 00","Rock",0,"Maroon",0.31502264738082886,"Black",0.21557515859603882,"Olive",0.12972518801689148
+"Peter Bjorn And John","2009","Living Thing","Rock",0,"Teal",0.24874143302440643,"Navy",0.14246930181980133,"Gray",0.14115585386753082
+"Peter Bjorn And John","2011","Gimme Some","Rock",0,"Teal",0.49382132291793823,"Teal",0.20032238960266113,"Teal",0.09066598117351532
+"Peter Gabriel","2002","Long Walk Home","Electronic",0,"Gray",0.27686819434165955,"Olive",0.2726016938686371,"Maroon",0.12440226972103119
+"Peter Gabriel","2007","The Warm Up Tour","Electronic",0,"Red",0.7904130220413208,"Red",0.05922287702560425,"Yellow",0.014571118168532848
+"Peter Gabriel","2003","Summer 2003 (07.01.03 Columbus, OH)","Electronic",0,"Black",0.25347474217414856,"Black",0.177186518907547,"Black",0.16505484282970428
+"Peter Murphy","2004","Unshattered","Rock",0,"Silver",0.3414272665977478,"Gray",0.16862721741199493,"White",0.08688336610794067
+"Peter Murphy","2011","Ninth","Rock",0,"White",0.45531216263771057,"Black",0.19645476341247559,"Silver",0.12065692991018295
+"Peter Murphy",,"Love Hysteria","Rock",1,"Gray",0.374908447265625,"Silver",0.31422677636146545,"Silver",0.06910160928964615
+"Peter Schilling","1983","Error In The System","Electronic",1,"Black",0.16001471877098083,"Silver",0.11801483482122421,"Silver",0.06603625416755676
+"Peter Tosh","1983","Mama Africa","Reggae",1,"Gray",0.10561735183000565,"Gray",0.08130455017089844,"Gray",0.0689702033996582
+"Peter Tosh","1976","Legalize It","Reggae",0,"Black",0.08223123848438263,"Olive",0.06016836687922478,"Gray",0.0580255463719368
+"Pink Floyd","1988","Taylor Fury And Floyd","Rock",0,"Silver",0.21996407210826874,"Gray",0.17897818982601166,"Gray",0.16905726492404938
+"Pixies, The","1964","Party With The Pixies Three","Rock",3,"Silver",0.19832217693328857,"Black",0.08720368891954422,"Gray",0.07825586199760437
+"PJ Harvey","2000","Stories From The City, Stories From The Sea","Rock",1,"Black",0.2944789230823517,"Black",0.15200872719287872,"Gray",0.0992586687207222
+"Porno for Pyros","1993","Porno For Pyros","Rock",0,"Red",0.08518020808696747,"Olive",0.06708876043558121,"Red",0.05636834353208542
+"Presets, The","2012","Pacifica","Electronic",0,"Silver",0.12252296507358551,"Gray",0.09197090566158295,"White",0.08029410243034363
+"Presets, The","2005","Beams + Re-Sets","Electronic",1,"Silver",0.1024455577135086,"Black",0.09212128072977066,"Gray",0.08010464906692505
+"Pretenders","2008","Break Up The Concrete","Rock",0,"Black",0.32963258028030396,"White",0.23596999049186707,"Black",0.0810340866446495
+"Pretenders","2002","Loose Screw","Rock",0,"Black",0.5000733137130737,"Black",0.139954075217247,"Gray",0.05398959293961525
+"Pretty Lights","2013","A Color Map Of The Sun","Electronic",0,"Silver",0.17973999679088593,"Gray",0.09280633181333542,"Gray",0.08435476571321487
+"Pretty Lights","2010","Pretty Lights 2006","Electronic",0,"Cyan",0.3613151013851166,"Gray",0.19101762771606445,"Cyan",0.09993590414524078
+"Public Image Limited","2015","Identity Factory","Rock",1,"Gray",0.23980677127838135,"Black",0.20407959818840027,"Gray",0.18722909688949585
+"Ramones","1983","Subterranean Jungle","Rock",0,"Black",0.08225542306900024,"Gray",0.053706664592027664,"Teal",0.05183687433600426
+"Ramones","1984","Too Tough To Die","Rock",0,"Silver",0.3579806685447693,"Gray",0.17000222206115723,"Teal",0.13293230533599854
+"Ramones","1976","Ramones","Rock",1,"Black",0.7565160393714905,"Black",0.12633651494979858,"Gray",0.053471386432647705
+"Ramones","1977","Rocket To Russia","Rock",0,"Black",0.645554780960083,"White",0.07888481765985489,"Black",0.05355588346719742
+"Ramones","1977","Leave Home","Rock",1,"Silver",0.24510248005390167,"Silver",0.11950936168432236,"Silver",0.1032898873090744
+"Ray Charles","1968","Memories Of A Middle-Aged Movie Fan","Jazz",0,"Silver",0.14015111327171326,"Gray",0.11806518584489822,"Gray",0.10240423679351807
+"Real Estate","2011","Days","Rock",0,"Silver",0.8712711334228516,"Silver",0.04007380083203316,"Gray",0.01853063702583313
+"Real Estate","2009","Real Estate","Rock",0,"Black",0.22378043830394745,"Olive",0.18662749230861664,"Silver",0.09556508809328079
+"Real Estate","2014","Atlas","Rock",0,"Gray",0.3888258635997772,"Silver",0.1017678901553154,"Maroon",0.06694012135267258
+"Real Estate","2017","In Mind","Rock",0,"Gray",0.6262524724006653,"Gray",0.30147576332092285,"Gray",0.03822527825832367
+"Real Estate","2005","Lock -N- Key","Hip Hop",6,"Black",0.24104373157024384,"Black",0.12202898412942886,"Black",0.09964609891176224
+"Recondite","2013","Hinterland","Electronic",0,"White",0.5757802724838257,"Silver",0.20755964517593384,"Gray",0.12084881216287613
+"Recondite","2015","Placid","Electronic",0,"Gray",0.22486066818237305,"Black",0.2069334089756012,"Gray",0.1999363899230957
+"Red Hot Chili Peppers","1995","One Hot Minute","Rock",0,"Olive",0.1539674997329712,"Silver",0.08232466876506805,"Silver",0.08018939942121506
+"Red Hot Chili Peppers","2002","By The Way","Rock",0,"Silver",0.11680043488740921,"Gray",0.10245230048894882,"Gray",0.10147487372159958
+"Red Hot Chili Peppers","2016","The Getaway","Rock",0,"Black",0.19417834281921387,"Maroon",0.126371368765831,"Gray",0.09856023639440536
+"Red Hot Chili Peppers","1989","Mother's Milk","Rock",1,"White",0.5970396995544434,"Black",0.09696492552757263,"Silver",0.06266769766807556
+"Rick Springfield","2012","Songs For The End Of The World","Rock",1,"Black",0.11300086975097656,"Yellow",0.10695171356201172,"Teal",0.07279475778341293
+"Rick Springfield","1972","Beginnings","Rock",1,"Olive",0.28701433539390564,"Gray",0.14975304901599884,"Silver",0.1401042640209198
+"Rick Springfield","2008","Venus In Overdrive","Rock",0,"Olive",0.2895027697086334,"Gray",0.19150346517562866,"Olive",0.14423605799674988
+"Rick Springfield","2005","The Day After Yesterday","Rock",1,"Black",0.3909356892108917,"Black",0.10854616016149521,"White",0.05190018564462662
+"Rick Springfield","2019","Orchestrating My Life","Rock",1,"Black",0.5772726535797119,"Black",0.06627746671438217,"Maroon",0.04085734114050865
+"Rick Springfield","1982","Success Hasn't Spoiled Me Yet","Rock",1,"Black",0.16157130897045135,"Maroon",0.1436031311750412,"Black",0.0985899567604065
+"Rick Springfield","1985","Tao","Rock",1,"Black",0.3265860974788666,"Gray",0.11733602732419968,"Gray",0.11359266191720963
+"Rick Wakeman","1975","Lisztomania","Rock",0,"Silver",0.15194270014762878,"Gray",0.11335933208465576,"Olive",0.08917342126369476
+"Robert Rich","2003","Temple Of The Invisible","Electronic",0,"Gray",0.41410180926322937,"Gray",0.14012117683887482,"White",0.1258178949356079
+"Robert Rich","2007","Michael Somoroff's Illumination","Electronic",0,"White",0.33092358708381653,"Gray",0.17986087501049042,"Gray",0.16494344174861908
+"Robert Rich","2010","Ylang","Electronic",0,"Olive",0.2596655488014221,"Olive",0.07657060027122498,"Black",0.06906179338693619
+"Robert Rich","2016","What We Left Behind","Electronic",0,"Gray",0.2075410932302475,"Gray",0.09186388552188873,"Gray",0.07055997848510742
+"Robert Rich",,"Rainforest","Electronic",0,"Purple",0.14007991552352905,"Purple",0.12962596118450165,"Purple",0.11250818520784378
+"Robert Rich","2000","Sunyata","Electronic",0,"Gray",0.19286467134952545,"Gray",0.17706915736198425,"Purple",0.16390308737754822
+"Robert Rich","1994","Propagation","Electronic",0,"Red",0.10045964270830154,"Olive",0.07617012411355972,"Olive",0.060664206743240356
+"Robert Rich","1991","Gaudí","Electronic",0,"Gray",0.2692924737930298,"Gray",0.194992795586586,"Olive",0.1583336442708969
+"Robert Rich","2005","Echo Of Small Things","Electronic",0,"Black",0.3226582407951355,"Gray",0.20606186985969543,"Gray",0.10341574996709824
+"Robert Rich","2011","Medicine Box","Electronic",0,"Olive",0.1596543937921524,"Maroon",0.12100227177143097,"Olive",0.08969994634389877
+"Robert Rich","2015","Filaments","Electronic",0,"Maroon",0.28631073236465454,"Olive",0.18743996322155,"Olive",0.12226451188325882
+"Robert Rich","1993","Numena","Electronic",0,"Olive",0.2736935019493103,"Gray",0.2528281807899475,"Maroon",0.12011972069740295
+"Robert Rich","1994","Trances / Drones","Electronic",0,"Olive",0.12293335050344467,"Olive",0.07476167380809784,"Olive",0.06537194550037384
+"Romantics, The","1983","In Heat","Rock",4,"Black",0.3486897349357605,"Black",0.3079971671104431,"Black",0.0852503627538681
+"Romantics, The","1980","The Romantics","Rock",3,"Black",0.22909627854824066,"Maroon",0.1681963950395584,"Maroon",0.05271601304411888
+"Romantics, The",,"National Breakout","Rock",4,"Black",0.31222105026245117,"Black",0.13116736710071564,"Black",0.04714961349964142
+"Romantics, The","1981","Strictly Personal","Rock",4,"Purple",0.14952662587165833,"Gray",0.08909188956022263,"Gray",0.07183311879634857
+"Roxy Music","1998","Concert Classics","Rock",1,"Black",0.4563802182674408,"Black",0.06924500316381454,"White",0.05017641559243202
+"Rush","2011","Sector 3","Rock",0,"Black",0.9243460893630981,"White",0.03451751545071602,"Black",0.010577189736068249
+"Saint Etienne","2000","Sound Of Water","Electronic",0,"Silver",0.4570847451686859,"Silver",0.15682236850261688,"Black",0.069821298122406
+"Saint Etienne","1998","Good Humor","Rock",0,"White",0.9194867014884949,"Silver",0.024361081421375275,"Black",0.015590695664286613
+"Santana","1987","Freedom","Rock",0,"Purple",0.06876899302005768,"Red",0.06506199389696121,"Yellow",0.05634266138076782
+"Santana","1974","Borboletta","Jazz",0,"Teal",0.42847394943237305,"Gray",0.21487580239772797,"Gray",0.16681338846683502
+"Santana","2017","Woodstock (Saturday, August 16, 1969)","Rock",0,"White",0.21683602035045624,"White",0.11637833714485168,"Silver",0.06856604665517807
+"Seals And Crofts","1973","Diamond Girl","Rock",2,"Black",0.3286440670490265,"Black",0.1423019915819168,"Gray",0.06970282644033432
+"Seals And Crofts","1977","Seals & Crofts Sing The Songs From The Original Motion Picture Sound Track ""One On One""","Rock",0,"White",0.8515324592590332,"Silver",0.05510903522372246,"Black",0.05028815194964409
+"Seals And Crofts","1969","Seals And Crofts","Rock",2,"Black",0.607655942440033,"Black",0.06948074698448181,"Black",0.06258725374937057
+"Seals And Crofts","1974","Unborn Child","Rock",0,"White",0.15463881194591522,"White",0.14465753734111786,"Gray",0.07844624668359756
+"Seals And Crofts","1972","Summer Breeze","Rock",0,"Silver",0.07937924563884735,"Silver",0.07535378634929657,"Olive",0.07229945063591003
+"Seals And Crofts","1971","Year Of Sunday","Rock",1,"Black",0.7107148170471191,"Black",0.18965403735637665,"Gray",0.033188190311193466
+"Seals And Crofts","1976","Get Closer","Rock",0,"Gray",0.8847752213478088,"Gray",0.0906737893819809,"Gray",0.018194610252976418
+"Severed Heads","2017","Donut","Electronic",0,"Black",0.4705411493778229,"Gray",0.1193748489022255,"Silver",0.09043259173631668
+"She & Him","2011","A Very She & Him Christmas","Folk, World, & Country",2,"Maroon",0.3117050230503082,"Maroon",0.07128593325614929,"White",0.06498462706804276
+"She & Him","2010","Volume Two","Rock",0,"Silver",0.7055685520172119,"Silver",0.055977046489715576,"White",0.05194981396198273
+"She & Him","2008","Volume One","Rock",0,"Yellow",0.3330755829811096,"White",0.23895199596881866,"Silver",0.07084337621927261
+"She & Him","2016","Christmas Party","Pop",2,"White",0.232864111661911,"Silver",0.2055923193693161,"Gray",0.10448884218931198
+"She & Him","2014","Classics","Jazz",1,"White",0.3412066400051117,"Red",0.17399735748767853,"Black",0.11098714172840118
+"Sia","2015","1000 Forms Of Fear","Electronic",0,"White",0.3732263743877411,"White",0.318054735660553,"Silver",0.06101292744278908
+"Sinéad O'Connor","1992","Am I Not Your Girl?","Electronic",1,"Gray",0.23564065992832184,"Silver",0.1618194729089737,"Black",0.13430118560791016
+"Sinéad O'Connor","1990","I Do Not Want What I Haven't Got","Rock",1,"Black",0.41693606972694397,"Silver",0.10314614325761795,"Gray",0.05713295936584473
+"Sinéad O'Connor","2007","Theology","Rock",1,"Navy",0.4672495424747467,"Gray",0.0927351862192154,"Teal",0.08523164689540863
+"Sinéad O'Connor","2002","Sean-Nós Nua","Rock",1,"Olive",0.21138189733028412,"Black",0.15334248542785645,"Gray",0.09088078886270523
+"Sinoia Caves","2006","The Enchanter Persuaded","Electronic",0,"Teal",0.2659851610660553,"Gray",0.07701326906681061,"Teal",0.07261106371879578
+"Skinny Puppy","1996","Intolerance","Electronic",0,"Gray",0.7087898850440979,"Gray",0.1693354696035385,"Black",0.10031770914793015
+"Skinny Puppy","1996","The Process","Electronic",0,"Black",0.3060194253921509,"Black",0.1977909803390503,"Gray",0.1295728087425232
+"Skinny Puppy","2011","hanDover","Electronic",0,"Gray",0.24506144225597382,"Gray",0.21014639735221863,"Gray",0.1864251345396042
+"Skinny Puppy","2002","Puppy Gristle","Electronic",0,"Black",0.24270913004875183,"Gray",0.11680272966623306,"Gray",0.09399018436670303
+"Skinny Puppy","2013","Weapon","Electronic",0,"Navy",0.3114452660083771,"Gray",0.1741190403699875,"Black",0.15474744141101837
+"Skinny Puppy","2001","Bites","Electronic",0,"Purple",0.5881125330924988,"Purple",0.15367847681045532,"Black",0.05875689163804054
+"Slits, The","2009","Trapped Animal","Rock",0,"Silver",0.14808732271194458,"Silver",0.05410035327076912,"Yellow",0.05401736497879028
+"Slits, The","2004","Cut","Reggae",0,"Gray",0.4562113583087921,"Black",0.0691412016749382,"Gray",0.05365976318717003
+"Slits, The","2017","Return Of The Giant Slits","Rock",2,"Black",0.11913439631462097,"Gray",0.03803407400846481,"Gray",0.033992864191532135
+"Slowdive","1996","Just For A Day","Rock",0,"Maroon",0.4369169771671295,"Red",0.34318798780441284,"Maroon",0.1529506891965866
+"Slowdive","1994","Souvlaki","Rock",0,"White",0.3872090280056,"Black",0.13327832520008087,"Silver",0.11892930418252945
+"Smashing Pumpkins","2007","Zeitgeist","Rock",0,"Gray",0.17380888760089874,"White",0.09974480420351028,"Gray",0.08650907129049301
+"Smash Mouth",,"Astro Lounge","Rock",0,"Navy",0.09499610960483551,"Olive",0.031003311276435852,"Gray",0.028007440268993378
+"Smash Mouth","2012","Magic","Rock",0,"Gray",0.15153226256370544,"Gray",0.1321224570274353,"Silver",0.13201680779457092
+"Smash Mouth","1997","Fush Yu Mang","Rock",0,"Teal",0.2966221868991852,"Gray",0.07877405732870102,"Green",0.07596995681524277
+"Soundgarden","1988","Ultramega OK","Rock",0,"White",0.2952629625797272,"Maroon",0.16764211654663086,"Black",0.12873780727386475
+"SPC ECO","2015","Dark Matter","Electronic",0,"Black",0.845312774181366,"Silver",0.03325827047228813,"White",0.03008921630680561
+"Spiritualized","2003","Amazing Grace","Rock",0,"Silver",0.2996364235877991,"Silver",0.2047910988330841,"Gray",0.16021551191806793
+"SPK","1987","Gold And Poison (Digitalis Ambigua)","Electronic",0,"Black",0.23444847762584686,"Black",0.16369138658046722,"Olive",0.06382986158132553
+"SPK","2016","In The Thick Of It","Rock",0,"Silver",0.3976788818836212,"Red",0.24706752598285675,"Silver",0.0701298862695694
+"SPK","2018","Machine Age Voodoo","Electronic",2,"Red",0.21469712257385254,"Silver",0.16531868278980255,"Silver",0.07872132956981659
+"Squeeze","2010","Spot The Difference","Rock",0,"Silver",0.6559327840805054,"Silver",0.060535039752721786,"Gray",0.026839006692171097
+"Stan Ridgway","1996","Black Diamond","Rock",0,"Maroon",0.6129360795021057,"Maroon",0.15345512330532074,"Maroon",0.15250036120414734
+"Stan Ridgway","2009","The Way I Feel Today","Rock",0,"Teal",0.296958327293396,"Black",0.29436567425727844,"Gray",0.08617391437292099
+"Stan Ridgway","1999","Anatomy","Rock",0,"Yellow",0.28747624158859253,"Yellow",0.1676444262266159,"Yellow",0.12387339025735855
+"Stan Ridgway","1986","The Big Heat","Electronic",0,"Silver",0.1819406896829605,"Teal",0.15256856381893158,"Black",0.13878458738327026
+"Steely Dan","1972","Can't Buy A Thrill","Rock",0,"Purple",0.13645045459270477,"Gray",0.05051443725824356,"Yellow",0.025324761867523193
+"Steely Dan","2000","Two Against Nature","Jazz",0,"Olive",0.37735244631767273,"Olive",0.12097816169261932,"Silver",0.07475395500659943
+"Steely Dan","1980","Gaucho","Jazz",0,"Teal",0.3200511336326599,"Gray",0.15825194120407104,"Gray",0.10798485577106476
+"Steely Dan","1976","The Royal Scam","Rock",0,"Gray",0.18732237815856934,"Silver",0.1424606293439865,"Silver",0.11766532808542252
+"Steely Dan","1973","Rotoscope Down ","Rock",0,"Gray",0.2125631421804428,"Gray",0.21158814430236816,"Black",0.17124274373054504
+"Steely Dan","2016","Doing It In California / 1974","Rock",0,"Black",0.23836064338684082,"Gray",0.2249564528465271,"White",0.13366617262363434
+"Steely Dan","1974","Pretzel Logic","Jazz",0,"Black",0.4590243399143219,"Gray",0.22364245355129242,"Gray",0.10093367844820023
+"Steely Dan","1977","Aja","Jazz",0,"Black",0.3854357600212097,"Maroon",0.09606296569108963,"Maroon",0.057692401111125946
+"Steely Dan","1975","Katy Lied","Rock",0,"Gray",0.27641183137893677,"Gray",0.19911378622055054,"Gray",0.15797099471092224
+"Stereolab","2004","Margerine Eclipse","Rock",0,"Red",0.4097593128681183,"Red",0.1216658428311348,"Red",0.11628244072198868
+"Stereolab","2001","Sound-Dust","Rock",0,"Gray",0.557101845741272,"Silver",0.22241151332855225,"Silver",0.06801898777484894
+"Stereolab","2012","Mars Audiac Quintet","Electronic",0,"Yellow",0.3659658133983612,"Yellow",0.0801602452993393,"Yellow",0.0709875300526619
+"Steve Miller Band","1968","Children Of The Future","Rock",0,"Navy",0.5473182201385498,"Navy",0.042132001370191574,"Yellow",0.030046923086047173
+"Steve Miller Band","1977","Book Of Dreams","Rock",0,"Silver",0.14754454791545868,"White",0.11309788376092911,"Silver",0.10513576120138168
+"Steve Miller Band","1969","Brave New World","Rock",0,"Gray",0.13048388063907623,"Gray",0.11716851592063904,"Gray",0.10994107276201248
+"Steve Miller Band","1970","Number 5","Rock",0,"Gray",0.16840045154094696,"Silver",0.07254854589700699,"Maroon",0.0560760498046875
+"Steve Miller Band","1969","Your Saving Grace","Rock",0,"Olive",0.0473133884370327,"Yellow",0.0396152064204216,"Olive",0.037333305925130844
+"Steve Miller Band","1973","The Joker","Rock",1,"Maroon",0.30042529106140137,"Gray",0.13498559594154358,"Black",0.084558866918087
+"Steve Miller Band","1981","Circle Of Love","Rock",1,"Black",0.3933306336402893,"White",0.0840916633605957,"Silver",0.04906737431883812
+"Steve Miller Band","1976","Fly Like An Eagle","Rock",0,"White",0.3993387222290039,"Silver",0.09097132086753845,"Gray",0.050652630627155304
+"Steve Roach","1983","Traveler","Electronic",0,"Black",0.2249153107404709,"Gray",0.20092016458511353,"Gray",0.14328324794769287
+"Steve Roach","2011","Journey Of One","Electronic",0,"Olive",0.23410962522029877,"Maroon",0.21984776854515076,"Olive",0.09118065237998962
+"Steve Roach","2012","Groove Immersion","Electronic",0,"Olive",0.15992404520511627,"Red",0.13844843208789825,"Yellow",0.1045023500919342
+"Steve Roach","2014","The Delicate Forever","Electronic",0,"White",0.7515212893486023,"Silver",0.09333506971597672,"Silver",0.07710396498441696
+"Steve Roach","2014","The Delicate Beyond","Electronic",0,"Silver",0.2137533575296402,"Silver",0.19326311349868774,"Black",0.1665428876876831
+"Steve Roach","2013","At The Edge Of Everything","Electronic",0,"Teal",0.07731124758720398,"Navy",0.05282701551914215,"Navy",0.03077523410320282
+"Steve Roach","2001","Core","Electronic",0,"Gray",0.1502094268798828,"Gray",0.1256915032863617,"Silver",0.12256985157728195
+"Steve Roach","2010","Sigh Of Ages","Electronic",0,"White",0.8292531967163086,"Silver",0.09788624197244644,"Gray",0.025842564180493355
+"Steve Roach","2003","Life Sequence","Electronic",0,"Black",0.18990027904510498,"Gray",0.13716185092926025,"Black",0.08998008072376251
+"Steve Roach","2013","Future Flows","Electronic",0,"Gray",0.11028871685266495,"Silver",0.08553099632263184,"Silver",0.08103291690349579
+"Steve Roach","2012","Soul Tones","Electronic",0,"Black",0.22796857357025146,"Maroon",0.17195042967796326,"Gray",0.15647132694721222
+"Steve Roach","2018","Mercurius","Electronic",0,"Silver",0.3170924782752991,"White",0.24353790283203125,"Silver",0.11046560853719711
+"Steve Roach","2005","Possible Planet","Electronic",0,"Gray",0.07021167874336243,"Gray",0.06773793697357178,"Gray",0.05311901867389679
+"Steve Roach","2017","The Passing","Electronic",0,"Olive",0.13404051959514618,"Maroon",0.1224314495921135,"Black",0.09609750658273697
+"Steve Roach","2018","Molecules Of Motion","Electronic",0,"Teal",0.23697684705257416,"Navy",0.2196607142686844,"Gray",0.1266569346189499
+"Steve Roach","2019","Bloom Ascension","Electronic",0,"Gray",0.28504785895347595,"Gray",0.24531051516532898,"Gray",0.15150970220565796
+"Steve Roach","2008","A Deeper Silence","Electronic",0,"Maroon",0.33395177125930786,"Black",0.22923803329467773,"Black",0.20854271948337555
+"Steve Roach","2006","Immersion : One","Electronic",0,"Gray",0.2574099004268646,"Gray",0.11181269586086273,"Green",0.100143663585186
+"Steve Roach","2001","Structures From Silence","Electronic",0,"Purple",0.4158827066421509,"Gray",0.14839915931224823,"Black",0.13710938394069672
+"Steve Roach","2007","Fever Dreams III","Electronic",0,"Black",0.4400230944156647,"Black",0.0922507792711258,"Black",0.0879259780049324
+"Steve Roach","2013","Spiral Meditations","Electronic",0,"Silver",0.24004903435707092,"Gray",0.1417941153049469,"Gray",0.13905560970306396
+"Steve Roach","2017","Nostalgia For The Future","Electronic",0,"Silver",0.4895797073841095,"Silver",0.2579958140850067,"White",0.14847776293754578
+"Steve Roach","2011","Sounds From The Inbetween","Electronic",0,"Maroon",0.23005744814872742,"Black",0.22213877737522125,"Black",0.14949679374694824
+"Steve Roach","2019","The Magnificent Void","Electronic",0,"Black",0.5868630409240723,"Black",0.10649694502353668,"Black",0.09123646467924118
+"Sting","1978","Pleasure","Funk / Soul",0,"Gray",0.17648760974407196,"Gray",0.05997740849852562,"Gray",0.046243734657764435
+"Sting","1993","Ten Summoner's Tales","Rock",1,"Black",0.1518470048904419,"Yellow",0.14785964787006378,"Yellow",0.10589912533760071
+"Stone Temple Pilots",,"Core","Rock",1,"Yellow",0.1316981166601181,"Black",0.08601851016283035,"Green",0.07262089848518372
+"Stone Temple Pilots","1999","Nº4","Rock",0,"White",0.9779463410377502,"Black",0.0070955269038677216,"Gray",0.004346969071775675
+"Stone Temple Pilots","2001","Shangri-La Dee Da","Rock",0,"Olive",0.14801053702831268,"Maroon",0.1457521766424179,"Olive",0.09089954942464828
+"Stone Temple Pilots","2018","Stone Temple Pilots","Rock",0,"White",0.14508087933063507,"Gray",0.14477738738059998,"Gray",0.12753143906593323
+"Stone Temple Pilots","2010","Stone Temple Pilots","Rock",0,"Olive",0.17490240931510925,"Maroon",0.15720057487487793,"Maroon",0.1318010687828064
+"Stone Temple Pilots","1996","Tiny Music...Songs From The Vatican Gift Shop","Rock",1,"Olive",0.09752818197011948,"Gray",0.05841619521379471,"White",0.04990476742386818
+"Styx","1999","Brave New World","Rock",0,"Silver",0.14350447058677673,"Purple",0.08817783743143082,"White",0.06537354737520218
+"Styx","2017","The Mission","Rock",0,"Maroon",0.11933039873838425,"Maroon",0.10359513759613037,"Maroon",0.10346067696809769
+"Styx","1997","Return To Paradise","Rock",0,"Navy",0.11357343941926956,"Navy",0.09674099087715149,"Teal",0.09135375171899796
+"Styx","1983","Kilroy Was Here","Rock",0,"Yellow",0.09155631065368652,"Yellow",0.06960713118314743,"Silver",0.06505272537469864
+"Styx","1977","The Grand Illusion","Rock",0,"Olive",0.10572677105665207,"Olive",0.09438351541757584,"Maroon",0.08612673729658127
+"Styx","1990","Edge Of The Century","Rock",0,"Gray",0.18890197575092316,"Teal",0.13436001539230347,"Gray",0.11417852342128754
+"Sublime",,"40oz. To Freedom","Rock",0,"Black",0.12202794849872589,"Maroon",0.09973850101232529,"Olive",0.07306621968746185
+"Sublime","1998","Sublime Acoustic (Bradley Nowell & Friends)","Rock",0,"Gray",0.6607999205589294,"Gray",0.14780065417289734,"Olive",0.04746660217642784
+"Sublime","1996","Sublime","Rock",0,"Olive",0.28049570322036743,"Olive",0.25562822818756104,"Gray",0.07330624759197235
+"Sublime","1994","Memories","Rock",0,"White",0.4847547113895416,"Silver",0.19643078744411469,"Gray",0.14405818283557892
+"Sugar Ray","1999","14:59","Rock",0,"Gray",0.18470144271850586,"Gray",0.07039101421833038,"Gray",0.06400034576654434
+"Sugar Ray","1997","Floored","Rock",2,"Black",0.09699568897485733,"Maroon",0.06984970718622208,"Black",0.0609172023832798
+"S U R V I V E","2016","RR7349","Electronic",0,"Black",0.14542405307292938,"Teal",0.10786594450473785,"Yellow",0.08106739819049835
+"Suzanne Vega","1992","99.9F°","Electronic",0,"Silver",0.14346738159656525,"Maroon",0.09612070024013519,"White",0.08398064225912094
+"Swervedriver","1998","99th Dream","Rock",0,"White",0.2624832093715668,"Silver",0.09680045396089554,"Silver",0.09271525591611862
+"Swervedriver","2010","Raise","Rock",0,"Silver",0.5960119366645813,"Silver",0.29049474000930786,"Gray",0.04790158197283745
+"Swervedriver","2019","Future Ruins","Rock",0,"Silver",0.6933390498161316,"Silver",0.1084134578704834,"Gray",0.08545579761266708
+"Synergy","1986","Electronic Realizations For Rock Orchestra","Electronic",0,"Purple",0.12845242023468018,"Purple",0.07721567898988724,"Gray",0.06709132343530655
+"Synergy","1998","Computer Experiments Volume One","Electronic",0,"Teal",0.12380412220954895,"Silver",0.10150066018104553,"Gray",0.05406483635306358
+"Talking Heads","1984","Stop Making Sense","Rock",0,"Silver",0.1868101954460144,"Silver",0.14295828342437744,"Silver",0.11720430850982666
+"Talking Heads","1978","More Songs About Buildings And Food","Rock",2,"Maroon",0.11346522718667984,"Red",0.11211316287517548,"Maroon",0.10543246567249298
+"Talking Heads","1979","Fear Of Music","Rock",0,"Black",0.2097671627998352,"Black",0.1646929532289505,"Gray",0.12150371074676514
+"Talking Heads","1988","Naked","Rock",0,"Maroon",0.46431994438171387,"Red",0.10483526438474655,"Red",0.1019010916352272
+"Tangerine Dream","1983","Wavelength (Original Soundtrack)","Electronic",1,"Silver",0.3298705220222473,"Silver",0.11129109561443329,"Gray",0.08427032083272934
+"Tangerine Dream","1987","Shy People (Original Motion Picture Soundtrack)","Electronic",1,"Gray",0.10726473480463028,"Black",0.09371181577444077,"White",0.08682094514369965
+"Tangerine Dream","1991","Canyon Dreams","Electronic",0,"Maroon",0.14353260397911072,"Maroon",0.09247204661369324,"Maroon",0.06697827577590942
+"Tangerine Dream","1994","Catch Me... If You Can","Electronic",0,"Black",0.3583744764328003,"Yellow",0.03413216397166252,"Yellow",0.03412862867116928
+"Tangerine Dream","1985","...In The Beginning","Electronic",0,"Red",0.41448894143104553,"Red",0.07355476915836334,"Gray",0.06842708587646484
+"Tears For Fears","2004","Everybody Loves A Happy Ending","Electronic",0,"Navy",0.04463883116841316,"Maroon",0.038044802844524384,"Olive",0.03728170320391655
+"They Might Be Giants","1992","Apollo 18","Rock",0,"Olive",0.22298327088356018,"Red",0.08605288714170456,"Gray",0.08414992690086365
+"They Might Be Giants","2013","Nanobots","Rock",0,"Gray",0.15283380448818207,"Gray",0.1401522159576416,"Navy",0.10022202879190445
+"They Might Be Giants","2015","Why?","Rock",0,"Yellow",0.6045064330101013,"White",0.041691772639751434,"Black",0.011761686764657497
+"They Might Be Giants","2005","Here Come The ABCs","Rock",0,"Yellow",0.2260051965713501,"Olive",0.20749130845069885,"Teal",0.05047803744673729
+"They Might Be Giants","1990","Flood","Rock",0,"Black",0.3440251350402832,"Olive",0.23986311256885529,"Gray",0.16073006391525269
+"They Might Be Giants","2001","Mink Car","Rock",0,"Gray",0.5599515438079834,"Gray",0.10558826476335526,"Gray",0.06273750960826874
+"They Might Be Giants","1986","They Might Be Giants","Rock",1,"Gray",0.10441403836011887,"Gray",0.08826544880867004,"Gray",0.03837750479578972
+"They Might Be Giants","2009","Here Comes Science","Rock",0,"Black",0.30218595266342163,"Black",0.16114196181297302,"White",0.09798648208379745
+"They Might Be Giants","2002","No!","Rock",0,"White",0.29850485920906067,"Black",0.05975324660539627,"Maroon",0.05239235609769821
+"They Might Be Giants","1994","John Henry","Rock",1,"Black",0.15543560683727264,"Black",0.14819559454917908,"Navy",0.0646633431315422
+"They Might Be Giants","2008","Here Come The 123s","Rock",0,"Olive",0.4751030504703522,"Green",0.0567387156188488,"Red",0.02715635485947132
+"They Might Be Giants","2016","Phone Power","Rock",0,"White",0.10529694706201553,"White",0.1011035367846489,"Silver",0.09644440561532974
+"They Might Be Giants","2018","My Murdered Remains","Rock",0,"Silver",0.5398600697517395,"Silver",0.29622629284858704,"Gray",0.05767577141523361
+"They Might Be Giants","1988","Lincoln","Rock",0,"Gray",0.2387915402650833,"Teal",0.20629319548606873,"Gray",0.05196182802319527
+"They Might Be Giants","2019","The Escape Team","Rock",0,"Black",0.1951773464679718,"Silver",0.11073179543018341,"Silver",0.10358520597219467
+"They Might Be Giants","2014","Idlewild","Rock",0,"Silver",0.39380332827568054,"Silver",0.3752514719963074,"Gray",0.10658565163612366
+"They Might Be Giants","2011","Join Us","Rock",0,"Silver",0.7798424959182739,"Black",0.07833281904459,"Silver",0.04037174955010414
+"They Might Be Giants","2007","The Else","Rock",0,"Silver",0.24909211695194244,"Black",0.2312479168176651,"Black",0.14312899112701416
+"They Might Be Giants","2005","Venue Songs","Rock",0,"Silver",0.6878040432929993,"Silver",0.23965714871883392,"Gray",0.015958093106746674
+"Thievery Corporation","2017","The Temple Of I & I","Electronic",0,"Yellow",0.12625184655189514,"Olive",0.11096912622451782,"Olive",0.02659369446337223
+"Thievery Corporation","2008","Radio Retaliation","Electronic",0,"Olive",0.904175877571106,"Olive",0.05932842195034027,"Olive",0.02444305457174778
+"Thievery Corporation","2000","The Mirror Conspiracy","Electronic",0,"Black",0.2522156834602356,"Black",0.19724251329898834,"Gray",0.11153921484947205
+"Thievery Corporation","2011","Culture Of Fear","Electronic",0,"White",0.22869077324867249,"Gray",0.21027222275733948,"Silver",0.1511131078004837
+"Thievery Corporation","2005","The Cosmic Game","Electronic",0,"Black",0.3209743797779083,"Black",0.07017666846513748,"Red",0.06288236379623413
+"Thievery Corporation","2014","Saudade","Latin",0,"Silver",0.4168072044849396,"Silver",0.36076632142066956,"Black",0.16926003992557526
+"Thievery Corporation","2002","The Richest Man In Babylon","Electronic",0,"Red",0.7919415235519409,"White",0.03620480000972748,"Maroon",0.034024883061647415
+"Third Eye Blind","2009","Ursa Major","Rock",0,"Gray",0.209364116191864,"Gray",0.17671264708042145,"Gray",0.1617298573255539
+"Third Eye Blind","2013","Blue","Rock",0,"Navy",0.2632847726345062,"Navy",0.22297456860542297,"Teal",0.20076727867126465
+"Third Eye Blind","2003","Out Of The Vein","Rock",0,"Black",0.16567645967006683,"Olive",0.08463454246520996,"Olive",0.0795033872127533
+"Third Eye Blind","2015","Dopamine","Rock",0,"Silver",0.41235673427581787,"Silver",0.2769099473953247,"White",0.17335347831249237
+"Third Eye Blind","1997","Third Eye Blind","Rock",0,"Red",0.38714757561683655,"Maroon",0.23378416895866394,"Red",0.15406572818756104
+"This Mortal Coil","1993","1983~1991","Electronic",0,"White",0.292507141828537,"Silver",0.26070353388786316,"Silver",0.21517936885356903
+"This Mortal Coil",,"Blood","Electronic",0,"White",0.35424917936325073,"Olive",0.12900525331497192,"Gray",0.12840500473976135
+"This Mortal Coil","1985","It'll End In Tears","Electronic",0,"Silver",0.5050206780433655,"Silver",0.19230835139751434,"Gray",0.11488548666238785
+"Thomas Dolby","2011","A Map Of The Floating City","Electronic",0,"Gray",0.2003035694360733,"Silver",0.12030238658189774,"Gray",0.11758483946323395
+"Thomas Dolby","1994","The Gate To The Mind's Eye Soundtrack","Electronic",0,"Maroon",0.42122069001197815,"Maroon",0.11362998187541962,"Maroon",0.07693023979663849
+"Thompson Twins","1982","In The Name Of Love","Electronic",0,"Gray",0.16851665079593658,"Teal",0.14223618805408478,"Teal",0.1319379210472107
+"Thom Yorke","2018","Suspiria","Electronic",0,"Magenta",0.2578749656677246,"Cyan",0.2004718780517578,"Magenta",0.1410381942987442
+"Throbbing Gristle",,"Heathen Earth","Electronic",0,"Silver",0.2929258942604065,"Silver",0.27652648091316223,"Gray",0.15001161396503448
+"Timbuk 3","1988","Eden Alley","Rock",0,"Black",0.24462680518627167,"Black",0.20097382366657257,"Black",0.08556726574897766
+"Timbuk 3","1989","Edge Of Allegiance","Rock",0,"White",0.3299028277397156,"Olive",0.10887353867292404,"Silver",0.08167610317468643
+"Timbuk 3","1986","Greetings From Timbuk 3","Rock",0,"Silver",0.1746627390384674,"Gray",0.1320551484823227,"White",0.1320393681526184
+"Timbuk 3","1995","A Hundred Lovers","Electronic",0,"Maroon",0.348392516374588,"Maroon",0.17795442044734955,"Maroon",0.11506039649248123
+"Tom Holkenborg","2017","Brimstone","Electronic",0,"Black",0.5684919357299805,"Black",0.10908632725477219,"Black",0.06763394176959991
+"Tom Holkenborg","2019","Alita: Battle Angel (Original Motion Picture Soundtrack)","Stage & Screen",0,"Black",0.23049136996269226,"Black",0.21829549968242645,"Black",0.17651265859603882
+"Tom Holkenborg","2018","Mortal Engines (Original Motion Picture Soundtrack)","Stage & Screen",0,"Black",0.22463764250278473,"Black",0.12235116213560104,"Black",0.09521320462226868
+"Tom Holkenborg","2018","Tomb Raider (Original Motion Picture Soundtrack)","Electronic",1,"Black",0.1320023387670517,"Red",0.07789687067270279,"Red",0.06198620796203613
+"Tom Holkenborg","2015","Mad Max: Fury Road (Original Motion Picture Soundtrack)","Electronic",0,"Red",0.16312368214130402,"Purple",0.12608125805854797,"Maroon",0.1110270768404007
+"Tom Holkenborg","2016","Deadpool (Original Motion Picture Soundtrack)","Electronic",0,"Black",0.24651315808296204,"Maroon",0.18349674344062805,"Black",0.1066778153181076
+"Tommy Tutone","1981","Tommy Tutone-2","Rock",0,"Teal",0.26128748059272766,"Black",0.10565777122974396,"Gray",0.09428060054779053
+"Tommy Tutone","1980","Tommy Tutone","Rock",0,"Gray",0.3106791079044342,"Teal",0.09416860342025757,"Gray",0.0827968418598175
+"Tommy Tutone","1998","Tutone.rtf","Rock",0,"Black",0.27622413635253906,"Gray",0.2106836885213852,"Olive",0.09240343421697617
+"Tommy Tutone","1983","National Emotion","Rock",0,"Gray",0.09949027746915817,"Gray",0.07667072862386703,"Silver",0.07371150702238083
+"Tom Waits","1976","Small Change","Jazz",1,"Black",0.29598748683929443,"Black",0.13475722074508667,"Gray",0.12719017267227173
+"Tom Waits","1992","Bone Machine","Rock",0,"White",0.255280077457428,"Silver",0.12220600992441177,"Silver",0.11059627681970596
+"Tom Waits","1973","Closing Time","Jazz",0,"Maroon",0.07607804238796234,"Silver",0.05772265046834946,"Black",0.0571553073823452
+"Tom Waits","2011","Bad As Me","Rock",0,"Silver",0.18037571012973785,"Silver",0.11169202625751495,"Silver",0.0828092023730278
+"Tom Waits","1983","Swordfishtrombones","Jazz",2,"Black",0.45491331815719604,"Silver",0.05768460035324097,"Silver",0.047159790992736816
+"Tom Waits","2002","Blood Money","Rock",1,"Black",0.5405516624450684,"Black",0.19124984741210938,"Maroon",0.08104246854782104
+"Tom Waits","1978","Blue Valentine","Jazz",0,"Olive",0.2238088846206665,"Olive",0.09549331665039062,"Olive",0.073732890188694
+"Tom Waits","1980","Heartattack And Vine","Rock",1,"Silver",0.5625699758529663,"Gray",0.2357582151889801,"Gray",0.040345270186662674
+"Tom Waits","1985","Rain Dogs","Rock",1,"Gray",0.09560652822256088,"Yellow",0.06716003268957138,"Teal",0.06534222513437271
+"Tom Waits","1974","The Heart Of Saturday Night","Jazz",1,"Black",0.16833749413490295,"Gray",0.14805163443088531,"Silver",0.14106963574886322
+"Tom Waits","2018","Bawlers","Rock",1,"Silver",0.19122689962387085,"Gray",0.13940753042697906,"Gray",0.111453115940094
+"Tones on Tail","1984","The Album Pop","Electronic",0,"Teal",0.2016230672597885,"Teal",0.1014573872089386,"Teal",0.09340837597846985
+"Toni Basil","1982","Word Of Mouth","Electronic",1,"Black",0.3652156889438629,"Silver",0.1981983333826065,"Black",0.04713459312915802
+"Tool",,"Undertow","Rock",0,"Maroon",0.24100367724895477,"Maroon",0.22449138760566711,"Maroon",0.16071747243404388
+"Tool","1996","Ænima","Rock",0,"White",0.6353980898857117,"Silver",0.12999942898750305,"Gray",0.0953596830368042
+"Tool","2019","Fear Inoculum","Rock",0,"Black",0.2027704417705536,"Navy",0.18645115196704865,"Gray",0.1623075157403946
+"Tool","2006","10,000 Days","Rock",0,"Black",0.9097064137458801,"Black",0.08953610807657242,"Gray",0.0005827001295983791
+"Tool","2001","Lateralus","Rock",0,"Black",0.9437223672866821,"Gray",0.01591876894235611,"Gray",0.014287005178630352
+"Toto","1978","Toto","Rock",0,"Gray",0.22951996326446533,"Gray",0.21168753504753113,"Gray",0.1266987919807434
+"Toto","1981","Turn Back","Rock",0,"Black",0.38894373178482056,"Purple",0.14083734154701233,"Black",0.08295130729675293
+"Tracy Chapman","1989","Crossroads","Rock",1,"Black",0.3386550545692444,"Navy",0.22092841565608978,"White",0.15256598591804504
+"Trash Can Sinatras, The","2005","Fez (Acoustic Performances From New York City","Rock",0,"Gray",0.21718730032444,"Navy",0.11510686576366425,"Silver",0.1109832376241684
+"Trash Can Sinatras, The","2004","Weightlifting","Rock",0,"Teal",0.13504886627197266,"Teal",0.10741294920444489,"Navy",0.08256157487630844
+"Trash Can Sinatras, The","2018","On A B Road Acoustic","Rock",0,"Gray",0.23576979339122772,"Olive",0.13575690984725952,"Maroon",0.1133321225643158
+"Trash Can Sinatras, The","1990","Cake","Rock",0,"Gray",0.22833196818828583,"Yellow",0.17479336261749268,"Gray",0.11184149980545044
+"Trent Reznor & Atticus Ross","2014","Gone Girl (Soundtrack From The Motion Picture)","Electronic",0,"White",0.6303050518035889,"Silver",0.20979031920433044,"Gray",0.08651403337717056
+"Trent Reznor & Atticus Ross","2010","The Social Network","Electronic",1,"Black",0.4635745584964752,"Black",0.19333067536354065,"Maroon",0.053821563720703125
+"Trent Reznor & Atticus Ross","2012","The Girl With The Dragon Tattoo","Electronic",0,"Silver",0.9593998789787292,"Silver",0.028242209926247597,"Gray",0.008313147351145744
+"Trent Reznor & Atticus Ross","2017","The Vietnam War","Stage & Screen",0,"Black",0.6225358843803406,"Gray",0.2042112797498703,"Black",0.0763275995850563
+"Tycho","2014","Awake","Electronic",0,"Silver",0.621677577495575,"Gray",0.08311114460229874,"Gray",0.08207707852125168
+"Tycho","2019","Dive","Electronic",0,"Gray",0.4652019739151001,"Teal",0.1580802947282791,"Gray",0.1367996633052826
+"Tycho","2019","Weather","Electronic",0,"Gray",0.1415003389120102,"Gray",0.12563838064670563,"Gray",0.11574940383434296
+"Tycho","2004","Sunrise Projector","Electronic",0,"Black",0.2368539720773697,"Teal",0.0520213320851326,"Black",0.02790689468383789
+"Tycho","2016","Awake (Remixes)","Electronic",0,"Black",0.6682156920433044,"Teal",0.06354895234107971,"Gray",0.03072480671107769
+"Ulrich Schnauss","2004","A Strangely Isolated Place","Electronic",0,"Olive",0.24280011653900146,"Yellow",0.1456366330385208,"Olive",0.08981841802597046
+"Ulrich Schnauss","2007","Goodbye","Electronic",0,"Gray",0.17523141205310822,"Gray",0.17030735313892365,"Gray",0.16024819016456604
+"Ulrich Schnauss","2013","A Long Way To Fall","Electronic",0,"Gray",0.2191753387451172,"Black",0.20363706350326538,"Gray",0.20215250551700592
+"Underworld","1989","Change The Weather","Electronic",1,"Black",0.470683753490448,"White",0.1612805873155594,"Silver",0.10902754217386246
+"Vapors, The","1980","New Clear Days","Rock",0,"Silver",0.2010795772075653,"Gray",0.157562255859375,"Silver",0.08736473321914673
+"Verve, The","1993","Voyager 1","Rock",0,"Black",0.24271579086780548,"Black",0.07138235867023468,"Gray",0.06445489823818207
+"Verve, The","1997","Urban Hymns","Rock",0,"Black",0.16426213085651398,"Black",0.059009578078985214,"Black",0.0572928823530674
+"Vic Chesnutt","2017","Silver Lake","Rock",0,"Gray",0.2381301075220108,"Silver",0.17313341796398163,"Black",0.16500280797481537
+"Vic Chesnutt","1996","About To Choke","Rock",0,"Gray",0.23173460364341736,"Gray",0.18074658513069153,"Gray",0.14320237934589386
+"Vic Chesnutt","2005","Ghetto Bells","Rock",0,"Silver",0.4058040380477905,"Black",0.3432818353176117,"Black",0.10122150182723999
+"Vic Chesnutt","1995","Is The Actor Happy?","Rock",1,"Silver",0.20777559280395508,"White",0.18753430247306824,"Gray",0.09757530689239502
+"Vic Chesnutt","1998","The Salesman And Bernadette","Rock",0,"Gray",0.3976316452026367,"Silver",0.27210092544555664,"Gray",0.19142016768455505
+"Vic Chesnutt","2017","Drunk","Rock",0,"Red",0.2866385281085968,"Gray",0.22014999389648438,"Gray",0.0762258991599083
+"Vic Chesnutt","2009","Skitter On Take-Off","Rock",0,"Silver",0.3649294376373291,"Silver",0.31260034441947937,"Gray",0.20346450805664062
+"Violent Femmes","1984","Hallowed Ground","Rock",0,"Gray",0.16748961806297302,"Gray",0.10242132842540741,"Gray",0.09175390750169754
+"Violent Femmes","1983","Violent Femmes","Rock",1,"White",0.3209580183029175,"Silver",0.2744491994380951,"Olive",0.08557526022195816
+"Violent Femmes","1986","The Blind Leading The Naked","Rock",3,"Teal",0.1055523231625557,"Teal",0.08273406326770782,"Teal",0.066074438393116
+"Violent Femmes","1988","3","Rock",0,"Black",0.5445228219032288,"Gray",0.22919942438602448,"Gray",0.04497630521655083
+"Vitamin String Quartet","2004","Strings For The Deaf: The String Quartet Tribute To Queens Of The Stone Age","Rock",0,"Olive",0.1414622813463211,"Olive",0.08563916385173798,"Olive",0.08078792691230774
+"Vitamin String Quartet","2004","The String Quartet Tribute To Chevelle","Classical",1,"Silver",0.22441446781158447,"Gray",0.1921621561050415,"White",0.1664961874485016
+"Vitamin String Quartet","2002","The String Quartet Tribute To Coldplay","Classical",0,"Silver",0.4185241460800171,"Silver",0.22471006214618683,"Gray",0.21245938539505005
+"Vitamin String Quartet","2004","Strung Out On Kid A","Rock",0,"Maroon",0.12449470162391663,"Gray",0.10369671136140823,"Maroon",0.09732874482870102
+"Vitamin String Quartet","2003","The String Quartet Tribute To Pearl Jam","Classical",0,"Yellow",0.1275750696659088,"Olive",0.08176098763942719,"Olive",0.07795055210590363
+"Vitamin String Quartet","2003","The String Quartet Tribute To Pink Floyd's The Dark Side Of The Moon","Classical",0,"Red",0.13687193393707275,"Red",0.09413640201091766,"Olive",0.09105920791625977
+"Vitamin String Quartet","2013","Performs Sigur Ros","Classical",0,"Silver",0.2859378755092621,"Silver",0.18331918120384216,"White",0.1769566386938095
+"Vitamin String Quartet","2013","Performs Radiohead's In Rainbows","Classical",0,"Gray",0.11440496146678925,"Green",0.09904134273529053,"Black",0.02353874035179615
+"Wall Of Voodoo","1981","Dark Continent","Rock",0,"Green",0.07692600041627884,"Green",0.07239025086164474,"Maroon",0.06711233407258987
+"Wall Of Voodoo","1982","Call Of The West","Rock",0,"Silver",0.16399388015270233,"Silver",0.163351908326149,"Maroon",0.14852595329284668
+"Wall Of Voodoo","1987","Happy Planet","Rock",0,"Maroon",0.07910382002592087,"Maroon",0.06787852942943573,"Maroon",0.05241410806775093
+"Wall Of Voodoo","1988","The Ugly Americans In Australia","Rock",0,"Gray",0.11713989078998566,"Yellow",0.08349280804395676,"Silver",0.05878710374236107
+"Wall Of Voodoo","1985","Seven Days In Sammystown","Electronic",0,"Maroon",0.16002723574638367,"Olive",0.11225318163633347,"Maroon",0.09684457629919052
+"Wang Chung","1986","Mosaic","Electronic",1,"Navy",0.26175886392593384,"White",0.12462422251701355,"Navy",0.11762196570634842
+"Wang Chung","1989","The Warmer Side Of Cool","Electronic",1,"White",0.13519050180912018,"Silver",0.0891517698764801,"Silver",0.06545838713645935
+"Wang Chung","1982","Huang Chung","Electronic",0,"Red",0.15700086951255798,"Red",0.15281252562999725,"Olive",0.1398700326681137
+"War","1982","Outlaw","Funk / Soul",0,"Gray",0.1289142221212387,"Gray",0.07542935758829117,"Silver",0.0738924890756607
+"War","1985","Where There's Smoke","Funk / Soul",0,"Purple",0.20075623691082,"Purple",0.1761339157819748,"Purple",0.09308274835348129
+"War","1972","The World Is A Ghetto","Funk / Soul",0,"Black",0.16654743254184723,"Black",0.1635427474975586,"Gray",0.11018645763397217
+"War","1979","The Music Band","Jazz",0,"Red",0.3244102895259857,"Red",0.21301420032978058,"Red",0.10982919484376907
+"Washed Out","2017","Mister Mellow","Electronic",0,"Silver",0.1440219283103943,"Gray",0.14157350361347198,"Gray",0.1267586052417755
+"Washed Out","2013","Paracosm","Electronic",0,"Silver",0.13478036224842072,"Maroon",0.05417925491929054,"Maroon",0.044229619204998016
+"Washed Out","2011","Within And Without","Electronic",0,"White",0.38194990158081055,"Silver",0.2852106988430023,"Black",0.10744762420654297
+"Weekend, The","2003","Teaser + Bonus Level","Rock",1,"Black",0.1777891218662262,"Purple",0.14373517036437988,"Gray",0.060047876089811325
+"Weekend, The","2009","Energy Broadcast System","Electronic",0,"Gray",0.5098645687103271,"Gray",0.19044893980026245,"Gray",0.18008652329444885
+"White Stripes","2000","De Stijl","Rock",1,"Maroon",0.5050287246704102,"Maroon",0.20130805671215057,"Maroon",0.0776168629527092
+"White Stripes","1999","The White Stripes","Rock",0,"Maroon",0.29942721128463745,"Maroon",0.14482389390468597,"Gray",0.09633494913578033
+"White Stripes","2005","Get Behind Me Satan","Rock",2,"Maroon",0.2887643575668335,"Black",0.20171113312244415,"Black",0.11283638328313828
+"White Stripes","2001","White Blood Cells","Rock",0,"Black",0.476493239402771,"Gray",0.09508290886878967,"Maroon",0.056112222373485565
+"Who, The","1974","Magic Bus / The Who Sings My Generation","Rock",4,"Black",0.2580876648426056,"White",0.13691748678684235,"White",0.07026012986898422
+"Who, The","2002","Dallas, Texas","Rock",0,"Maroon",0.46628278493881226,"Maroon",0.2673903703689575,"Gray",0.1338064819574356
+"Who, The","1973","Tales From The Who","Rock",0,"Gray",0.17298805713653564,"Gray",0.11478612571954727,"Gray",0.059761203825473785
+"Wilco","2009","Wilco (The Album)","Rock",0,"Olive",0.250199556350708,"Olive",0.14381445944309235,"Olive",0.11981033533811569
+"Wilco","2011","The Whole Love","Rock",0,"Black",0.42214158177375793,"Black",0.27298372983932495,"Gray",0.1113014966249466
+"Wilco","2007","Sky Blue Sky","Rock",0,"White",0.43139833211898804,"Silver",0.11885632574558258,"Gray",0.08241155743598938
+"Wilco","1995","A.M.","Rock",0,"Black",0.21865791082382202,"Silver",0.14297859370708466,"Maroon",0.11827413737773895
+"Wilco","1996","Being There","Rock",0,"Olive",0.6209669709205627,"Olive",0.053675372153520584,"Olive",0.05332524701952934
+"Wilco","2002","Yankee Hotel Foxtrot","Rock",0,"Silver",0.7406242489814758,"Gray",0.07522597163915634,"Silver",0.04860119894146919
+"Wilco","2015","Star Wars","Rock",0,"Silver",0.30840688943862915,"Maroon",0.09476674348115921,"Silver",0.09056085348129272
+"Wilco","2004","A Ghost Is Born","Rock",0,"Silver",0.9484962224960327,"Silver",0.04975065588951111,"Silver",0.0017531501362100244
+"William Orbit","1988","Strange Cargo","Electronic",0,"Silver",0.22604584693908691,"Gray",0.1665317714214325,"Gray",0.13566941022872925
+"William Orbit","1993","Strange Cargo III","Electronic",1,"Black",0.17331159114837646,"Black",0.17292004823684692,"Gray",0.08790452778339386
+"Xymox",,"Twist Of Shadows","Electronic",0,"Black",0.18710649013519287,"Yellow",0.16894298791885376,"Silver",0.12431460618972778
+"Xymox","1991","Phoenix","Electronic",0,"Yellow",0.6699785590171814,"Yellow",0.05505785718560219,"Gray",0.016307583078742027
+"Xymox","1993","Headclouds","Electronic",0,"Red",0.30643388628959656,"Maroon",0.17094367742538452,"Red",0.08866609632968903
+"Year of the Rabbit","2003","Year Of The Rabbit","Rock",0,"Maroon",0.42719554901123047,"Maroon",0.25393202900886536,"Maroon",0.07775390893220901
+"Yello","1981","Claro Que Si","Electronic",0,"Black",0.21624253690242767,"Gray",0.13301758468151093,"Gray",0.10966883599758148
+"Yes","2018","The Steven Wilson Remixes","Rock",0,"Silver",0.30432406067848206,"Gray",0.08709686249494553,"Silver",0.07182308286428452
