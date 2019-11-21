@@ -154,10 +154,10 @@ predictions <- predict(model_ranger, dat_test)
 
 ```{r}
 # Step 8: Anaylize Confusion matrix (Actuals => $Class)
-confusionMatrix(predictions, dat_test_pp$Class)
+confusionMatrix(predictions, dat_test$Class)
 ```
 
-```{r}
+```{r, fig.height=10}
 # Step 9: Variable importance
 plot(varImp(model_ranger))
 ```
