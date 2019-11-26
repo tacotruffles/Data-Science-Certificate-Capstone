@@ -12,7 +12,7 @@ library('caret')
 
 Now we've run the scraper on a random sample of ~700 albums
 ```{r, message = FALSE}
-albums <- read_csv('data/album-cover-data-mtv.csv')
+albums <- read_csv('data/album-cover-data.csv')
 
 colSums(is.na(albums))
 ```
@@ -79,9 +79,14 @@ Let's set up our Clean Data to train our model
 set.seed(123)
 dat_clean <- dat_clean %>% 
   mutate(
-    genre = as.factor(genre)
+    genre = as.factor(genre),
+    caption_1 = as.factor(caption_1),
+    # caption_2 = as.factor(caption_2),
+    # caption_3 = as.factor(caption_3),
+    # caption_4 = as.factor(caption_4),
+    # caption_5 = as.factor(caption_5),
     ) %>% 
-  select(-title, -artist, -year) %>% # Remove unimportant variables
+  select(-title, -artist, -year, -caption_2, -caption_3, -caption_4, -caption_5]) %>% # Remove unimportant variables
   rename(Class = genre)
 
 dat_clean <- dat_clean %>% mutate(id = row_number()) 
@@ -124,7 +129,7 @@ Time to train now, ask questions later!
 # Step 5: Train Model
 train_control <- trainControl(
   method = 'cv',
-  number = 3
+  number = 5
 )
 
 model_ranger = train(
@@ -165,3 +170,6 @@ plot(varImp(model_ranger))
 Turns out that 3x16 color samples, and number of faces are not great predicters for album genre. It would appear that album cover colors are too similar to make much of a difference. 
 
 Perhaps some other ways to improve the data set would be to be to increase the complexity of colors? Or to add more caption colums to capture more variance.
+
+
+
