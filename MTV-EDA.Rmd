@@ -155,7 +155,7 @@ Time to train now, ask questions later!
 # Step 5: Train Model
 train_control <- trainControl(
   method = 'cv',
-  number = 5
+  number = 10
 )
 
 model_ranger = train(
