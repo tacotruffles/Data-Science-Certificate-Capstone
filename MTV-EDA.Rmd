@@ -29,13 +29,15 @@ dat %>%
 
 That's what we expected....let's cut off albums before 1981, as that's the year MTV started and when serious marketing dollars when the age huge budgets on "artist development" and branding started. We'll also clean out non-studio releases (live, soundtracks, tours, etc.)
 ```{r}
-dat_clean <- dat %>%
+dat_albums <- dat %>%
   filter(
     year >= 1980,
-    genre != 'Non-Music' & genre != 'Classical' & genre !='Stage & Screen' ,
+    genre != 'Non-Music' & genre != 'Classical' & genre !='Stage & Screen',
     !str_detect(title, 'Tour|Live'),
     !str_detect(title, 'New York')
-    ) 
+    ) %>%
+  mutate( decade = (year %/% 10) * 10) # group by decade
+
 #dat_clean <- filter(dat_clean, !str_detect(title, 'Tour|Live')) # Remove more non-studio releases
 # dat_clean <- filter(dat_clean, !str_detect(title, 'New York')) # Remove other live albums
 # dat_clean <- filter(dat_clean, genre != 'Non-Music') # Remove non-studio release genres
@@ -44,49 +46,73 @@ dat_clean <- dat %>%
 # dat_clean <- filter(dat_clean, genre != 'Children\'s') # Remove non-studio release genres
 #dat_clean <- mutate(dat_clean, genre = as.factor(genre))
 
-dat_clean %>%
+dat_albums %>%
   ggplot() +
   geom_bar(aes(x=year))
 ```
 
 ```{r}
-dat_clean %>% nrow()
+dat_albums %>% nrow()
 
-dat_clean %>%
+dat_albums %>%
   group_by(genre) %>%
-  count()
+  count() %>%
+  arrange(-n)
 ```
 
 Now we're down to 556 albums
 ```{r}
-dat_clean %>%
+dat_albums %>%
   mutate(genre = genre %>% fct_infreq() %>% fct_rev()) %>%
   ggplot() +
   geom_bar(aes(x=genre)) +
   coord_flip()
 ```
 
-It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre. After cleaning our initial data to be just US studio releases and the 41 rows that were missing years, we're now left with **549** albums to peform our train/test split. This is a 2.6% random sample of **20861** albums.
+Not enough data to train onh Blues, Latin, Reggae
+```{r}
+dat_albums <- dat_albums %>%
+  filter( genre != 'Blues' & genre != 'Reggae' & genre != 'Latin')
+```
+
+It's not suprising that there are a lot of Rock albums as the vast majority of Discogs albums are in the Rock genre. After cleaning our initial data to be just US studio releases and the 41 rows that were missing years, we're now left with **`r dat_clean %>% nrow()`** albums to peform our train/test split. This is a 2.6% random sample of **20861** albums.
 
 ```{r}
-dat_clean %>% nrow()
+dat_albums %>% nrow()
 ```
 
 
-Let's set up our Clean Data to train our model
+```{r}
+dat_albums %>%
+  group_by(genre, year) %>%
+  count() %>%
+  ggplot(aes(x = year, y = n)) +
+  geom_line(aes(col = genre))
+```
+
+Group genres by decade to teas out any variance in colors and captions.
+```{r}
+
+dat_albums %>%
+  group_by(decade, genre) %>%
+  count() %>%
+  ggplot(aes(x = decade, y = n)) +
+  geom_line(aes(col = genre))
+```
+
+Nicer distribution by decade eventhough we still get the massive rise of rock in the 2000's onward. Let's set up our Clean Data to train our model by removing the corellated `year` parameter, along with `artist` and `title`. We also need to spread our 1st caption column and drop the others to avoid collisions.
+
 ```{r}
 # Step 1: Configure Class variable 
 set.seed(123)
-dat_clean <- dat_clean %>% 
+dat_clean <- dat_albums %>% 
   mutate(
     genre = as.factor(genre),
     caption_1 = as.factor(caption_1),
-    # caption_2 = as.factor(caption_2),
-    # caption_3 = as.factor(caption_3),
-    # caption_4 = as.factor(caption_4),
-    # caption_5 = as.factor(caption_5),
+    n = 1,
     ) %>% 
-  select(-title, -artist, -year, -caption_2, -caption_3, -caption_4, -caption_5]) %>% # Remove unimportant variables
+  select(-title, -artist, -year, -caption_2, -caption_3, -caption_4, -caption_5) %>% # Remove unimportant variables
+  spread(key = caption_1, value = n, fill = 0) %>%
   rename(Class = genre)
 
 dat_clean <- dat_clean %>% mutate(id = row_number()) 
@@ -96,7 +122,7 @@ Let's split our data into Train/Test segements.
 ```{r}
 # Step 2: Train Split
 dat_train <- dat_clean %>%
- sample_frac(0.75)
+ sample_frac(0.80)
 
 dat_test <- dat_clean %>%
  anti_join(dat_train, by = 'id') %>%
@@ -162,7 +188,7 @@ predictions <- predict(model_ranger, dat_test)
 confusionMatrix(predictions, dat_test$Class)
 ```
 
-```{r, fig.height=10}
+```{r, fig.height=20}
 # Step 9: Variable importance
 plot(varImp(model_ranger))
 ```
