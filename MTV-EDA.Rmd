@@ -185,17 +185,24 @@ predictions <- predict(model_ranger, dat_test)
 
 ```{r}
 # Step 8: Anaylize Confusion matrix (Actuals => $Class)
-confusionMatrix(predictions, dat_test$Class)
+cm <- confusionMatrix(predictions, dat_test$Class)
+cm
 ```
 
-```{r, fig.height=20}
+
+This model is not effective in it's current form as the Accuracy (`r cm$overall['Accuracy']`) does not exceed the No Information Rate (`r cm$overall['AccuracyNull']`). It urns out that album colors, the number of faces, and captions are not great predicters for album genre. Album cover colors are too similar to make much of a difference. 
+```{r}
+cm$overall['Accuracy']
+cm$overall['AccuracyNull']
+```
+
+We can see that the most important color parameters are `black`, `gray`, and `white`. Then `decade` and `faces` are 4th and 7th most significant parameters in this trained model.
+```{r}
 # Step 9: Variable importance
-plot(varImp(model_ranger))
+plot(varImp(model_ranger), top = 10)
 ```
 
-Turns out that 3x16 color samples, and number of faces are not great predicters for album genre. It would appear that album cover colors are too similar to make much of a difference. 
 
-Perhaps some other ways to improve the data set would be to be to increase the complexity of colors? Or to add more caption colums to capture more variance.
 
 
 

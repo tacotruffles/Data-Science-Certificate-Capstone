@@ -48,6 +48,9 @@ The following three sections describe how image attributes were aggregated from 
 ### Faces
 The `faceDetection` API function from Google Vision returns an object for each face found in an image, where those faces are (via coordinates for the eyebrows, eyes, and nose), and the probability of the emotion detected. Many album covers contain portraits of either a solo artist, the entiere band, or a human model. While being able to differentiate what kind of portraits/human subjects are in the photo would be useful, the album data only includes the number of faces detected in the image. This was done to simplify the use of `faces` as a predictor in `albumData`. 
 
+### Captions
+The `labelDetection` API function from Google Vision returns an array for each item detected in an image and the probability of accuracy. 
+
 ### Colors
 The `imageProperties` API function from Google Vision returns an object that provides a percentage of each color found in the image. Each color is also scored as a percentage of the amount found in the image, and this is the value that is used to determined the most recurrent colors found in an album cover. 
 
@@ -59,10 +62,6 @@ I found the `coloraze` npm module, which converts a Hexidecimal value to the clo
 The list of colors used to reduce the range of 6-digit Hexidecimal colors from 16 Million continous values to 16 unique factors.
 
 ![Source: <https://www.rapidtables.com/web/color/color-wheel.html>](images/color-codes.png){width=50%}
-
-### Captions
-
-TBD - `labelDetection`
 
 ## EDA
 With the data scraping and aggregation completed, let's look at the generated CSV data:
