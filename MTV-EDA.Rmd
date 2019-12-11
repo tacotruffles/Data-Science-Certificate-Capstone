@@ -167,6 +167,8 @@ model_ranger = train(
 )
 
 model_ranger
+
+saveRDS(model_ranger, 'models/my_ranger_model.RDS') 
 ```
 
 
